@@ -1,0 +1,5 @@
+2026-06-05 09:17:32 | INFO     | test | hello
+2026-06-05 09:26:14 | INFO     | __main__ | Quality check — shape: 350 rows × 11 columns
+2026-06-05 09:26:14 | INFO     | __main__ | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 09:26:29 | INFO     | __main__ | Quality check — shape: 350 rows × 11 columns
+2026-06-05 09:26:29 | INFO     | __main__ | Quality check PASSED — 0 error(s), 0 warning(s)

@@ -7,3 +7,5 @@ matplotlib==3.9.0
 seaborn==0.13.2
 shap==0.45.1
 joblib==1.4.2
+fpdf2==2.7.9
+colorlog==6.8.2
