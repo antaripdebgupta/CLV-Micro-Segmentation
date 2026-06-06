@@ -3,3 +3,882 @@
 2026-06-05 09:26:14 | INFO     | __main__ | Quality check PASSED — 0 error(s), 0 warning(s)
 2026-06-05 09:26:29 | INFO     | __main__ | Quality check — shape: 350 rows × 11 columns
 2026-06-05 09:26:29 | INFO     | __main__ | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 09:48:47 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 09:48:47 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 09:48:47 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 09:48:47 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 09:48:47 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 09:48:48 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image eda_univariate.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image eda_correlation.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image eda_clv_band.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image clustering_elbow.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image clustering_kmeans_pca.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:48 | WARNING  | src.report | Could not embed image clustering_segment_profile.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:48:49 | ERROR    | train_pipeline | PDF generation failed: Character "—" at index 5 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2026-06-05 09:51:02 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 09:51:02 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 09:51:02 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 09:51:02 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 09:51:03 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 09:51:03 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 09:51:04 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 09:51:05 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_095104.pdf
+2026-06-05 09:51:05 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_095104.pdf
+2026-06-05 09:58:04 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 09:58:04 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 09:58:04 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 09:58:04 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 09:58:04 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 09:58:05 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image eda_univariate.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image eda_correlation.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image eda_clv_band.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image clustering_elbow.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image clustering_kmeans_pca.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:05 | WARNING  | src.report | Could not embed image clustering_segment_profile.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:06 | ERROR    | train_pipeline | PDF generation failed: Character "—" at index 5 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2026-06-05 09:58:36 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 09:58:36 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 09:58:36 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 09:58:36 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 09:58:37 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 09:58:37 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image eda_univariate.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image eda_correlation.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image eda_clv_band.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image clustering_elbow.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image clustering_kmeans_pca.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | WARNING  | src.report | Could not embed image clustering_segment_profile.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:58:38 | ERROR    | train_pipeline | PDF generation failed: Character "—" at index 5 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2026-06-05 09:59:19 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 09:59:19 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 09:59:19 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 09:59:19 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 09:59:19 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 09:59:20 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image eda_univariate.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image eda_correlation.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image eda_clv_band.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image clustering_elbow.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image clustering_kmeans_pca.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | WARNING  | src.report | Could not embed image clustering_segment_profile.png: Character "—" at index 9 in text is outside the range of characters supported by the font used: "helveticaI". Please consider using a Unicode font.
+2026-06-05 09:59:20 | ERROR    | train_pipeline | PDF generation failed: Character "—" at index 5 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2026-06-05 10:01:14 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 10:01:14 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 10:01:14 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 10:01:14 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 10:01:14 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 10:01:15 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 10:01:15 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:01:16 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_100115.pdf
+2026-06-05 10:01:16 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_100115.pdf
+2026-06-05 10:04:11 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 10:04:11 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 10:04:11 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 10:04:11 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 10:04:12 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 10:04:12 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 10:04:12 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:04:12 | ERROR    | train_pipeline | PDF generation failed: name '_s' is not defined
+2026-06-05 10:04:49 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 10:04:49 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 10:04:49 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 10:04:49 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 10:04:49 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 10:04:50 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 10:04:50 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:04:51 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_100450.pdf
+2026-06-05 10:04:51 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_100450.pdf
+2026-06-05 10:17:49 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 10:17:49 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:18:13 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 10:18:13 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:18:13 | INFO     | custom_train | Custom training started — dataset: ecommerce_customer_data.csv, rows: 350
+2026-06-05 10:18:13 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 10:18:13 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.7024)
+2026-06-05 10:18:14 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        12
+         Low       1.00      0.98      0.99        54
+      Medium       0.80      1.00      0.89         4
+
+    accuracy                           0.99        70
+   macro avg       0.93      0.99      0.96        70
+weighted avg       0.99      0.99      0.99        70
+
+2026-06-05 10:18:14 | INFO     | custom_train | ROC-AUC: 0.9998
+2026-06-05 10:18:14 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 10:18:14 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:18:15 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_101814.pdf
+2026-06-05 10:18:15 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_101814.pdf
+2026-06-05 10:19:05 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 10:19:05 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:49:59 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 10:49:59 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:51:01 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 10:51:01 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:51:01 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 10:51:01 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 10:51:01 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 10:51:02 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 10:51:02 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 10:51:02 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 10:51:02 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:51:03 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_105102.pdf
+2026-06-05 10:51:03 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_105102.pdf
+2026-06-05 10:52:29 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 10:52:29 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:52:36 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 10:52:36 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 10:52:36 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 10:52:36 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 10:52:36 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 10:52:37 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 10:52:37 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 10:52:37 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 10:52:37 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 10:52:38 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_105237.pdf
+2026-06-05 10:52:38 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_105237.pdf
+2026-06-05 10:53:18 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 10:53:18 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 15:59:37 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 15:59:37 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 15:59:37 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 15:59:37 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 15:59:37 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 15:59:38 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 15:59:39 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 15:59:41 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_155939.pdf
+2026-06-05 15:59:41 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_155939.pdf
+2026-06-05 16:01:05 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:01:05 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:01:05 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:01:05 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:01:35 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:01:35 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:01:35 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:01:35 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:01:35 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 16:01:35 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 16:01:35 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 16:01:37 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 16:01:37 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 16:01:37 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:01:38 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:01:39 | WARNING  | custom_train | PDF generation skipped: '<' not supported between instances of 'float' and 'str'
+2026-06-05 16:02:57 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:02:57 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:02:57 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:02:57 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:03:05 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:03:05 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:03:05 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:03:05 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:03:05 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 16:03:05 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 16:03:06 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 16:03:08 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 16:03:08 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 16:03:08 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:03:08 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:03:09 | WARNING  | custom_train | PDF generation skipped: '<' not supported between instances of 'float' and 'str'
+2026-06-05 16:03:28 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:03:28 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:03:34 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:03:34 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:03:34 | INFO     | custom_train | Custom training started — dataset: ecommerce_customer_data.csv, rows: 350
+2026-06-05 16:03:34 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:03:34 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.7024)
+2026-06-05 16:03:35 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        12
+         Low       1.00      0.98      0.99        54
+      Medium       0.80      1.00      0.89         4
+
+    accuracy                           0.99        70
+   macro avg       0.93      0.99      0.96        70
+weighted avg       0.99      0.99      0.99        70
+
+2026-06-05 16:03:35 | INFO     | custom_train | ROC-AUC: 0.9998
+2026-06-05 16:03:35 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:03:35 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:03:36 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160335.pdf
+2026-06-05 16:03:36 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160335.pdf
+2026-06-05 16:03:57 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:03:57 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:04:16 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:04:16 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:04:24 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:04:24 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:04:24 | INFO     | custom_train | Custom training started — dataset: test_churned_atrisk.csv, rows: 1000
+2026-06-05 16:04:24 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:04:24 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2832)
+2026-06-05 16:04:27 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         8
+         Low       0.99      1.00      1.00       176
+      Medium       1.00      0.94      0.97        16
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.98      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+2026-06-05 16:04:27 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 16:04:27 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:04:27 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:04:28 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160427.pdf
+2026-06-05 16:04:28 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160427.pdf
+2026-06-05 16:04:35 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:04:35 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:05:23 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:05:23 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:05:26 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:05:26 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:05:26 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-05 16:05:26 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:05:26 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-05 16:05:29 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-05 16:05:29 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-05 16:05:29 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:05:29 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:05:30 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160529.pdf
+2026-06-05 16:05:30 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_160529.pdf
+2026-06-05 16:06:07 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:06:07 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:12:20 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 16:12:20 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 16:12:20 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 16:12:20 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 16:12:21 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 16:12:22 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 16:12:23 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:12:24 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161223.pdf
+2026-06-05 16:12:24 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161223.pdf
+2026-06-05 16:13:42 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:13:42 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:13:49 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:13:49 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:13:49 | INFO     | custom_train | Custom training started — dataset: ecommerce_customer_data.csv, rows: 350
+2026-06-05 16:13:49 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:13:50 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.7024)
+2026-06-05 16:13:50 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        12
+         Low       1.00      0.98      0.99        54
+      Medium       0.80      1.00      0.89         4
+
+    accuracy                           0.99        70
+   macro avg       0.93      0.99      0.96        70
+weighted avg       0.99      0.99      0.99        70
+
+2026-06-05 16:13:50 | INFO     | custom_train | ROC-AUC: 0.9998
+2026-06-05 16:13:50 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:13:51 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:13:52 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161351.pdf
+2026-06-05 16:13:52 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161351.pdf
+2026-06-05 16:14:02 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 16:14:02 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:14:17 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:14:17 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:14:17 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:14:17 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:14:20 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:14:20 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:14:20 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:14:20 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:14:20 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 16:14:20 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 16:14:21 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 16:14:23 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 16:14:23 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 16:14:23 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:14:23 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:14:24 | WARNING  | custom_train | PDF generation skipped: '<' not supported between instances of 'float' and 'str'
+2026-06-05 16:16:41 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:16:41 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:16:45 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:16:45 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:16:45 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-05 16:16:45 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:16:45 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-05 16:16:47 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-05 16:16:47 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-05 16:16:48 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:16:48 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:16:49 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161648.pdf
+2026-06-05 16:16:49 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161648.pdf
+2026-06-05 16:17:05 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:17:05 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:17:52 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:17:52 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:17:58 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:17:58 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:17:58 | INFO     | custom_train | Custom training started — dataset: test_churned_atrisk.csv, rows: 1000
+2026-06-05 16:17:58 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:17:58 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2832)
+2026-06-05 16:18:00 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         8
+         Low       0.99      1.00      1.00       176
+      Medium       1.00      0.94      0.97        16
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.98      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+2026-06-05 16:18:00 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 16:18:00 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:18:00 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:18:02 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161800.pdf
+2026-06-05 16:18:02 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_161800.pdf
+2026-06-05 16:18:07 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:18:07 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:36:02 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:36:02 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:36:06 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:36:06 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:36:06 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 16:36:06 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:36:06 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 16:36:08 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 16:36:08 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 16:36:08 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:36:09 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:36:10 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163608.pdf
+2026-06-05 16:36:10 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163608.pdf
+2026-06-05 16:36:15 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:36:15 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:36:27 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:36:27 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:36:27 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:36:27 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:36:41 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:36:41 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:36:41 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:36:41 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:36:41 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 16:36:41 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 16:36:41 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 16:36:43 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 16:36:43 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 16:36:43 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:36:43 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:36:45 | WARNING  | custom_train | PDF generation skipped: '<' not supported between instances of 'float' and 'str'
+2026-06-05 16:37:13 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:37:13 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:37:17 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:37:17 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:37:17 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-05 16:37:17 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:37:18 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-05 16:37:20 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-05 16:37:20 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-05 16:37:20 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:37:20 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:37:22 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163720.pdf
+2026-06-05 16:37:22 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163720.pdf
+2026-06-05 16:37:25 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:37:25 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:37:46 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:37:46 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:37:50 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:37:50 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:37:50 | INFO     | custom_train | Custom training started — dataset: test_churned_atrisk.csv, rows: 1000
+2026-06-05 16:37:50 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 16:37:50 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2832)
+2026-06-05 16:37:52 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         8
+         Low       0.99      1.00      1.00       176
+      Medium       1.00      0.94      0.97        16
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.98      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+2026-06-05 16:37:52 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 16:37:52 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 16:37:52 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:37:54 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163752.pdf
+2026-06-05 16:37:54 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_163752.pdf
+2026-06-05 16:38:03 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:38:03 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:55:34 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 16:55:34 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 16:55:34 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 16:55:34 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 16:55:35 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 16:55:36 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 16:55:42 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 16:55:42 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:55:42 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_165537.pdf
+2026-06-05 16:55:42 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_165537.pdf
+2026-06-05 16:56:21 | WARNING  | src.report | Dynamic figure generation failed, falling back to defaults: Length of values (12) does not match length of index (6)
+2026-06-05 16:56:21 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 16:56:21 | WARNING  | src.report | Clustering metrics table skipped: Found array with 0 feature(s) (shape=(7, 0)) while a minimum of 1 is required.
+2026-06-05 16:56:22 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_165616.pdf
+2026-06-05 16:57:29 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 14 columns
+2026-06-05 16:57:29 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 16:58:40 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 16:58:40 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 16:58:40 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 16:58:40 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 16:59:38 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 16:59:38 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:00:11 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:00:11 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:01:06 | INFO     | train_pipeline | CLV Micro-Segmentation — Training Pipeline started
+2026-06-05 17:01:06 | INFO     | train_pipeline | [1/5] Preprocessing...
+2026-06-05 17:01:06 | INFO     | train_pipeline | [2/5] Feature engineering...
+2026-06-05 17:01:06 | INFO     | train_pipeline | [3/5] Clustering (DBSCAN + K-Means)...
+2026-06-05 17:01:07 | INFO     | train_pipeline | [4/5] Training CLV classifier...
+2026-06-05 17:01:08 | INFO     | train_pipeline | [5/5] Generating PDF report...
+2026-06-05 17:01:13 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:01:13 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:01:14 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170109.pdf
+2026-06-05 17:01:14 | INFO     | train_pipeline | PDF report saved to: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170109.pdf
+2026-06-05 17:02:26 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:02:26 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:02:26 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:02:26 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:02:32 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:02:32 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:02:32 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:02:32 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:02:32 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 17:02:32 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 17:02:32 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 17:02:34 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 17:02:34 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 17:02:34 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:02:54 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:02:54 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:02:55 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170235.pdf
+2026-06-05 17:02:55 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170235.pdf
+2026-06-05 17:03:15 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:03:15 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:03:15 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:03:15 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:03:44 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:03:44 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:03:50 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:03:50 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:03:50 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 17:03:50 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 17:03:50 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 17:03:53 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 17:03:53 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 17:03:53 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:03:58 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:03:58 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:03:59 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170353.pdf
+2026-06-05 17:03:59 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_170353.pdf
+2026-06-05 17:10:40 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:10:40 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:10:40 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 17:10:40 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 17:10:41 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 17:10:43 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 17:10:43 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 17:10:43 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:10:48 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:10:48 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:10:49 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171043.pdf
+2026-06-05 17:10:49 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171043.pdf
+2026-06-05 17:10:58 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:10:58 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:12:40 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:12:40 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:12:40 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:12:40 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:12:51 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:12:51 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:12:51 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:12:51 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:12:51 | INFO     | custom_train | Custom training started — dataset: test_worst_case.csv, rows: 1030
+2026-06-05 17:12:51 | INFO     | custom_train | Dropped 30 duplicates
+2026-06-05 17:12:52 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.9867)
+2026-06-05 17:12:54 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         1
+         Low       0.99      0.99      0.99       198
+      Medium       0.00      0.00      0.00         1
+
+    accuracy                           0.98       200
+   macro avg       0.66      0.66      0.66       200
+weighted avg       0.99      0.98      0.99       200
+
+2026-06-05 17:12:54 | INFO     | custom_train | ROC-AUC: 0.9874
+2026-06-05 17:12:54 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:13:14 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:13:14 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:13:15 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171254.pdf
+2026-06-05 17:13:15 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171254.pdf
+2026-06-05 17:13:20 | INFO     | src.data_quality | Quality check — shape: 1030 rows × 12 columns
+2026-06-05 17:13:20 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 12 warning(s)
+2026-06-05 17:13:20 | WARNING  | src.data_quality | 30 duplicate rows detected (will be dropped during preprocessing).
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Satisfaction Level' has 54.27% missing values — imputation may distort results.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Total Spend': 15 non-numeric values (will be coerced to NaN)
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Items Purchased': 3 non-numeric values (will be coerced to NaN)
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Days Since Last Purchase': 8 non-numeric values (will be coerced to NaN)
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Average Rating': 10 non-numeric values (will be coerced to NaN)
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Total Spend' has 23 negative values — will be clipped to 0.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Items Purchased' has 4 negative values — will be clipped to 0.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Days Since Last Purchase' has 87 negative values — will be clipped to 0.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | Column 'Age' has 17 negative values — will be clipped to 0.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | 'Average Rating' max = 99.0 — expected ≤ 5. Values will be clipped.
+2026-06-05 17:13:20 | WARNING  | src.data_quality | 'Average Rating' min = -1.0 — expected ≥ 1.
+2026-06-05 17:13:31 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:13:31 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:13:34 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:13:34 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:13:34 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-05 17:13:34 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 17:13:34 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-05 17:13:36 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-05 17:13:36 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-05 17:13:36 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:13:42 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:13:42 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:13:43 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171336.pdf
+2026-06-05 17:13:43 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171336.pdf
+2026-06-05 17:13:48 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:13:48 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:13:58 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:13:58 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:14:02 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:14:02 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:14:02 | INFO     | custom_train | Custom training started — dataset: demo_customers_1000.csv, rows: 1000
+2026-06-05 17:14:02 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 17:14:02 | INFO     | custom_train | Primary segmentation: K-Means (sil=0.2976)
+2026-06-05 17:14:05 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00         4
+         Low       1.00      1.00      1.00       140
+      Medium       1.00      1.00      1.00        56
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+2026-06-05 17:14:05 | INFO     | custom_train | ROC-AUC: 1.0000
+2026-06-05 17:14:05 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:14:10 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:14:10 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:14:11 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171405.pdf
+2026-06-05 17:14:11 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_171405.pdf
+2026-06-05 17:14:20 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-05 17:14:20 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:35:16 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 17:35:16 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:35:19 | INFO     | src.data_quality | Quality check — shape: 350 rows × 11 columns
+2026-06-05 17:35:19 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-05 17:35:19 | INFO     | custom_train | Custom training started — dataset: ecommerce_customer_data.csv, rows: 350
+2026-06-05 17:35:19 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-05 17:35:19 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.7024)
+2026-06-05 17:35:20 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        12
+         Low       1.00      0.98      0.99        54
+      Medium       0.80      1.00      0.89         4
+
+    accuracy                           0.99        70
+   macro avg       0.93      0.99      0.96        70
+weighted avg       0.99      0.99      0.99        70
+
+2026-06-05 17:35:20 | INFO     | custom_train | ROC-AUC: 0.9998
+2026-06-05 17:35:20 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-05 17:35:25 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-05 17:35:25 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-05 17:35:27 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_173520.pdf
+2026-06-05 17:35:27 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260605_173520.pdf

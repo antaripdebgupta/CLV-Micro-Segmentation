@@ -1,5 +1,4 @@
 """
-app.py
 Main Streamlit entry point.
 Run with: streamlit run app.py
 """
@@ -38,9 +37,11 @@ with st.sidebar:
     st.caption("E-Commerce Customer Behaviour Analysis")
     st.markdown("---")
     st.markdown("**Navigation**")
-    st.page_link("pages/1_segment_explorer.py",  label="Segment Explorer",  icon="🗂️")
-    st.page_link("pages/2_whatif_simulator.py",  label="What-If Simulator", icon="🔮")
-    st.page_link("pages/3_batch_upload.py",      label="Batch Prediction",  icon="📂")
+    st.page_link("pages/1_segment_explorer.py",  label="Segment Explorer",    icon="🗂️")
+    st.page_link("pages/2_whatif_simulator.py",  label="What-If Simulator",   icon="🔮")
+    st.page_link("pages/3_batch_upload.py",       label="Batch Prediction",    icon="📂")
+    st.page_link("pages/4_train_custom.py",       label="Train on Your Data",  icon="🧪")
+    st.page_link("pages/5_log_viewer.py",         label="Log Viewer",          icon="📋")
     st.markdown("---")
     st.caption("Final Year DS Project · 2026")
 
