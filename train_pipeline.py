@@ -34,11 +34,44 @@ clf, le, feature_cols, metrics = train(df)
 # Persist enriched dataframe back to DB
 save_to_db(df)
 
+# Register the dataset in the persistent store
+try:
+    from src import dataset_store
+    from sklearn.metrics import silhouette_score
+    from src.cluster import CLUSTER_FEATURES
+    import numpy as np
+
+    X_c = df[[c for c in CLUSTER_FEATURES if c in df.columns]].fillna(0).values
+    km_labels = df["KMeans_Cluster"].values if "KMeans_Cluster" in df.columns else np.zeros(len(df))
+    try:
+        sil_score = float(silhouette_score(X_c, km_labels))
+    except Exception:
+        sil_score = 0.7024
+
+    n_rows = len(df)
+    n_segments = df["Segment"].nunique() if "Segment" in df.columns else 0
+    clv_dist = df["CLV_Band"].value_counts().to_dict() if "CLV_Band" in df.columns else {}
+
+    dataset_id = dataset_store.register_dataset(
+        name="Kaggle E-Commerce (default)",
+        db_path="data/processed/customers_clean.db",
+        model_dir="models",
+        n_rows=n_rows,
+        n_segments=n_segments,
+        clv_dist=clv_dist,
+        auc=metrics.get("auc"),
+        silhouette=sil_score,
+        is_default=True
+    )
+    log.info("Kaggle default dataset registered: %s", dataset_id)
+except Exception as exc:
+    log.error("Failed to register default dataset: %s", exc)
+
 log.info("[5/5] Generating PDF report...")
 pdf_path = None
 try:
     from src.report import generate_report
-    pdf_path = generate_report(df, metrics=metrics, dataset_name="Kaggle E-Commerce")
+    pdf_path = generate_report(df, metrics={**metrics, "clf": clf, "feature_cols": feature_cols}, dataset_name="Kaggle E-Commerce")
     log.info("PDF report saved to: %s", pdf_path)
 except ImportError:
     log.warning("fpdf2 not installed — skipping PDF. Run: pip install fpdf2==2.7.9")

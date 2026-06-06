@@ -11,20 +11,32 @@ import os
 
 st.set_page_config(page_title="Segment Explorer", layout="wide")
 
-DB_PATH = "data/processed/customers_clean.db"
+from src import dataset_store
+
+active_record = dataset_store.get_active_dataset_record()
+if active_record:
+    db_path = active_record["db_path"]
+    active_name = active_record["name"]
+else:
+    db_path = "data/processed/customers_clean.db"
+    active_name = "Default Dataset"
 
 
-@st.cache_data
-def load_data():
-    conn = sqlite3.connect(DB_PATH)
+@st.cache_data(ttl=0)
+def load_data(path):
+    conn = sqlite3.connect(path)
     df = pd.read_sql("SELECT * FROM customers", conn)
     conn.close()
     return df
 
 
-df = load_data()
+df = load_data(db_path)
+
+# Sidebar
+dataset_store.render_sidebar()
 
 st.title("Segment Explorer")
+st.info(f"Showing data from: **{active_name}**")
 st.markdown("Explore customer micro-segments, CLV bands, and behavioural profiles.")
 
 # Sidebar Filters

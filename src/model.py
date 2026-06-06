@@ -1,5 +1,4 @@
 """
-model.py
 Trains a Gradient Boosting classifier to predict CLV band (Low/Medium/High).
 Saves and loads trained model artifact.
 """
@@ -69,6 +68,8 @@ def train(df: pd.DataFrame) -> tuple:
         "y_pred": y_pred,
         "y_proba": y_proba,
         "classes": le.classes_,
+        "clf": clf,
+        "feature_cols": feature_cols,
     }
 
 

@@ -1,0 +1,1031 @@
+Customer ID,Gender,Age,City,Membership Type,Total Spend,Items Purchased,Average Rating,Discount Applied,Days Since Last Purchase,Satisfaction Level,Useless_Column
+2537,Non-binary,35.2,New York,GOLD,927.51,6,2.9,false,19,Unsatisfied,1
+2186,,23.8,,Bronze,919.8,9,4.0,,59,,1
+2579,Female,26.7,,Gold,958.79,18,3.6,Yes,23,Satisfied,1
+2724,Male,30.6,Montréal,Silver,1305.55,10,4.5,Yes,-10,,1
+2496,Non-binary,33.0,Tokyo,Bronze,1164.16,10,4.6,false,28,N/A,1
+2693,Female,34.7,São Paulo,Bronze,1105.24,17,4.3,Yes,10,,1
+2214,,43.0,New York,Silver,862.37,11,2.7,FALSE,24,,1
+2232,Non-binary,28.2,Tokyo,gold,903.83,9,5.2,FALSE,21,,1
+2818,M,25.6,Москва,gold,851.94,13,3.3,FALSE,23,Neutral,1
+2535,Male,36.1,Los Angeles,Bronze,1243.37,16,3.4,1,17,N/A,1
+2482,Female,18.2,Montréal,gold,1315.04,12,3.4,false,29,Satisfied,1
+2257,F,32.6,Los Angeles,Bronze,1676.75,7,3.1,,-22,,1
+2376,F,24.3,Zürich,Silver,1251.89,9,4.6,true,58,Unsatisfied,1
+2417,,33.7,Los Angeles,Bronze,886.98,4,3.5,FALSE,21,Satisfied,1
+2893,M,44.6,Los Angeles,Bronze,1290.67,10,3.5,false,8,N/A,1
+2803,Non-binary,40.7,Montréal,Bronze,736.42,17,3.9,1,30,,1
+2051,Female,26.2,Zürich,Bronze,1072.4,16,3.3,,37,Satisfied,1
+2590,,36.7,Москва,Bronze,unknown,19,3.8,1,46,Unsatisfied,1
+2424,Non-binary,30.3,São Paulo,Silver,1005.22,9,4.2,FALSE,84,,1
+2594,F,37.5,Москва,GOLD,595.38,16,4.0,Yes,69,,1
+2271,F,37.1,Los Angeles,,863.72,7,4.4,,32,,1
+2917,F,31.2,Zürich,gold,709.94,16,3.0,Yes,57,,1
+2092,M,39.3,,Silver,634.51,12,0,,31,,1
+2064,Female,28.6,,Gold,979.88,4,2.4,TRUE,67,,1
+2961,F,33.1,São Paulo,Silver,655.96,11,3.8,0,12,,1
+2052,F,26.5,New York,gold,660.83,12,3.1,,15,Satisfied,1
+2886,M,40.2,Tokyo,GOLD,0,10,3.9,true,38,Unsatisfied,1
+2840,Non-binary,36.8,,Gold,716.06,15,3.8,FALSE,-14,,1
+2954,Female,26.9,Zürich,Silver,1458.03,10,4.2,Yes,63,,1
+2033,Non-binary,33.6,New York,Bronze,882.15,11,3.8,No,50,,1
+2664,M,39.7,New York,Gold,1236.77,8,4.4,Yes,3,,1
+2406,Non-binary,28.3,Москва,,111.96,6,4.0,FALSE,24,Neutral,1
+2973,F,31.1,Montréal,,1134.43,13,4.1,1,42,,1
+2889,Male,29.0,,Silver,"1,200.50",12,4.1,TRUE,23,,1
+2304,Female,30.2,New York,Bronze,-0.01,12,3.2,true,9,N/A,1
+2857,Non-binary,33.4,Москва,Gold,656.72,many,3.9,false,63,,1
+2924,M,32.4,Los Angeles,Silver,987.39,10,3.4,1,39,Neutral,1
+2637,Female,-99,São Paulo,Silver,733.97,14,4.8,FALSE,46,Unsatisfied,1
+2619,Male,40.7,Москва,Bronze,$1200,15,3.9,0,33,,1
+2652,Female,34.4,,gold,962.92,10,3.8,No,6,N/A,1
+2645,Female,150,Zürich,Gold,803.91,8,4.6,TRUE,42,Unsatisfied,1
+2349,Male,34.4,São Paulo,gold,889.44,14,4.0,true,30,,1
+2683,Female,44.2,Москва,,823.68,9,3.9,TRUE,11,Satisfied,1
+2120,Non-binary,37.9,Los Angeles,Bronze,1004.12,11,4.5,No,18,Unsatisfied,1
+2249,Non-binary,38.3,,gold,1429.16,13,3.8,false,64,N/A,1
+2196,Female,29.1,Montréal,GOLD,1208.71,19,3.9,FALSE,33,,1
+2300,M,37.8,Zürich,Bronze,925.17,10,3.3,Yes,20,N/A,1
+2774,Non-binary,32.0,,Bronze,505.0,8,2.5,Yes,35,Satisfied,1
+2638,Non-binary,25.2,Montréal,Gold,474.77,9,4.6,,31,,1
+2017,Male,36.3,Tokyo,GOLD,1066.5,9,2.6,,29,Unsatisfied,1
+2545,Male,43.0,Zürich,Bronze,346.68,3,3.8,Yes,48,Unsatisfied,1
+2689,Female,30.6,Zürich,Bronze,761.43,9,2.9,Yes,6,Neutral,1
+2595,,40.5,Los Angeles,Bronze,603.29,18,4.4,TRUE,54,Satisfied,1
+2010,Male,43.0,New York,,1556.32,7,4.2,,99999,Satisfied,1
+2028,M,29.0,Montréal,Silver,1311.15,16,3.7,1,47,Neutral,1
+2091,Non-binary,31.3,Los Angeles,gold,1307.4,4,3.8,false,27,,1
+2497,Male,39.2,Los Angeles,Gold,1011.16,13,5.4,,40,,1
+2283,M,27.4,,GOLD,913.81,14,3.7,Yes,61,Satisfied,1
+2156,Male,34.1,Москва,Bronze,642.42,18,4.0,TRUE,2,,1
+2266,M,35.5,,GOLD,1099.64,9,5.3,false,1,Unsatisfied,1
+2981,Non-binary,29.9,New York,Silver,420.28,13,3.6,1,34,Neutral,1
+2244,M,32.9,Los Angeles,,828.16,9,3.6,,56,N/A,1
+2055,Non-binary,22.4,,Silver,653.67,7,3.5,No,38,N/A,1
+2067,Male,29.9,,gold,1193.99,10,3.8,,52,Satisfied,1
+2242,Male,37.9,Zürich,Silver,-148.94,10,3.5,false,36,,1
+2103,Non-binary,34.7,Москва,Silver,830.67,9,4.7,TRUE,-1,,1
+2213,,38.3,São Paulo,GOLD,1827.73,13,4.2,No,34,Satisfied,1
+2031,M,20.3,New York,Gold,1709.49,5,3.6,Yes,57,N/A,1
+2344,Female,36.0,,Gold,716.88,many,-1,true,22,Unsatisfied,1
+2669,Non-binary,31.7,Tokyo,Bronze,-153.44,15,10,0,34,Unsatisfied,1
+2971,M,33.9,Tokyo,gold,1113.33,11,5.2,Yes,18,,1
+2528,,35.4,São Paulo,gold,572.89,9,4.5,1,21,Neutral,1
+2915,Non-binary,43.1,Zürich,Silver,738.93,13,3.9,TRUE,60,,1
+2549,M,29.5,Tokyo,GOLD,1024.88,14,great,1,29,,1
+2984,Non-binary,30.2,,,1336.87,9,3.7,,4,,1
+2703,,25.3,Los Angeles,Bronze,490.49,5,3.4,No,25,,1
+2998,Non-binary,36.4,Montréal,GOLD,1079.52,14,3.8,TRUE,24,,1
+2087,Male,22.1,São Paulo,gold,1488.45,16,3.7,0,24,Unsatisfied,1
+2268,Non-binary,32.6,Los Angeles,Gold,917.46,10,4.2,,26,,1
+2573,Non-binary,32.4,New York,GOLD,2064.31,14,4.0,1,16,,1
+2847,Non-binary,25.4,,gold,1221.12,4,4.5,false,50,,1
+2115,M,39.6,Tokyo,Silver,746.05,16,3.4,1,35,N/A,1
+2471,F,30.4,New York,Silver,861.6,9,3.8,0,23,N/A,1
+2876,M,31.5,Los Angeles,Gold,139.61,16,3.4,FALSE,43,,1
+2210,Male,35.5,São Paulo,GOLD,684.5,7,3.2,1,36,Unsatisfied,1
+2554,Female,39.2,New York,Silver,361.24,8,3.1,,29,Unsatisfied,1
+2800,Non-binary,41.3,Los Angeles,,843.68,12,4.2,No,21,Neutral,1
+2753,Male,32.4,,,889.16,8,3.1,Yes,56,Satisfied,1
+2085,Male,34.6,,GOLD,1358.71,2,4.4,true,23,Satisfied,1
+2110,F,33.1,Tokyo,Silver,719.81,15,3.9,1,21,Satisfied,1
+2541,M,42.7,Montréal,GOLD,754.01,7,great,false,20,,1
+2002,Female,41.6,Zürich,Bronze,1169.72,12,2.5,No,40,Neutral,1
+2799,,41.7,,GOLD,1289.34,9,3.8,false,20,Satisfied,1
+2185,F,38.4,New York,GOLD,1369.96,19,3.2,1,16,,1
+2527,Non-binary,32.1,Tokyo,gold,1354.96,7,4.1,false,18,Neutral,1
+2701,F,39.9,São Paulo,gold,unknown,14,3.7,0,72,,1
+2396,Non-binary,36.6,,GOLD,1276.03,16,4.0,No,104,Satisfied,1
+2699,Male,39.8,Los Angeles,Bronze,1376.12,17,2.4,1,39,,1
+2340,Female,-99,,Gold,551.17,500,3.7,No,47,Neutral,1
+2292,,-5,Los Angeles,Bronze,982.49,19,4.2,TRUE,35,,1
+2515,Male,39.4,São Paulo,Silver,731.45,17,-1,No,24,N/A,1
+2320,Male,31.9,Montréal,GOLD,731.9,14,3.5,TRUE,30,,1
+2919,,39.7,Los Angeles,Gold,1666.19,13,4.9,No,63,Satisfied,1
+2364,M,33.7,,gold,798.87,13,3.2,Yes,21,,1
+2830,F,33.9,Москва,Bronze,802.56,12,4.1,1,64,,1
+2088,M,32.7,Montréal,Silver,645.83,12,4.0,1,18,,1
+2721,F,29.2,Montréal,gold,N/A,6,4.7,TRUE,46,Satisfied,1
+2299,Non-binary,34.6,New York,Bronze,800.15,13,3.6,0,38,Neutral,1
+2269,Non-binary,36.2,Москва,Gold,637.22,11,5.0,1,24,,1
+2407,M,28.2,Montréal,gold,193.83,9,5.1,Yes,35,Neutral,1
+2676,Female,44.1,Tokyo,,1193.77,11,4.0,FALSE,41,Satisfied,1
+2686,Female,37.7,Москва,Gold,454.52,14,4.3,,42,Unsatisfied,1
+2035,F,36.7,New York,gold,1250.14,11,4.4,,42,N/A,1
+2985,Male,36.8,Los Angeles,,969.2,17,4.3,,71,Unsatisfied,1
+2557,Non-binary,29.3,Los Angeles,gold,1103.33,7,4.0,,68,Neutral,1
+2723,Non-binary,23.3,Montréal,Silver,858.0,17,4.0,TRUE,14,Unsatisfied,1
+2180,M,0,São Paulo,Silver,570.82,13,3.4,1,22,,1
+2019,Female,40.6,Montréal,Silver,949.1,11,3.8,FALSE,-1,N/A,1
+2285,Non-binary,23.2,Montréal,Gold,1205.58,0,4.4,,47,N/A,1
+2090,Female,30.1,Los Angeles,GOLD,758.51,13,4.7,true,-3,,1
+2510,Female,41.8,Los Angeles,GOLD,1489.25,9,3.3,1,24,Satisfied,1
+2881,F,33.0,Tokyo,Silver,1267.2,12,2.8,0,12,Satisfied,1
+2627,M,-99,Montréal,Silver,472.71,9,10,No,6,Satisfied,1
+2130,F,37.1,Montréal,Bronze,1238.28,12,4.6,true,10,Neutral,1
+2481,M,38.2,Москва,Silver,901.42,8,3.4,No,17,Neutral,1
+2381,F,37.1,,Gold,1097.32,10,2.9,TRUE,84,N/A,1
+2684,F,34.7,Los Angeles,Gold,754.12,14,3.0,Yes,46,,1
+2844,F,37.2,São Paulo,Bronze,1359.95,12,3.5,Yes,21,Neutral,1
+2025,,-5,São Paulo,Gold,840.55,14,4.2,0,53,N/A,1
+2203,Non-binary,31.0,,Silver,783.8,14,2.9,1,21,,1
+2903,Male,30.5,Tokyo,Gold,229.91,11,-1,1,yesterday,,1
+2451,Male,38.8,Los Angeles,Silver,1741.99,12,4.5,true,26,N/A,1
+2618,M,29.0,Tokyo,gold,443.27,17,4.2,,20,Unsatisfied,1
+2387,Female,29.8,Tokyo,GOLD,936.34,9,4.0,true,42,N/A,1
+2284,Male,39.4,Zürich,GOLD,1030.88,21,99,Yes,43,,1
+2495,F,42.6,Zürich,Silver,984.3,11,10,No,29,,1
+2644,,34.5,São Paulo,gold,N/A,3,3.5,false,40,Satisfied,1
+2849,,30.8,São Paulo,GOLD,495.29,16,3.0,,52,,1
+2251,,34.4,New York,Gold,908.89,15,2.8,,45,Satisfied,1
+2588,Male,36.8,,Gold,1409.14,16,3.0,1,8,,1
+2301,M,30.6,São Paulo,Silver,1357.32,19,4.1,,32,Satisfied,1
+2230,Male,30.6,Montréal,GOLD,1348.28,11,3.2,Yes,29,,1
+2635,F,30.1,São Paulo,Silver,1266.18,9,-1,true,56,N/A,1
+2192,M,35.9,New York,Silver,1001.61,10,3.8,FALSE,38,,1
+2060,F,33.0,Tokyo,,1179.09,6,3.2,false,61,,1
+2672,Female,36.8,Tokyo,Bronze,1370.07,16,3.5,true,34,Unsatisfied,1
+2280,Male,31.9,Tokyo,Gold,246.91,6,4.6,TRUE,40,Unsatisfied,1
+2413,F,31.3,Zürich,Gold,340.9,7,3.9,1,34,,1
+2798,Non-binary,30.8,New York,Silver,-0.01,15,3.9,true,12,Neutral,1
+2356,Male,32.6,Москва,gold,1085.45,2,4.5,,37,Unsatisfied,1
+2294,Male,42.1,Los Angeles,GOLD,321.97,8,2.9,0,51,Unsatisfied,1
+2957,Male,38.3,Montréal,Silver,619.07,13,4.6,,29,Neutral,1
+2605,Male,34.9,São Paulo,GOLD,1273.51,8,4.0,No,28,Unsatisfied,1
+2009,Non-binary,28.5,Zürich,gold,450.49,15,3.3,false,10,,1
+2691,,38.7,,Gold,849.11,13,4.4,FALSE,-8,Satisfied,1
+2921,Male,30.0,Москва,Bronze,160.96,12,4.1,TRUE,8,,1
+2898,M,32.1,Tokyo,gold,945.98,12,3.7,No,10,,1
+2940,Male,27.9,Zürich,GOLD,645.69,13,4.8,false,38,Neutral,1
+2405,Female,34.8,São Paulo,,1606.6,10,4.7,,-1,,1
+2470,Male,32.3,Zürich,Gold,946.25,14,3.1,Yes,11,Satisfied,1
+2772,F,28.3,,Bronze,164.98,18,4.4,FALSE,37,Unsatisfied,1
+2869,Female,36.1,São Paulo,gold,234.95,8,3.6,No,5,Unsatisfied,1
+2141,Non-binary,36.1,Zürich,Silver,489.27,12,99,TRUE,12,N/A,1
+2628,F,29.2,Tokyo,,1214.59,8,4.3,1,8,,1
+2046,M,26.7,Los Angeles,gold,766.13,12,2.2,FALSE,37,,1
+2660,Male,34.1,Montréal,GOLD,1090.99,5,3.2,FALSE,27,N/A,1
+2878,Male,40.6,São Paulo,GOLD,1225.03,0,3.1,1,47,,1
+2181,Female,26.9,New York,Bronze,92.16,12,4.2,FALSE,43,Unsatisfied,1
+2084,Non-binary,33.5,New York,GOLD,832.9,24,3.8,Yes,44,,1
+2968,Male,33.9,,Bronze,1122.35,15,4.0,No,29,Unsatisfied,1
+2138,M,31.9,New York,Bronze,642.35,12,4.7,true,21,N/A,1
+2014,Non-binary,27.2,New York,Bronze,99999,11,4.1,1,13,,1
+2442,F,33.3,Tokyo,gold,650.59,12,4.2,TRUE,16,Satisfied,1
+2654,Non-binary,32.0,São Paulo,Silver,1045.69,13,4.1,TRUE,19,,1
+2565,Non-binary,27.8,,gold,380.35,13,3.5,false,yesterday,N/A,1
+2394,F,25.3,,GOLD,772.23,14,4.2,0,21,,1
+2979,Male,34.9,,Bronze,711.4,12,4.7,true,17,,1
+2276,,26.1,Москва,Silver,919.84,9,4.6,false,37,,1
+2094,,38.0,Tokyo,,394.8,11,2.8,,-10,Unsatisfied,1
+2895,Male,-99,Tokyo,Bronze,864.14,7,4.4,Yes,-15,Satisfied,1
+2352,F,36.0,Москва,Bronze,1107.12,6,3.5,0,45,,1
+2769,M,38.0,,Gold,83.21,12,4.0,1,18,N/A,1
+2379,Male,31.7,Los Angeles,Gold,460.71,10,3.2,Yes,56,Unsatisfied,1
+2334,Female,36.9,Los Angeles,,1167.95,8,3.9,FALSE,41,,1
+2935,,30.8,Tokyo,gold,657.5,13,4.5,,46,,1
+2752,M,39.2,Montréal,GOLD,806.77,11,3.0,Yes,21,N/A,1
+2953,Female,34.2,New York,Silver,422.92,14,3.3,1,20,,1
+2444,F,-5,Zürich,GOLD,1064.06,11,4.0,Yes,16,Neutral,1
+2216,Male,35.2,,Bronze,472.09,9,3.6,1,31,,1
+2080,,38.4,Ñoño City,Silver,767.83,19,3.4,FALSE,64,,1
+2839,Non-binary,40.0,Montréal,gold,1947.58,20,4.4,,33,N/A,1
+2289,,40.6,Zürich,Bronze,1348.52,500,4.2,FALSE,8,Neutral,1
+2246,F,36.8,Zürich,GOLD,0,7,3.9,FALSE,74,Neutral,1
+2523,Female,40.4,Zürich,Gold,958.79,11,3.8,1,55,,1
+2897,M,28.0,Tokyo,,571.01,12,3.4,1,18,N/A,1
+2466,Female,34.8,,gold,1098.67,12,3.5,TRUE,40,,1
+2278,M,33.9,Tokyo,Silver,744.82,12,3.9,false,12,,1
+2391,Non-binary,31.2,Zürich,Bronze,1246.91,15,4.2,No,43,,1
+2697,F,35.5,São Paulo,,1201.24,9,3.6,TRUE,44,N/A,1
+2258,Male,32.6,Los Angeles,Gold,723.39,12,3.5,1,21,Unsatisfied,1
+2162,F,37.5,,Bronze,1414.79,17,3.7,0,0,Unsatisfied,1
+2030,Male,36.6,Zürich,Silver,885.39,22,3.4,,27,N/A,1
+2529,M,33.2,São Paulo,gold,1884.62,7,4.2,FALSE,78,N/A,1
+2809,Male,42.3,Москва,Silver,1870.68,16,3.8,false,55,Unsatisfied,1
+2780,Female,-5,Zürich,Gold,1017.49,7,3.6,FALSE,53,,1
+2633,Non-binary,38.0,Zürich,GOLD,1420.81,10,3.2,false,38,Neutral,1
+2965,F,42.9,,GOLD,1186.66,7,4.5,false,47,Neutral,1
+2884,Non-binary,32.6,,Gold,1324.63,13,3.8,0,39,Neutral,1
+2057,Male,41.4,Los Angeles,Silver,-0.01,17,3.8,true,-1,Neutral,1
+2938,M,31.4,Montréal,Silver,997.16,7,3.1,0,25,Neutral,1
+2293,M,30.2,Москва,Silver,83.83,18,3.5,TRUE,18,Satisfied,1
+2791,,33.7,Montréal,gold,933.76,7,4.4,,31,,1
+2327,Male,23.6,Zürich,gold,730.25,0,4.7,No,39,,1
+2681,M,42.5,Los Angeles,Gold,1222.57,14,4.3,true,29,Neutral,1
+2916,Male,35.5,São Paulo,gold,0,9,4.3,No,26,Satisfied,1
+2176,Non-binary,30.3,São Paulo,gold,1025.76,7,3.4,,56,Neutral,1
+2050,F,29.8,,Silver,614.01,-3,4.6,1,29,,1
+2766,F,31.5,Zürich,Silver,,24,3.6,TRUE,12,,1
+2077,,40.9,Montréal,Gold,1298.6,14,3.1,Yes,10,Unsatisfied,1
+2770,M,30.6,New York,Gold,667.75,17,2.4,No,-3,Unsatisfied,1
+2856,F,32.8,Montréal,Gold,1080.36,12,3.1,false,47,,1
+2713,M,32.9,Los Angeles,GOLD,847.5,7,4.2,0,37,N/A,1
+2367,Non-binary,30.5,Los Angeles,Silver,250.65,10,2.9,1,16,,1
+2677,Male,38.9,,Silver,348.27,9,3.7,false,58,Unsatisfied,1
+2600,Male,27.7,Москва,Silver,332.63,13,3.8,0,36,Unsatisfied,1
+2024,M,28.4,Москва,Silver,1051.52,11,4.1,Yes,24,,1
+2003,,37.6,Tokyo,Silver,1434.13,15,4.5,true,-6,,1
+2161,Female,32.0,Los Angeles,gold,698.51,8,4.0,FALSE,45,,1
+2865,Male,-99,Tokyo,,905.44,9,3.7,1,43,,1
+2027,Male,33.2,Москва,Gold,746.23,9,3.4,,-2,,1
+2134,Non-binary,38.4,Zürich,Silver,565.76,9,3.6,1,39,Satisfied,1
+2871,Non-binary,29.3,Los Angeles,Bronze,1366.24,11,3.4,,17,Neutral,1
+2303,Non-binary,39.2,,gold,715.47,13,3.0,true,28,,1
+2894,Male,39.6,São Paulo,Silver,796.11,13,2.9,,-10,,1
+2339,M,35.8,Montréal,gold,543.77,10,4.1,1,64,Unsatisfied,1
+2188,Male,35.9,New York,Silver,472.54,20,4.1,1,41,Unsatisfied,1
+2104,Female,43.5,São Paulo,Bronze,1284.69,12,2.4,0,yesterday,Neutral,1
+2918,M,42.8,Montréal,gold,765.83,13,3.7,Yes,81,,1
+2629,M,36.2,Zürich,Silver,749.77,19,3.7,0,-21,Satisfied,1
+2372,Male,39.5,Zürich,Silver,281.91,16,4.3,1,31,,1
+2431,Female,42.1,Tokyo,Bronze,5.12,19,2.9,1,14,N/A,1
+2685,Non-binary,30.4,Montréal,Silver,977.83,5,3.4,TRUE,43,,1
+2422,Female,32.1,Montréal,gold,1239.72,15,4.0,FALSE,25,,1
+2017,Male,36.3,Tokyo,GOLD,1066.5,9,2.6,,29,Unsatisfied,1
+2465,M,30.7,Montréal,gold,1003.72,6,3.9,false,21,,1
+2382,F,29.8,New York,Bronze,843.94,13,3.9,false,29,Unsatisfied,1
+2804,Female,-5,Zürich,gold,644.1,10,4.1,Yes,40,,1
+2808,Male,43.4,New York,Bronze,1310.0,12,4.3,false,25,Unsatisfied,1
+2775,,41.5,Zürich,,1557.63,14,4.1,Yes,24,N/A,1
+2883,Non-binary,29.7,São Paulo,Silver,1090.55,18,4.1,TRUE,71,,1
+2013,Female,30.2,Zürich,Silver,520.35,14,2.8,0,27,,1
+2599,Non-binary,24.7,Montréal,gold,596.29,14,3.2,FALSE,-5,Unsatisfied,1
+2255,,35.0,Montréal,Gold,931.74,17,4.8,,28,Satisfied,1
+2581,M,30.6,,Bronze,898.69,12,3.3,FALSE,58,N/A,1
+2206,,35.6,Москва,GOLD,978.2,16,2.9,TRUE,56,Neutral,1
+2834,M,43.2,Zürich,Silver,873.9,10,3.7,FALSE,21,Satisfied,1
+2583,,33.8,,Silver,705.14,4,4.4,,25,Satisfied,1
+2393,F,38.0,Tokyo,Silver,1114.34,12,4.5,1,-2,Satisfied,1
+2732,Non-binary,34.9,São Paulo,gold,1242.89,9,4.2,,23,Neutral,1
+2183,,33.6,,,689.74,8,4.3,false,-5,,1
+2936,,33.2,Los Angeles,Bronze,1488.94,6,3.1,false,-29,Neutral,1
+2610,Male,33.3,Tokyo,Gold,1436.3,15,3.3,,3,Neutral,1
+2414,Male,36.8,,GOLD,791.0,10,4.0,No,-5,,1
+2738,Female,31.5,,Gold,477.38,4,3.4,FALSE,51,Unsatisfied,1
+2440,Non-binary,32.9,Los Angeles,Gold,-14.18,4,3.5,TRUE,46,Neutral,1
+2762,Male,999,Zürich,Gold,1285.1,0,5.0,,9,,1
+2227,Non-binary,42.9,,Gold,1260.44,10,4.5,1,37,Satisfied,1
+2739,M,33.7,Москва,,163.27,11,4.7,true,19,,1
+2970,F,35.5,Montréal,,791.21,14,4.0,No,14,Unsatisfied,1
+2574,M,41.5,,Silver,1099.07,7,3.6,No,65,,1
+2659,M,31.8,,Silver,990.45,6,3.1,FALSE,54,,1
+2108,Non-binary,25.9,Zürich,gold,1044.9,13,3.3,No,19,Neutral,1
+2475,Non-binary,37.8,New York,,1034.46,9,4.6,false,-5,Satisfied,1
+2864,F,39.4,,GOLD,641.15,17,2.4,1,11,,1
+2112,Female,31.5,Los Angeles,Bronze,716.52,14,3.4,FALSE,56,Satisfied,1
+2270,Female,22.0,Москва,Gold,230.26,9,3.8,,42,N/A,1
+2011,Male,38.4,Москва,Bronze,706.08,10,4.9,false,32,Neutral,1
+2860,M,37.0,Tokyo,Gold,1148.15,12,3.2,true,-13,Neutral,1
+2879,Female,40.6,,Gold,1060.6,10,3.4,0,47,Satisfied,1
+2420,Male,38.3,,gold,99999,10,4.6,Yes,10,Unsatisfied,1
+2855,Female,37.8,,GOLD,659.74,8,3.9,1,27,Neutral,1
+2476,,38.7,Zürich,gold,634.85,-3,2.5,No,12,Satisfied,1
+2851,Non-binary,-5,,gold,966.83,16,2.7,0,18,,1
+2309,Male,38.3,São Paulo,gold,833.03,14,3.7,Yes,40,,1
+2788,M,24.3,Los Angeles,Silver,850.39,8,3.7,TRUE,36,N/A,1
+2517,Male,38.9,,gold,858.85,12,4.0,false,56,,1
+2129,Male,40.1,,gold,643.13,10,4.1,0,12,,1
+2487,Male,32.3,,,1077.82,13,3.1,0,54,,1
+2054,,32.2,Москва,GOLD,1222.79,7,4.0,1,-10,,1
+2925,Male,37.3,Los Angeles,GOLD,1332.49,18,4.0,0,15,,1
+2748,F,44.7,Montréal,,882.98,12,3.3,No,60,Neutral,1
+2944,Non-binary,40.7,Москва,gold,862.85,11,3.9,false,36,Unsatisfied,1
+2450,M,39.3,Montréal,GOLD,532.57,9,4.2,FALSE,-5,Satisfied,1
+2204,Male,33.4,New York,gold,1246.22,10,3.9,1,45,,1
+2759,Non-binary,29.6,Montréal,GOLD,653.48,12,3.7,TRUE,17,Neutral,1
+2951,F,32.4,Los Angeles,,1537.67,10,4.0,Yes,29,Unsatisfied,1
+2267,Non-binary,37.4,Zürich,Bronze,1194.72,16,3.6,false,53,,1
+2584,F,35.4,New York,Silver,948.83,11,4.5,Yes,7,Satisfied,1
+2194,M,38.6,Москва,gold,523.09,14,3.5,false,18,Unsatisfied,1
+2807,Male,32.9,New York,Bronze,1236.38,8,3.9,Yes,-18,,1
+2566,Female,38.7,Москва,Bronze,1379.62,16,4.2,No,19,,1
+2175,F,26.1,Los Angeles,Bronze,929.35,9,4.2,,33,,1
+2927,Non-binary,29.6,Los Angeles,Silver,361.25,17,4.4,true,14,Satisfied,1
+2098,Female,35.2,,gold,785.4,11,4.2,TRUE,27,Unsatisfied,1
+2955,M,35.5,Los Angeles,Silver,531.84,11,3.9,No,15,Neutral,1
+2756,Female,36.7,Zürich,Bronze,1058.23,14,4.6,Yes,51,,1
+2037,,28.7,São Paulo,,1205.56,6,4.5,false,20,,1
+2816,,33.9,,Gold,1325.23,6,3.6,Yes,12,,1
+2010,Male,43.0,New York,,1556.32,7,4.2,,99999,Satisfied,1
+2634,Female,43.8,,Gold,1216.67,13,3.8,0,44,Satisfied,1
+2113,Male,33.8,Zürich,,746.56,11,4.1,,9,Satisfied,1
+2682,F,31.1,New York,Gold,740.41,0,3.2,Yes,25,Neutral,1
+2511,M,30.3,Montréal,gold,823.11,10,3.6,,37,,1
+2625,Female,36.9,São Paulo,gold,1030.19,13,3.1,0,41,Unsatisfied,1
+2436,Non-binary,31.5,Montréal,gold,-42.57,13,4.4,false,-15,Satisfied,1
+2282,Non-binary,31.6,Москва,Bronze,1764.79,8,3.8,Yes,14,N/A,1
+2459,,35.6,New York,Gold,646.68,9,4.0,0,46,,1
+2679,,24.6,New York,Silver,438.35,15,2.5,0,78,Unsatisfied,1
+2075,M,35.8,Tokyo,Silver,844.42,18,99,,16,,1
+2170,Male,35.3,,gold,1038.14,8,3.4,FALSE,33,N/A,1
+2825,Non-binary,34.8,Zürich,Bronze,6.19,10,3.5,FALSE,15,Satisfied,1
+2313,M,28.9,Zürich,Silver,766.99,10,3.5,Yes,12,N/A,1
+2225,Female,44.4,Москва,,1864.17,8,3.6,0,63,Unsatisfied,1
+2238,M,41.8,Los Angeles,Bronze,595.47,13,3.6,1,71,,1
+2946,Female,29.6,Tokyo,Bronze,1020.08,6,4.3,0,50,Unsatisfied,1
+2577,F,29.3,Los Angeles,gold,495.12,7,great,false,64,N/A,1
+2853,Male,44.3,São Paulo,gold,38.43,10,3.5,false,27,Satisfied,1
+2402,,25.5,Ñoño City,gold,568.41,16,4.4,TRUE,94,Satisfied,1
+2281,Female,34.2,Zürich,Silver,1070.54,12,4.3,FALSE,44,Neutral,1
+2070,F,39.4,Москва,GOLD,788.16,14,3.8,TRUE,23,Neutral,1
+2655,,38.0,Los Angeles,Gold,1060.67,16,4.1,,50,,1
+2127,F,29.3,São Paulo,Silver,524.19,12,4.2,No,17,Satisfied,1
+2542,Non-binary,36.6,Zürich,Gold,507.62,12,3.0,,3,Unsatisfied,1
+2026,M,34.5,Zürich,Silver,1107.52,11,3.4,,9,Satisfied,1
+2538,M,29.6,Москва,,1115.25,18,2.9,true,22,Neutral,1
+2305,Non-binary,36.8,New York,GOLD,"1,200.50",16,4.4,true,20,Unsatisfied,1
+2274,F,39.2,São Paulo,GOLD,1225.35,9,5.0,0,52,,1
+2389,M,29.7,Zürich,,1209.43,14,4.2,true,30,Neutral,1
+2200,Female,30.9,,Bronze,1010.19,12,3.6,No,46,N/A,1
+2215,Non-binary,36.1,Los Angeles,GOLD,1308.12,19,4.7,0,45,,1
+2787,Male,40.3,Москва,Silver,829.88,15,4.4,,-6,N/A,1
+2234,F,38.5,São Paulo,GOLD,981.02,13,4.5,1,54,Neutral,1
+2813,Non-binary,36.0,Tokyo,gold,1633.16,9,4.7,1,42,,1
+2622,,32.2,Zürich,Bronze,1052.29,13,3.0,false,23,Unsatisfied,1
+2021,F,999,Tokyo,Gold,1409.71,8,2.9,FALSE,91,Unsatisfied,1
+2802,Male,29.9,Москва,GOLD,1314.4,19,4.7,true,39,Unsatisfied,1
+2361,Non-binary,27.7,New York,,292.66,11,3.1,true,yesterday,N/A,1
+2589,M,34.5,,GOLD,1208.63,10,4.5,,64,,1
+2398,M,39.9,Tokyo,gold,982.2,13,4.1,,67,Neutral,1
+2252,F,34.8,Montréal,Silver,,10,3.6,No,39,Satisfied,1
+2550,,33.4,,gold,582.19,10,4.6,FALSE,14,,1
+2489,Non-binary,35.3,Zürich,,1362.0,17,4.2,1,19,Unsatisfied,1
+2790,Female,36.9,Москва,Gold,565.45,11,3.1,No,45,,1
+2597,Male,28.1,Tokyo,GOLD,1122.18,13,2.4,Yes,17,Satisfied,1
+2900,Female,34.4,New York,Gold,268.16,14,4.2,No,-10,,1
+2047,M,20.6,Москва,GOLD,881.43,13,4.4,true,11,N/A,1
+2004,M,40.0,Zürich,gold,1042.76,13,2.7,0,54,Satisfied,1
+2430,Male,31.9,Москва,Gold,789.56,13,4.9,TRUE,8,,1
+2109,Female,35.8,New York,gold,76.07,16,4.3,0,13,,1
+2363,M,37.5,Zürich,GOLD,1112.62,12,4.3,,34,,1
+2941,,41.3,Montréal,GOLD,832.1,12,4.1,Yes,7,,1
+2906,Female,39.7,Zürich,Bronze,1117.49,14,3.8,false,-4,N/A,1
+2143,Non-binary,34.7,,gold,1189.84,9,3.6,true,10,N/A,1
+2096,Female,32.5,New York,gold,738.62,4,4.2,false,29,,1
+2892,M,28.9,New York,GOLD,901.25,16,-1,,18,Unsatisfied,1
+2434,Non-binary,32.0,Москва,gold,1365.21,15,4.1,No,17,,1
+2343,Male,34.5,New York,,1326.76,3,4.0,No,40,,1
+2302,Non-binary,34.1,Tokyo,gold,1238.08,15,0,TRUE,50,N/A,1
+2526,M,35.7,São Paulo,,1083.32,15,3.4,false,67,,1
+2609,Male,-99,Montréal,gold,1430.43,17,3.3,false,15,N/A,1
+2024,M,28.4,Москва,Silver,1051.52,11,4.1,Yes,24,,1
+2656,Female,34.4,Zürich,Bronze,1086.67,10,3.8,1,20,,1
+2452,F,31.6,Москва,Bronze,799.74,13,3.5,Yes,46,,1
+2890,Male,33.6,Tokyo,Silver,709.03,6,4.9,0,34,,1
+2371,M,36.1,,GOLD,1261.79,11,3.9,,26,,1
+2826,Male,34.4,Tokyo,Gold,639.55,9,3.2,0,9,,1
+2592,Female,42.6,Tokyo,,645.18,15,4.3,FALSE,61,Satisfied,1
+2386,M,29.6,São Paulo,Gold,1726.74,9,3.6,,53,Neutral,1
+2474,M,22.9,Los Angeles,Gold,90.87,13,3.3,TRUE,49,,1
+2101,F,32.7,Москва,Silver,1109.73,10,3.7,true,24,N/A,1
+2505,Non-binary,27.8,Montréal,GOLD,253.87,6,4.6,0,23,Unsatisfied,1
+2477,Male,34.7,São Paulo,Gold,923.92,4,4.4,,33,,1
+2967,Female,38.9,Tokyo,GOLD,810.61,7,4.1,Yes,35,,1
+2646,Male,29.8,,,933.19,18,3.3,false,21,,1
+2205,Female,33.3,,Gold,0,10,3.3,No,-10,N/A,1
+2201,Non-binary,36.7,Москва,gold,856.2,9,4.0,,-15,Neutral,1
+2952,M,30.5,São Paulo,gold,964.34,17,5.0,TRUE,36,Neutral,1
+2978,F,-99,Montréal,Bronze,1378.36,15,3.6,,52,,1
+2008,Male,40.3,New York,Bronze,831.83,20,3.1,,6,Satisfied,1
+2086,,36.1,Los Angeles,GOLD,1284.6,11,3.1,true,40,Unsatisfied,1
+2742,Non-binary,35.0,Zürich,Bronze,1378.99,13,4.7,FALSE,16,,1
+2698,Non-binary,36.6,,gold,941.18,12,4.0,TRUE,33,Neutral,1
+2835,,32.5,Zürich,Gold,587.91,12,2.6,TRUE,29,N/A,1
+2140,Non-binary,34.0,New York,Bronze,1098.64,11,3.8,false,8,Unsatisfied,1
+2692,,30.0,,Bronze,1282.67,9,3.4,No,42,Neutral,1
+2421,Female,35.6,Zürich,Silver,986.15,12,10,FALSE,11,,1
+2178,Non-binary,29.9,Москва,Silver,360.62,20,3.5,1,40,,1
+2989,M,36.2,Zürich,gold,1124.89,12,3.9,No,47,,1
+2072,F,34.6,São Paulo,GOLD,864.69,12,3.4,,6,Neutral,1
+2991,Female,35.9,Tokyo,Bronze,1159.11,9,1.9,No,-6,,1
+2226,Female,39.7,Москва,gold,1247.23,20,3.3,No,32,,1
+2531,Non-binary,32.5,Москва,GOLD,829.0,1,3.9,1,60,N/A,1
+2569,Male,34.3,São Paulo,Gold,1270.09,14,4.6,TRUE,9,Satisfied,1
+2614,F,28.8,New York,gold,1138.62,16,4.1,0,66,Satisfied,1
+2240,Female,27.0,Los Angeles,Gold,1384.75,9,3.4,FALSE,23,,1
+2943,,34.1,,Silver,766.52,16,3.8,true,11,Neutral,1
+2029,Male,31.7,,,958.45,11,3.8,No,54,,1
+2089,F,37.1,,Silver,802.34,16,4.3,,81,Unsatisfied,1
+2314,Female,46.8,Москва,,1361.72,18,3.6,1,31,Unsatisfied,1
+2121,Female,40.8,New York,,755.78,10,3.3,false,22,,1
+2015,Non-binary,39.4,New York,Gold,938.32,10,3.8,true,45,Neutral,1
+2735,Female,33.2,Montréal,Gold,1120.67,17,3.9,Yes,23,Unsatisfied,1
+2899,Female,25.6,Ñoño City,Silver,462.16,13,3.0,TRUE,18,Neutral,1
+2548,Non-binary,37.4,Zürich,Gold,1037.64,15,4.7,0,27,,1
+2211,M,37.3,,gold,1013.93,9,3.3,1,15,Satisfied,1
+2972,Female,38.8,New York,,868.87,18,4.1,Yes,42,,1
+2939,Female,29.5,Los Angeles,,892.83,13,3.7,TRUE,41,Unsatisfied,1
+2845,,32.2,Los Angeles,gold,1117.33,8,3.9,Yes,56,Satisfied,1
+2448,F,37.2,Tokyo,,1077.69,3,2.7,true,56,Unsatisfied,1
+2253,Female,38.3,Zürich,Gold,1057.27,10,3.9,,47,Unsatisfied,1
+2106,F,37.1,Zürich,Bronze,1487.56,14,3.8,0,13,Unsatisfied,1
+2525,Male,35.1,Zürich,Gold,696.86,15,3.9,FALSE,10,Unsatisfied,1
+2948,Non-binary,27.6,New York,Silver,707.94,7,3.7,1,36,Satisfied,1
+2571,Female,34.4,Tokyo,gold,904.14,16,3.9,false,30,N/A,1
+2005,Non-binary,26.5,Montréal,Silver,1340.48,19,4.5,0,13,,1
+2490,Female,18.5,Zürich,Gold,755.56,6,5.3,,50,Satisfied,1
+2236,Male,33.2,Tokyo,gold,45.49,9,4.1,false,13,Unsatisfied,1
+2667,M,0,Montréal,,797.76,16,3.9,0,31,Unsatisfied,1
+2016,Non-binary,34.3,São Paulo,Bronze,673.81,16,3.8,No,9,Satisfied,1
+2312,Male,24.9,São Paulo,Bronze,1200.61,15,2.8,Yes,63,Neutral,1
+2817,Non-binary,38.3,São Paulo,Bronze,854.21,18,3.7,,41,Satisfied,1
+2749,F,36.4,São Paulo,gold,1180.37,13,4.2,FALSE,28,,1
+2524,F,38.2,,GOLD,1064.63,12,5.1,true,-5,Unsatisfied,1
+2922,M,42.4,Montréal,Bronze,543.21,11,3.0,true,63,,1
+2607,M,34.3,São Paulo,GOLD,1184.17,13,3.2,Yes,9,,1
+2207,Male,29.4,São Paulo,Gold,1057.99,8,3.9,No,43,,1
+2012,,37.2,Zürich,GOLD,1003.7,10,3.6,TRUE,20,,1
+2350,,20.6,Москва,,505.95,18,4.3,0,11,Unsatisfied,1
+2641,,35.6,Москва,Bronze,786.4,12,3.0,Yes,6,,1
+2428,Non-binary,35.1,Los Angeles,GOLD,1386.76,11,4.8,TRUE,-4,,1
+2083,,36.1,Москва,Silver,851.97,10,3.3,,29,Neutral,1
+2492,Male,34.4,New York,Bronze,1692.65,14,3.3,1,29,N/A,1
+2100,M,41.7,New York,gold,884.62,13,3.9,true,-4,,1
+2068,F,42.1,New York,Gold,1304.04,16,2.7,TRUE,41,Satisfied,1
+2020,Non-binary,29.5,São Paulo,Bronze,760.78,11,4.0,No,45,,1
+2850,Male,33.7,New York,,141.58,15,4.0,Yes,47,Neutral,1
+2454,Non-binary,26.5,Москва,Gold,1134.8,14,3.9,0,56,Unsatisfied,1
+2187,Female,34.6,Zürich,gold,1037.42,19,3.0,Yes,10,Neutral,1
+2632,Non-binary,29.4,Ñoño City,GOLD,305.3,9,3.6,,24,Unsatisfied,1
+2983,,34.6,Москва,gold,1487.45,10,4.2,,18,,1
+2479,M,39.7,Tokyo,GOLD,1034.39,9,6.1,FALSE,13,Neutral,1
+2585,Female,29.3,Москва,,1471.39,3,4.7,true,-3,,1
+2337,F,32.2,Москва,GOLD,769.85,15,3.5,true,27,,1
+2805,F,37.8,New York,Bronze,944.86,14,3.8,Yes,24,,1
+2114,Female,31.3,Montréal,Silver,unknown,16,3.9,false,-5,Unsatisfied,1
+2408,F,39.9,São Paulo,GOLD,1174.17,9,3.1,No,49,,1
+2028,M,29.0,Montréal,Silver,1311.15,16,3.7,1,47,Neutral,1
+2019,Female,40.6,Montréal,Silver,949.1,11,3.8,FALSE,-1,N/A,1
+2727,F,34.4,,Bronze,1152.49,12,3.5,,40,N/A,1
+2358,F,35.5,New York,Silver,802.31,9,3.7,1,29,Neutral,1
+2441,Non-binary,29.3,Tokyo,Gold,835.4,10,3.9,,69,Neutral,1
+2223,Male,26.1,Tokyo,Bronze,469.03,10,3.4,1,yesterday,Unsatisfied,1
+2980,Non-binary,36.5,,gold,1096.95,9,3.6,0,32,Neutral,1
+2832,Non-binary,28.6,Montréal,gold,1148.29,19,4.1,Yes,28,,1
+2380,M,37.6,São Paulo,Gold,1239.41,12,3.8,,-8,,1
+2383,F,33.0,Los Angeles,gold,702.49,9,2.9,FALSE,35,,1
+2306,Male,26.6,Zürich,Gold,1633.04,13,3.3,No,-3,Neutral,1
+2602,Non-binary,33.9,São Paulo,,863.82,17,3.8,true,32,Neutral,1
+2272,Male,34.9,Montréal,gold,1453.35,10,3.5,No,52,Unsatisfied,1
+2275,Male,38.8,São Paulo,Bronze,2194.68,12,3.5,No,17,Neutral,1
+2154,F,30.0,Москва,Bronze,1598.54,10,4.0,,56,,1
+2782,Non-binary,43.8,Zürich,Silver,1001.92,16,3.5,,38,,1
+2507,Non-binary,44.2,São Paulo,GOLD,612.75,13,3.6,,60,,1
+2256,Female,31.8,New York,Gold,380.92,8,4.7,1,27,Satisfied,1
+2572,,34.4,Tokyo,Silver,623.39,11,3.6,No,24,Unsatisfied,1
+2290,Non-binary,28.2,Москва,Bronze,376.8,10,5.0,0,2,Satisfied,1
+2116,Male,38.5,Tokyo,Gold,543.07,16,3.0,,28,,1
+2335,,34.2,New York,GOLD,2.21,13,4.0,FALSE,43,,1
+2793,F,32.4,,GOLD,542.2,10,4.6,0,17,,1
+2488,,29.5,New York,gold,309.55,7,4.0,Yes,15,N/A,1
+2945,M,30.3,New York,Silver,1137.79,6,3.5,FALSE,23,,1
+2021,F,999,Tokyo,Gold,1409.71,8,2.9,FALSE,91,Unsatisfied,1
+2365,Non-binary,31.6,,gold,1017.32,20,3.9,Yes,55,,1
+2665,M,31.3,,Bronze,1142.99,10,3.3,true,37,N/A,1
+2630,Female,36.5,,Gold,899.92,8,4.4,TRUE,26,N/A,1
+2988,F,27.6,Zürich,Gold,1174.42,6,3.9,,1,N/A,1
+2518,,27.2,,gold,452.6,14,4.3,0,51,,1
+2015,Non-binary,39.4,New York,Gold,938.32,10,3.8,true,45,Neutral,1
+2159,Non-binary,34.2,Zürich,gold,800.55,17,2.9,true,19,Unsatisfied,1
+2678,Male,37.1,,,983.36,11,4.6,FALSE,-1,Unsatisfied,1
+2397,Non-binary,24.1,São Paulo,Silver,1313.43,13,4.7,1,52,Neutral,1
+2317,M,39.5,Zürich,Silver,835.33,10,2.7,TRUE,0,,1
+2167,Male,34.7,,Silver,1144.96,16,3.9,1,23,Satisfied,1
+2560,F,27.4,New York,Gold,863.12,14,4.9,0,-14,Neutral,1
+2163,Non-binary,40.1,,Gold,1281.12,6,4.9,1,35,Unsatisfied,1
+2552,Female,33.1,Tokyo,Gold,1323.92,22,3.9,TRUE,15,,1
+2404,M,26.1,São Paulo,GOLD,1165.32,9,4.4,false,47,,1
+2133,M,41.5,Tokyo,Silver,419.72,16,3.8,TRUE,43,,1
+2078,Non-binary,27.8,Zürich,Bronze,1079.57,17,5.2,,-6,,1
+2235,Non-binary,27.6,São Paulo,gold,951.9,15,3.4,TRUE,21,Satisfied,1
+2384,Male,30.2,,Bronze,948.29,4,3.3,0,12,Satisfied,1
+2624,F,45.8,Los Angeles,gold,1047.34,20,4.5,,24,,1
+2013,Female,30.2,Zürich,Silver,520.35,14,2.8,0,27,,1
+2491,Non-binary,36.7,São Paulo,Silver,1039.38,12,4.9,Yes,36,Unsatisfied,1
+2351,Non-binary,34.9,Москва,Gold,1004.11,10,4.8,false,27,Satisfied,1
+2002,Female,41.6,Zürich,Bronze,1169.72,12,2.5,No,40,Neutral,1
+2833,Non-binary,34.6,Montréal,GOLD,856.36,18,3.7,1,20,Neutral,1
+2598,Female,30.6,Zürich,,1526.02,14,5.1,0,28,Neutral,1
+2771,M,30.2,Los Angeles,GOLD,1193.15,12,4.1,TRUE,17,Unsatisfied,1
+2914,Male,150,,Bronze,689.17,16,3.2,FALSE,7,,1
+2997,Male,31.1,Tokyo,gold,943.81,15,3.5,0,47,N/A,1
+2852,Male,35.0,São Paulo,gold,1181.97,6,3.1,true,44,,1
+2111,,33.0,,GOLD,676.54,14,3.2,1,31,Satisfied,1
+2463,M,25.1,,GOLD,616.04,4,4.4,,31,,1
+2288,Male,29.2,Zürich,GOLD,1040.43,5,3.8,,44,Satisfied,1
+2147,Non-binary,38.8,New York,Silver,889.12,9,3.2,No,18,Unsatisfied,1
+2464,F,41.2,New York,gold,1129.57,8,2.8,TRUE,23,Unsatisfied,1
+2074,Male,31.4,Los Angeles,gold,1060.18,4,3.8,false,-1,Neutral,1
+2582,,31.6,Los Angeles,GOLD,540.92,13,3.8,true,-2,Neutral,1
+2262,Non-binary,39.7,,gold,687.14,14,3.4,FALSE,-2,,1
+2229,Female,44.8,São Paulo,GOLD,700.05,20,4.0,false,24,N/A,1
+2942,Male,35.5,New York,GOLD,1440.7,16,3.3,1,34,,1
+2674,F,32.0,,gold,78.11,4,4.2,false,46,,1
+2863,Male,30.5,Москва,Gold,950.55,14,4.6,Yes,64,,1
+2568,Female,47.2,Tokyo,Bronze,1033.04,18,4.7,TRUE,47,Neutral,1
+2543,F,28.5,Москва,Gold,99999,6,3.5,No,68,,1
+2333,,31.5,São Paulo,Gold,-24.16,9,3.1,Yes,8,Neutral,1
+2061,,35.9,Москва,gold,401.27,10,4.0,false,36,Neutral,1
+2128,Female,32.6,Москва,,1183.35,13,2.8,,-10,N/A,1
+2716,Male,32.6,Москва,Bronze,700.07,9,3.4,Yes,55,Satisfied,1
+2880,F,37.6,São Paulo,Gold,827.47,12,3.6,FALSE,39,,1
+2117,F,30.5,São Paulo,,1206.2,11,3.7,,19,Unsatisfied,1
+2962,F,33.6,Los Angeles,,455.6,15,3.0,true,35,,1
+2392,Male,29.9,Zürich,Bronze,1131.65,17,5.0,1,34,Unsatisfied,1
+2023,,41.3,Los Angeles,,764.13,13,3.8,Yes,89,Unsatisfied,1
+2375,M,35.8,,Silver,606.42,17,3.0,TRUE,13,N/A,1
+2862,Non-binary,37.7,Zürich,gold,938.28,15,2.9,true,37,Neutral,1
+2347,Male,35.5,,Silver,254.32,12,3.1,,17,Satisfied,1
+2107,Non-binary,19.1,,gold,1044.68,17,3.7,Yes,6,Unsatisfied,1
+2338,M,35.9,Montréal,gold,936.9,9,4.5,true,57,,1
+2136,M,34.4,Tokyo,Gold,1203.55,10,great,false,40,Satisfied,1
+2346,,32.4,Москва,gold,1188.67,9,5.4,true,1,Neutral,1
+2447,M,30.8,Montréal,Bronze,2122.83,15,3.8,TRUE,-1,,1
+2846,Female,25.5,Tokyo,GOLD,1086.68,15,3.8,,35,,1
+2728,Non-binary,31.7,São Paulo,Gold,1164.51,11,3.8,1,53,,1
+2904,Non-binary,31.2,,Gold,-0.01,9,4.4,,7,,1
+2636,Female,36.1,São Paulo,Silver,1043.68,13,3.4,,17,Neutral,1
+2311,M,23.9,New York,gold,,12,3.3,FALSE,18,Neutral,1
+2331,,30.4,Los Angeles,Gold,1057.44,10,4.2,0,25,,1
+2079,Male,34.6,New York,Bronze,751.86,17,4.7,TRUE,50,N/A,1
+2135,M,29.7,Москва,,763.43,18,2.8,false,39,Unsatisfied,1
+2999,Male,27.6,São Paulo,Gold,"1,200.50",11,3.7,No,25,,1
+2722,Male,36.0,New York,Silver,1101.39,15,10,,19,,1
+2001,F,31.1,São Paulo,Bronze,730.73,6,3.6,true,40,,1
+2461,Male,36.1,São Paulo,gold,938.8,22,3.8,false,42,,1
+2184,Male,36.5,Москва,Bronze,661.16,0,2.9,,21,N/A,1
+2329,F,33.4,,Silver,632.22,14,4.2,Yes,64,,1
+2966,F,34.8,São Paulo,Gold,844.29,9,4.6,,25,,1
+2261,M,33.3,Los Angeles,GOLD,903.78,14,2.7,TRUE,99999,N/A,1
+2650,Female,30.5,Montréal,Silver,612.61,11,4.0,,21,N/A,1
+2547,Non-binary,34.7,Tokyo,Bronze,1351.78,13,3.7,FALSE,39,,1
+2854,Male,21.5,Москва,,1490.91,15,4.1,No,8,,1
+2395,,32.9,New York,Bronze,1650.68,12,4.7,,18,,1
+2429,Female,33.2,Montréal,Gold,516.64,11,3.8,false,11,,1
+2694,F,35.1,Montréal,Gold,99999,9,3.5,true,38,N/A,1
+2643,,30.1,Tokyo,gold,1608.08,14,4.5,FALSE,39,,1
+2093,M,33.2,Los Angeles,gold,1357.76,12,4.6,,70,Neutral,1
+2666,,38.0,New York,GOLD,1110.89,12,4.4,FALSE,14,N/A,1
+2982,,39.8,New York,gold,517.92,10,2.9,,44,,1
+2478,Female,26.6,Los Angeles,gold,455.23,14,3.3,,10,N/A,1
+2658,F,34.7,Zürich,Bronze,762.67,5,great,0,27,,1
+2974,F,28.6,New York,Gold,784.94,14,3.7,false,yesterday,Satisfied,1
+2193,Male,27.1,Zürich,GOLD,760.2,11,4.2,Yes,30,Unsatisfied,1
+2743,,30.2,Montréal,Gold,623.05,12,4.3,true,52,,1
+2801,Non-binary,35.7,Zürich,Silver,1298.9,18,2.4,FALSE,20,Satisfied,1
+2870,Female,41.4,,Silver,981.99,14,3.9,true,18,,1
+2937,Male,33.9,São Paulo,,1374.95,3,3.8,,2,Unsatisfied,1
+2661,Male,37.3,Montréal,Silver,560.32,16,4.1,,52,,1
+2307,M,31.5,New York,,785.31,,3.8,TRUE,24,,1
+2445,Female,35.9,Montréal,GOLD,974.52,11,4.2,FALSE,53,,1
+2132,Non-binary,37.9,São Paulo,GOLD,688.99,14,4.0,No,59,Unsatisfied,1
+2729,M,37.9,,Bronze,1354.96,500,4.4,No,41,,1
+2011,Male,38.4,Москва,Bronze,706.08,10,4.9,false,32,Neutral,1
+2063,F,33.6,Montréal,Bronze,1363.59,11,2.9,1,-10,Unsatisfied,1
+2359,Female,28.1,Zürich,Bronze,143.31,6,5.5,false,22,,1
+2012,,37.2,Zürich,GOLD,1003.7,10,3.6,TRUE,20,,1
+2578,,38.4,São Paulo,Bronze,1848.41,11,4.4,0,31,,1
+2744,F,39.1,Montréal,GOLD,887.31,500,3.9,Yes,25,Neutral,1
+2706,Male,35.1,,gold,869.84,11,4.0,false,36,N/A,1
+2001,F,31.1,São Paulo,Bronze,730.73,6,3.6,true,40,,1
+2822,M,28.5,Zürich,GOLD,1311.43,12,4.7,true,30,,1
+2191,F,36.6,São Paulo,Gold,968.58,,4.0,Yes,24,Neutral,1
+2449,Non-binary,35.1,Los Angeles,,977.11,15,3.8,No,28,,1
+2649,Non-binary,32.4,Montréal,Gold,405.84,17,3.8,TRUE,33,Satisfied,1
+2378,M,30.0,New York,Gold,406.34,9,4.7,TRUE,41,Neutral,1
+2009,Non-binary,28.5,Zürich,gold,450.49,15,3.3,false,10,,1
+2325,M,33.0,São Paulo,gold,617.27,8,3.2,Yes,51,,1
+2611,Non-binary,33.1,São Paulo,GOLD,491.35,25,4.0,TRUE,4,N/A,1
+2580,M,32.9,Tokyo,Silver,1801.66,8,3.9,Yes,-9,Satisfied,1
+2934,M,35.2,São Paulo,GOLD,1232.12,0,0,,-1,Neutral,1
+2119,F,32.6,Tokyo,Bronze,505.72,13,4.2,TRUE,-3,,1
+2827,M,40.4,,Silver,1155.69,12,3.6,0,52,Unsatisfied,1
+2719,Non-binary,34.2,São Paulo,gold,1214.93,12,4.0,Yes,16,Satisfied,1
+2124,F,26.9,Los Angeles,Silver,982.33,13,2.9,false,31,Neutral,1
+2891,F,38.0,Zürich,GOLD,-60.98,13,4.6,1,35,N/A,1
+2910,Female,26.2,São Paulo,gold,1065.38,9,3.9,,13,,1
+2069,Male,34.7,Zürich,Gold,1271.0,6,3.7,,48,Unsatisfied,1
+2810,Female,25.7,Los Angeles,Bronze,1126.56,12,3.8,Yes,44,,1
+2416,Male,47.5,,GOLD,1373.07,17,3.2,true,yesterday,Neutral,1
+2792,Male,25.2,Montréal,Silver,737.15,12,4.7,false,41,N/A,1
+2819,M,34.2,,GOLD,279.32,12,4.2,Yes,14,,1
+2536,,37.2,São Paulo,Silver,99999,0,3.4,true,40,Satisfied,1
+2617,Non-binary,40.1,Москва,gold,593.88,12,4.0,1,51,Neutral,1
+2123,Male,31.1,New York,gold,976.99,15,4.3,No,23,,1
+2606,Male,38.2,Zürich,Gold,1080.34,8,3.7,No,21,Unsatisfied,1
+2287,,37.7,Los Angeles,GOLD,1716.4,10,4.5,false,39,,1
+2172,Female,39.9,Москва,gold,699.87,9,great,Yes,53,,1
+2150,Non-binary,39.5,Zürich,Silver,761.28,11,2.9,1,31,Neutral,1
+2551,F,37.8,Los Angeles,Bronze,872.69,13,3.4,1,21,Neutral,1
+2737,Female,29.6,Los Angeles,Gold,838.21,11,3.9,FALSE,37,,1
+2556,Female,29.9,Москва,Silver,461.45,11,4.3,1,14,N/A,1
+2913,M,34.7,New York,Gold,1053.13,10,2.9,0,26,,1
+2964,Female,42.9,,gold,1312.7,4,2.9,1,47,,1
+2812,M,38.9,New York,Bronze,726.05,15,4.1,Yes,39,,1
+2265,Female,28.3,Tokyo,Bronze,600.31,17,3.3,,53,Neutral,1
+2905,Male,35.5,New York,Bronze,-500,19,3.8,,34,Unsatisfied,1
+2688,Female,28.5,Zürich,Bronze,1389.48,7,4.7,Yes,32,,1
+2137,,33.5,New York,gold,639.81,11,4.0,false,42,,1
+2929,Male,30.4,Tokyo,Silver,1569.09,16,2.6,,43,Unsatisfied,1
+2153,F,43.5,Montréal,Bronze,270.34,11,3.5,true,21,,1
+2836,Male,26.8,Montréal,Silver,1261.32,12,3.4,0,9,Unsatisfied,1
+2169,Non-binary,32.1,,gold,790.75,7,3.1,1,70,,1
+2279,Male,42.8,Москва,Bronze,858.08,9,4.1,,6,N/A,1
+2653,F,34.1,Los Angeles,gold,692.26,12,-1,FALSE,50,,1
+2995,Non-binary,39.5,,Bronze,492.14,13,4.0,,-13,Neutral,1
+2530,F,38.8,New York,GOLD,777.39,20,3.4,0,43,,1
+2887,F,34.4,Tokyo,Silver,390.97,19,4.5,true,42,Satisfied,1
+2042,Non-binary,30.7,Zürich,gold,757.58,19,3.3,false,57,N/A,1
+2657,,40.0,Montréal,Silver,567.92,12,4.3,TRUE,3,,1
+2273,M,33.2,Tokyo,Silver,1457.86,20,3.3,No,-2,Unsatisfied,1
+2030,Male,36.6,Zürich,Silver,885.39,22,3.4,,27,N/A,1
+2152,Male,21.8,São Paulo,GOLD,698.3,10,4.3,No,10,,1
+2144,Female,34.1,,GOLD,1253.36,18,3.7,true,46,Satisfied,1
+2642,Male,38.0,Zürich,gold,-500,4,3.9,Yes,61,Neutral,1
+2202,Non-binary,28.4,,GOLD,1203.2,10,3.5,0,24,Unsatisfied,1
+2779,Male,44.7,Montréal,Silver,185.94,13,4.4,,29,Satisfied,1
+2702,,34.7,Tokyo,GOLD,"1,200.50",9,3.6,true,-13,,1
+2715,M,34.4,Los Angeles,GOLD,1482.87,10,4.3,FALSE,37,Neutral,1
+2520,F,32.2,New York,Silver,1593.83,17,3.7,,20,Satisfied,1
+2709,M,34.8,Москва,GOLD,698.69,8,3.6,1,41,Neutral,1
+2670,F,32.5,Zürich,,989.95,8,3.4,No,22,,1
+2296,Non-binary,35.8,Ñoño City,Silver,709.57,12,4.2,false,29,,1
+2882,M,-5,,Gold,604.3,15,0,0,52,,1
+2321,Female,29.6,Zürich,Silver,808.02,13,3.6,0,19,,1
+2814,Male,35.2,,Silver,534.6,14,3.5,FALSE,14,Satisfied,1
+2907,Non-binary,33.7,Los Angeles,,354.16,23,4.5,No,32,Unsatisfied,1
+2026,M,34.5,Zürich,Silver,1107.52,11,3.4,,9,Satisfied,1
+2789,Male,42.5,,Gold,0,11,4.4,TRUE,50,,1
+2564,Male,44.1,Montréal,Silver,666.51,12,4.2,FALSE,73,Neutral,1
+2056,M,39.7,Montréal,GOLD,1076.12,14,3.6,No,9,,1
+2259,Male,34.4,Москва,Gold,1319.25,18,4.0,TRUE,34,,1
+2603,Female,33.6,Los Angeles,GOLD,707.53,11,3.6,TRUE,38,Satisfied,1
+2158,Non-binary,40.6,Zürich,,99999,5,4.1,false,42,N/A,1
+2993,Female,37.9,New York,GOLD,95.71,18,4.2,TRUE,50,,1
+2076,Male,35.2,,gold,407.65,6,10,false,42,,1
+2621,Non-binary,32.1,New York,gold,588.51,15,3.5,false,22,Neutral,1
+2208,Female,27.5,Москва,gold,760.94,21,3.8,Yes,39,Unsatisfied,1
+2437,F,35.7,São Paulo,Silver,1462.38,12,4.1,0,32,Satisfied,1
+2593,Male,38.0,,,1291.08,23,3.9,Yes,50,Unsatisfied,1
+2824,M,39.8,São Paulo,Bronze,1669.62,500,3.8,Yes,11,,1
+2377,,35.3,Москва,Bronze,677.9,8,3.7,No,56,Neutral,1
+2736,F,31.6,,gold,1389.2,7,3.8,true,61,Neutral,1
+2950,,33.5,Montréal,,850.25,9,4.6,,10,,1
+2315,Female,23.7,Zürich,GOLD,1377.33,13,3.3,FALSE,59,,1
+2563,Female,43.6,Zürich,gold,467.74,8,3.7,1,75,Neutral,1
+2858,Female,32.6,São Paulo,Silver,617.9,19,4.1,1,-1,,1
+2353,F,33.7,New York,gold,1002.12,11,3.7,1,38,N/A,1
+2357,Non-binary,33.8,São Paulo,,502.42,11,4.6,,50,,1
+2928,M,37.3,Tokyo,Bronze,1524.0,5,3.3,FALSE,1,,1
+2975,Non-binary,36.3,Los Angeles,Silver,447.34,17,4.7,,39,,1
+2139,Female,24.7,Tokyo,Silver,711.63,14,3.8,FALSE,8,,1
+2726,,33.3,Москва,GOLD,1101.22,9,3.3,No,-6,N/A,1
+2148,F,40.0,Montréal,GOLD,774.36,15,4.1,,66,Unsatisfied,1
+2177,F,33.6,Tokyo,,603.56,12,2.5,Yes,17,Unsatisfied,1
+2004,M,40.0,Zürich,gold,1042.76,13,2.7,0,54,Satisfied,1
+2419,Female,40.8,Tokyo,Silver,1254.68,15,3.5,No,30,,1
+2038,Female,34.2,,Silver,787.85,12,3.8,TRUE,39,Neutral,1
+2673,Male,29.2,,Bronze,858.34,18,3.8,true,62,Satisfied,1
+2023,,41.3,Los Angeles,,764.13,13,3.8,Yes,89,Unsatisfied,1
+2680,Male,35.2,São Paulo,Gold,875.09,14,4.3,true,12,Neutral,1
+2316,Non-binary,34.5,,GOLD,828.42,13,3.4,TRUE,16,N/A,1
+2867,Non-binary,41.6,Montréal,gold,1109.16,16,3.9,1,42,,1
+2992,F,30.9,New York,GOLD,202.29,12,3.6,1,35,,1
+2071,,38.8,Zürich,,1340.14,13,4.3,Yes,55,Satisfied,1
+2007,M,29.5,Москва,Silver,1043.81,8,2.3,TRUE,44,,1
+2400,Male,34.7,,GOLD,1495.37,7,3.3,0,26,,1
+2435,Non-binary,33.6,Montréal,gold,1056.85,14,4.1,1,24,Satisfied,1
+2647,Non-binary,46.9,Zürich,Bronze,959.98,13,3.8,1,6,,1
+2297,Male,43.4,Tokyo,Bronze,643.96,3,3.4,,-10,,1
+2514,Non-binary,37.1,,Gold,967.68,12,3.5,true,8,N/A,1
+2960,M,-5,New York,gold,1296.41,13,3.1,TRUE,39,,1
+2166,M,37.5,Zürich,GOLD,10.0,16,3.0,1,-12,Unsatisfied,1
+2199,Male,27.8,Los Angeles,Silver,1074.87,12,3.9,TRUE,26,Unsatisfied,1
+2783,Non-binary,35.7,Los Angeles,Silver,865.17,6,3.9,FALSE,28,,1
+2866,Non-binary,35.7,Tokyo,,781.46,10,3.9,,-6,,1
+2741,Female,26.0,Zürich,gold,788.71,16,3.4,false,1,Unsatisfied,1
+2388,F,34.7,Москва,Gold,803.52,16,3.2,TRUE,11,Unsatisfied,1
+2522,F,28.6,Los Angeles,GOLD,1154.19,17,2.7,1,24,Unsatisfied,1
+2330,,40.3,Montréal,Silver,2304.27,14,3.9,No,58,,1
+2142,,32.4,,Silver,1016.36,14,3.1,,30,Unsatisfied,1
+2044,Female,150,Montréal,Gold,1005.72,12,3.4,1,36,,1
+2425,M,37.2,New York,Bronze,768.43,12,4.0,,53,Unsatisfied,1
+2125,Male,33.6,Los Angeles,gold,686.07,14,4.4,TRUE,50,,1
+2155,M,44.8,Zürich,GOLD,969.86,13,4.2,false,43,,1
+2559,M,40.1,Tokyo,GOLD,1087.47,13,4.3,TRUE,-8,Neutral,1
+2718,Female,36.1,New York,Gold,1113.49,6,4.6,1,17,Unsatisfied,1
+2277,M,32.6,Zürich,Bronze,-0.01,11,3.3,false,17,Neutral,1
+2687,Non-binary,42.5,Tokyo,GOLD,980.47,19,3.1,TRUE,59,Unsatisfied,1
+2368,M,37.8,,Gold,1414.24,11,3.9,0,77,Unsatisfied,1
+2411,Female,35.6,Montréal,,509.15,9,4.6,Yes,26,Satisfied,1
+2219,Non-binary,35.3,Москва,gold,399.66,9,3.7,,17,,1
+2427,F,999,Tokyo,gold,1122.12,21,3.4,true,47,,1
+2228,Male,40.0,New York,GOLD,1014.3,16,4.3,true,3,N/A,1
+2562,,29.1,,Silver,1227.9,16,2.9,false,0,Satisfied,1
+2828,Female,34.9,New York,,1368.9,14,4.4,1,19,,1
+2241,Non-binary,34.5,São Paulo,GOLD,1656.01,4,3.8,0,37,N/A,1
+2731,Male,37.5,Zürich,Gold,1138.59,12,4.6,true,48,,1
+2295,Male,24.8,,Gold,858.97,17,3.1,false,70,,1
+2651,Male,36.5,Montréal,Silver,1207.61,11,4.8,true,74,Neutral,1
+2217,M,28.0,Zürich,GOLD,578.28,18,3.8,0,5,,1
+2911,F,34.1,New York,gold,816.96,17,3.5,false,1,,1
+2049,Male,37.8,Tokyo,Gold,531.91,15,great,,38,N/A,1
+2896,M,31.9,Москва,gold,613.12,19,2.6,No,54,Satisfied,1
+2796,Non-binary,31.4,Москва,GOLD,582.45,14,3.3,,30,,1
+2018,F,34.3,Москва,,805.58,15,4.0,1,29,Neutral,1
+2369,Female,37.6,Montréal,Bronze,799.84,7,3.3,0,6,Unsatisfied,1
+2712,M,30.1,Tokyo,GOLD,219.37,12,3.2,TRUE,9,Satisfied,1
+2457,Female,33.5,São Paulo,Silver,742.27,18,4.6,Yes,31,Unsatisfied,1
+2190,Male,38.7,Ñoño City,gold,1195.41,12,3.9,true,28,Satisfied,1
+2041,Male,27.5,New York,Silver,896.19,17,4.2,,17,Unsatisfied,1
+2179,Male,34.3,Los Angeles,Bronze,1253.01,15,4.8,0,18,Unsatisfied,1
+2220,,35.5,Zürich,Silver,651.92,8,3.7,0,32,,1
+2032,Non-binary,40.6,Montréal,gold,1627.69,15,3.1,1,7,,1
+2958,Female,38.8,,GOLD,1336.4,9,4.5,No,26,,1
+2291,F,39.6,New York,Silver,1235.84,5,4.0,,34,,1
+2720,M,37.4,Ñoño City,gold,577.49,8,3.0,false,47,Unsatisfied,1
+2795,M,32.1,Москва,GOLD,1167.0,17,3.1,false,58,,1
+2546,Male,30.3,Los Angeles,Bronze,941.4,16,4.9,,4,Neutral,1
+2146,F,36.9,São Paulo,Silver,,18,5.2,No,14,Satisfied,1
+2710,,33.0,New York,Gold,2279.63,9,4.2,0,42,,1
+2469,M,41.9,São Paulo,GOLD,870.22,10,4.3,1,37,Satisfied,1
+2245,Male,44.4,Montréal,GOLD,506.86,13,3.5,FALSE,39,Neutral,1
+2959,,33.1,New York,Silver,$1200,8,3.6,FALSE,25,Unsatisfied,1
+2567,Non-binary,34.9,São Paulo,Bronze,680.74,8,3.3,No,40,,1
+2319,Non-binary,37.3,Tokyo,gold,1017.97,19,3.7,0,48,Unsatisfied,1
+2773,F,21.3,Tokyo,Bronze,725.21,10,4.2,1,26,Neutral,1
+2003,,37.6,Tokyo,Silver,1434.13,15,4.5,true,-6,,1
+2671,F,28.5,,Gold,-0.01,11,4.3,1,53,,1
+2355,Male,32.1,Montréal,gold,1147.55,15,3.9,,28,Satisfied,1
+2102,Female,34.2,Los Angeles,GOLD,1529.81,17,great,,44,,1
+2483,Non-binary,29.6,Tokyo,Silver,994.01,10,3.9,,0,,1
+2861,Female,32.3,São Paulo,GOLD,680.13,,3.2,TRUE,38,,1
+2872,F,30.8,São Paulo,,866.66,10,4.0,No,15,N/A,1
+2969,F,35.9,Montréal,Silver,-222.03,10,4.6,FALSE,16,,1
+2604,F,36.5,,GOLD,1290.0,22,4.3,,30,,1
+2385,Female,23.6,,Bronze,689.51,17,3.5,0,66,Satisfied,1
+2586,M,31.8,,Bronze,1096.36,10,4.6,TRUE,37,Satisfied,1
+2757,M,30.5,,,420.74,8,4.0,TRUE,51,Unsatisfied,1
+2690,Male,24.2,New York,GOLD,1498.89,9,3.1,No,26,,1
+2888,Female,38.9,Los Angeles,gold,1443.83,14,3.4,1,54,Satisfied,1
+2539,F,26.5,Los Angeles,,1150.5,9,0,,33,,1
+2493,M,999,Zürich,Silver,94.7,15,3.2,TRUE,35,,1
+2501,M,39.1,Los Angeles,Gold,1212.6,10,3.5,FALSE,40,,1
+2920,M,30.8,,gold,1054.68,12,3.5,No,6,,1
+2986,F,36.1,,gold,unknown,11,3.7,1,41,,1
+2499,Non-binary,31.0,Montréal,,496.68,11,3.4,0,37,Satisfied,1
+2521,F,34.8,São Paulo,Silver,786.85,13,4.3,1,20,N/A,1
+2008,Male,40.3,New York,Bronze,831.83,20,3.1,,6,Satisfied,1
+2533,F,35.2,Москва,,-8.46,16,4.3,true,39,Unsatisfied,1
+2131,Female,21.2,Montréal,,793.39,12,3.6,true,11,Unsatisfied,1
+2401,Non-binary,38.9,Москва,Gold,87.69,15,3.4,Yes,27,,1
+2587,,28.8,Zürich,Silver,363.58,7,3.8,1,34,Unsatisfied,1
+2354,,30.2,Zürich,Silver,128.51,6,3.9,true,-10,Satisfied,1
+2902,Non-binary,30.1,Montréal,gold,686.4,14,3.2,1,41,,1
+2616,F,28.9,,gold,,16,4.9,TRUE,37,Unsatisfied,1
+2095,Male,36.0,Los Angeles,Gold,44.3,16,0,,24,Unsatisfied,1
+2947,M,33.5,New York,GOLD,796.74,12,3.8,FALSE,yesterday,,1
+2328,F,41.0,São Paulo,Gold,1309.95,12,4.3,1,-4,,1
+2758,F,42.3,Montréal,Bronze,1082.84,10,4.2,,39,N/A,1
+2977,F,44.4,,Gold,330.13,12,4.4,1,81,N/A,1
+2843,Male,34.0,Los Angeles,Gold,728.8,15,4.7,Yes,-22,Unsatisfied,1
+2705,Non-binary,32.1,,GOLD,1382.62,8,10,1,17,Neutral,1
+2222,Female,28.7,New York,Bronze,-23.82,18,3.4,1,-7,N/A,1
+2868,,36.8,Zürich,gold,289.05,11,3.5,TRUE,70,Unsatisfied,1
+2620,Female,34.0,,GOLD,984.23,16,4.4,FALSE,29,Satisfied,1
+2797,Female,31.6,Zürich,Bronze,540.26,10,3.6,true,30,N/A,1
+2455,Male,28.1,Los Angeles,Bronze,408.77,15,4.8,1,34,,1
+2763,Female,33.0,,Silver,727.55,13,4.7,,-1,,1
+2532,,34.9,Москва,GOLD,859.06,12,5.1,TRUE,28,,1
+2432,M,28.9,Москва,Bronze,1777.19,16,3.9,true,5,Neutral,1
+2006,Non-binary,37.2,Montréal,Bronze,131.98,16,3.6,true,14,,1
+2558,Male,34.6,São Paulo,gold,921.11,15,99,,13,Satisfied,1
+2059,Female,23.6,Los Angeles,gold,851.28,8,3.4,true,15,Satisfied,1
+2016,Non-binary,34.3,São Paulo,Bronze,673.81,16,3.8,No,9,Satisfied,1
+2298,M,35.1,São Paulo,Silver,916.49,20,3.6,FALSE,23,,1
+2923,F,27.6,,gold,514.89,500,3.5,true,21,,1
+2324,M,41.4,Montréal,Bronze,910.17,12,4.7,FALSE,49,Satisfied,1
+2500,Female,32.1,Москва,Silver,600.6,16,4.3,false,36,,1
+2462,F,41.9,Zürich,Silver,412.97,14,4.2,Yes,33,Unsatisfied,1
+2990,Non-binary,35.6,Los Angeles,Gold,1248.29,11,4.3,1,50,Unsatisfied,1
+2931,Female,30.9,,Gold,807.74,12,2.3,1,51,,1
+2821,,41.1,Montréal,Bronze,1313.16,14,3.8,,11,Unsatisfied,1
+2885,M,34.3,São Paulo,GOLD,764.45,14,3.7,,61,Unsatisfied,1
+2730,F,29.7,Montréal,Bronze,249.97,6,4.4,,13,,1
+2591,,32.7,Zürich,GOLD,1291.63,14,4.4,,38,,1
+2209,Female,31.4,New York,GOLD,$1200,15,3.9,,11,Unsatisfied,1
+2412,Non-binary,29.9,Los Angeles,GOLD,1038.01,16,2.8,No,19,Neutral,1
+2502,Female,38.5,São Paulo,,1454.87,11,4.7,1,42,,1
+2467,M,38.9,Montréal,Silver,1302.74,5,3.4,0,43,,1
+2519,Male,43.2,São Paulo,Gold,1136.19,10,3.5,,35,Neutral,1
+2648,Female,33.0,Los Angeles,gold,1370.54,23,3.5,1,13,,1
+2504,,32.2,Zürich,Bronze,385.06,7,3.4,No,43,Neutral,1
+2410,Non-binary,32.3,New York,,974.21,12,3.1,false,7,,1
+2045,M,37.0,Zürich,Silver,589.44,13,4.1,FALSE,38,,1
+2516,Non-binary,44.7,São Paulo,Silver,390.68,7,4.3,0,63,N/A,1
+2248,Non-binary,26.7,Los Angeles,gold,149.69,21,3.4,TRUE,58,N/A,1
+2458,M,30.0,Tokyo,gold,156.51,5,3.8,TRUE,27,,1
+2157,,0,,GOLD,1194.77,13,4.6,false,18,Unsatisfied,1
+2066,Non-binary,31.6,Los Angeles,Gold,1083.59,10,3.0,true,25,N/A,1
+2218,Non-binary,37.0,Montréal,gold,1325.28,12,4.1,0,31,Satisfied,1
+2390,,36.4,Montréal,gold,-183.35,12,4.5,Yes,37,Satisfied,1
+2250,Male,36.9,New York,Gold,371.9,1,4.0,,4,Neutral,1
+2433,Non-binary,28.7,Montréal,GOLD,1453.75,0,4.4,1,46,,1
+2639,Non-binary,36.9,Tokyo,gold,N/A,11,4.4,,48,Neutral,1
+2740,F,25.0,São Paulo,Gold,932.4,7,4.6,No,21,N/A,1
+2540,,38.2,,Bronze,222.78,16,3.5,true,43,,1
+2786,F,28.4,Zürich,Bronze,690.44,12,3.9,FALSE,-6,Neutral,1
+2806,F,25.4,New York,Gold,884.92,6,4.5,1,28,Neutral,1
+2373,Non-binary,35.1,São Paulo,Gold,1358.18,12,3.4,1,21,Neutral,1
+2345,F,36.1,Москва,Silver,56.23,19,4.0,FALSE,46,Neutral,1
+2994,Non-binary,36.1,,,911.59,16,5.0,FALSE,65,Unsatisfied,1
+2025,,-5,São Paulo,Gold,840.55,14,4.2,0,53,N/A,1
+2700,Female,40.0,New York,gold,551.86,15,4.1,,60,Satisfied,1
+2596,Female,33.4,Zürich,Silver,936.77,15,3.7,false,-10,Unsatisfied,1
+2453,F,30.0,Montréal,GOLD,1157.24,15,4.7,true,10,,1
+2831,Female,27.2,,gold,779.31,14,3.9,TRUE,36,Unsatisfied,1
+2485,Male,41.6,Montréal,,567.27,13,4.0,TRUE,44,,1
+2704,Non-binary,38.6,,GOLD,690.88,14,3.1,0,56,N/A,1
+2418,Non-binary,37.9,,Gold,1121.68,,3.6,0,59,,1
+2036,Non-binary,40.8,,GOLD,763.81,15,4.3,,21,,1
+2838,Non-binary,36.8,,GOLD,1219.29,12,4.7,No,26,Neutral,1
+2930,Female,50.2,Москва,Gold,1164.58,11,3.3,1,12,Unsatisfied,1
+2443,Female,38.3,Los Angeles,GOLD,966.84,10,4.0,true,10,,1
+2254,,-5,Tokyo,GOLD,1293.51,11,4.0,false,29,Neutral,1
+2326,M,36.1,,Gold,1102.95,16,4.4,,14,,1
+2751,,29.4,Zürich,gold,914.18,13,3.8,0,39,Satisfied,1
+2247,F,33.3,New York,Silver,1327.57,10,4.0,TRUE,58,Satisfied,1
+2837,,32.5,Los Angeles,gold,606.86,24,3.7,No,24,,1
+2695,,39.8,São Paulo,GOLD,1592.34,22,2.9,FALSE,14,N/A,1
+2480,Male,28.1,,,1245.16,10,3.4,FALSE,9,N/A,1
+2099,Non-binary,37.9,New York,gold,870.95,9,3.7,FALSE,33,,1
+2570,F,27.3,Москва,,172.04,12,3.7,FALSE,12,,1
+2823,,34.7,Zürich,GOLD,939.58,11,4.1,false,62,Satisfied,1
+2811,Non-binary,32.9,,Silver,1491.72,12,4.1,false,17,Neutral,1
+2512,Female,37.6,Zürich,GOLD,767.5,13,3.6,1,19,N/A,1
+2996,M,46.2,Москва,gold,1547.6,17,4.2,,22,N/A,1
+2576,Female,40.4,Москва,GOLD,1157.41,14,4.3,1,-22,Satisfied,1
+2409,M,35.8,São Paulo,GOLD,780.61,17,3.5,FALSE,31,,1
+2224,M,34.9,Los Angeles,GOLD,758.91,14,4.0,FALSE,58,Neutral,1
+2323,,33.9,São Paulo,Bronze,unknown,20,2.9,true,12,Unsatisfied,1
+2508,Non-binary,37.6,Zürich,Silver,1256.22,12,3.4,false,27,Unsatisfied,1
+2239,,31.9,Tokyo,gold,774.96,16,3.7,No,19,Neutral,1
+2048,Male,32.4,Москва,Silver,656.72,18,4.4,,27,Satisfied,1
+2043,F,34.0,New York,GOLD,997.46,19,4.9,false,-8,,1
+2767,Female,28.7,,Gold,755.67,13,3.9,1,39,,1
+2498,,33.0,Los Angeles,Gold,1057.45,12,2.7,Yes,10,N/A,1
+2370,M,28.2,Tokyo,GOLD,153.48,10,6.0,false,47,,1
+2841,Female,30.8,,GOLD,1244.53,10,3.1,FALSE,12,Satisfied,1
+2058,M,41.2,Los Angeles,,824.9,15,4.1,No,33,,1
+2022,,40.4,Montréal,Gold,964.0,16,10,true,36,,1
+2022,,40.4,Montréal,Gold,964.0,16,10,true,36,,1
+2815,Female,29.3,Zürich,Gold,1129.61,11,4.0,TRUE,53,Neutral,1
+2173,Non-binary,30.2,New York,Bronze,1206.31,10,4.1,,42,,1
+2165,Non-binary,31.4,São Paulo,Bronze,816.45,15,2.6,,17,,1
+2362,M,34.2,Ñoño City,Bronze,1343.53,7,4.7,Yes,13,Neutral,1
+2754,Female,25.3,,Silver,1303.94,12,3.2,FALSE,34,N/A,1
+2065,Non-binary,29.4,Zürich,Bronze,1549.42,16,great,TRUE,-16,Unsatisfied,1
+2777,Female,29.4,Montréal,gold,758.75,11,3.7,Yes,36,Neutral,1
+2733,Female,33.6,Montréal,Bronze,738.31,19,4.2,TRUE,12,,1
+2778,,29.6,,Bronze,708.98,13,4.8,true,23,Neutral,1
+2122,M,39.3,Montréal,Silver,579.37,14,3.4,1,39,Satisfied,1
+2668,Male,49.1,,Bronze,1400.63,9,3.7,TRUE,34,,1
+2198,Male,34.8,Montréal,Silver,574.12,11,4.1,No,18,,1
+2195,Non-binary,28.6,Montréal,gold,121.45,11,10,true,62,Unsatisfied,1
+2014,Non-binary,27.2,New York,Bronze,99999,11,4.1,1,13,,1
+2781,Male,25.8,,gold,"1,200.50",12,4.4,TRUE,-10,,1
+2784,Male,35.8,Zürich,gold,1039.92,8,4.2,TRUE,16,,1
+2374,Non-binary,36.0,São Paulo,gold,767.0,13,4.5,true,-6,N/A,1
+2149,Female,29.4,Zürich,GOLD,666.14,12,2.3,FALSE,6,N/A,1
+2439,Female,33.7,Los Angeles,Gold,865.99,19,3.8,,25,Unsatisfied,1
+2874,,27.4,Москва,gold,,24,3.0,Yes,4,Unsatisfied,1
+2006,Non-binary,37.2,Montréal,Bronze,131.98,16,3.6,true,14,,1
+2640,,30.9,Tokyo,,1242.21,8,3.4,Yes,9,Unsatisfied,1
+2544,Non-binary,34.9,New York,GOLD,1418.1,16,3.7,false,52,Unsatisfied,1
+2663,Male,37.0,New York,Gold,1547.25,17,2.8,false,43,,1
+2768,M,35.3,,gold,1274.86,15,4.1,false,33,Neutral,1
+2555,,30.3,São Paulo,Bronze,-0.01,17,3.4,Yes,30,,1
+2745,,37.7,Los Angeles,Bronze,424.46,14,4.1,0,21,,1
+2360,F,32.4,Los Angeles,Gold,305.9,18,4.4,0,32,,1
+2794,F,29.8,Tokyo,gold,1052.29,12,4.8,,49,N/A,1
+2949,,27.1,São Paulo,gold,466.98,17,3.7,Yes,52,Neutral,1
+3000,Non-binary,32.2,Москва,Silver,1162.73,5,3.2,1,37,Satisfied,1
+2005,Non-binary,26.5,Montréal,Silver,1340.48,19,4.5,0,13,,1
+2053,,34.9,Москва,Silver,426.38,9,4.5,,41,Neutral,1
+2608,F,32.6,Zürich,GOLD,508.45,13,4.2,TRUE,-12,N/A,1
+2145,Non-binary,30.4,Tokyo,Bronze,893.45,6,3.8,true,20,,1
+2877,Male,32.5,,GOLD,1576.87,16,3.6,1,-13,Unsatisfied,1
+2336,,40.2,Zürich,Silver,700.42,8,2.8,,21,Satisfied,1
+2534,M,32.8,Montréal,Silver,522.29,8,3.6,FALSE,60,Unsatisfied,1
+2472,M,38.0,Tokyo,Silver,1161.4,14,4.3,,16,N/A,1
+2438,Non-binary,40.8,Zürich,GOLD,554.19,14,2.1,FALSE,-10,N/A,1
+2237,Non-binary,29.7,Tokyo,GOLD,1106.04,many,4.4,,13,,1
+2513,Female,30.7,,Silver,1009.23,15,3.8,false,-3,N/A,1
+2509,Male,33.7,Москва,Gold,696.8,17,3.0,,41,N/A,1
+2933,F,29.8,,Gold,898.04,16,4.2,TRUE,12,,1
+2932,Female,28.9,São Paulo,,1029.3,15,3.9,FALSE,55,Unsatisfied,1
+2073,Female,44.9,Tokyo,Bronze,943.07,13,4.8,Yes,60,Neutral,1
+2027,Male,33.2,Москва,Gold,746.23,9,3.4,,-2,,1
+2456,M,33.4,Москва,Silver,1269.64,15,3.2,0,28,,1
+2341,Female,36.5,,Bronze,1175.09,10,4.9,Yes,-5,,1
+2366,F,37.5,Москва,Silver,99999,5,3.0,,0,N/A,1
+2755,F,38.9,Tokyo,Silver,610.83,13,4.0,No,-4,,1
+2233,Female,35.5,Москва,Gold,828.3,10,3.7,Yes,23,Neutral,1
+2750,Non-binary,32.1,New York,gold,1150.01,12,4.0,0,67,,1
+2197,M,42.3,,Gold,421.05,-3,3.9,,-5,,1
+2746,Male,33.8,Tokyo,Gold,1317.47,17,4.0,true,29,Neutral,1
+2675,,42.2,Los Angeles,GOLD,1084.16,11,2.8,0,45,N/A,1
+2164,Female,22.2,São Paulo,Bronze,1205.4,8,4.3,Yes,30,Neutral,1
+2260,Male,31.6,São Paulo,Bronze,217.1,5,3.4,,15,Satisfied,1
+2446,,36.7,New York,gold,819.36,8,-1,TRUE,54,,1
+2506,Male,34.0,Москва,GOLD,487.75,14,3.8,true,52,,1
+2105,M,29.4,,GOLD,407.39,12,4.4,0,36,Satisfied,1
+2423,Female,36.2,Los Angeles,GOLD,638.56,18,4.0,FALSE,30,,1
+2711,F,28.2,,GOLD,1161.48,18,3.0,0,54,,1
+2631,Non-binary,31.4,New York,Bronze,1379.24,16,3.8,No,39,,1
+2842,Female,37.7,Москва,,687.56,12,4.0,,-5,,1
+2987,Male,41.0,Tokyo,Gold,1403.43,10,3.6,,18,Neutral,1
+2426,,34.8,Zürich,GOLD,545.65,14,3.7,true,19,Unsatisfied,1
+2231,Male,24.0,Москва,Silver,220.24,9,3.2,TRUE,20,Unsatisfied,1
+2725,M,33.9,Montréal,GOLD,1049.96,14,4.1,FALSE,39,Satisfied,1
+2820,M,32.8,São Paulo,GOLD,1332.68,13,4.7,true,33,,1
+2601,Female,40.0,Tokyo,GOLD,870.33,14,3.0,,24,Satisfied,1
+2040,Female,29.8,,,1313.58,19,2.9,FALSE,44,Satisfied,1
+2342,M,38.2,Zürich,Silver,-500,16,4.7,No,29,N/A,1
+2160,Female,31.1,São Paulo,Bronze,469.59,13,2.6,No,50,Neutral,1
+2484,Male,36.0,,Gold,1072.09,18,2.7,TRUE,17,,1
+2662,Non-binary,42.5,Los Angeles,Bronze,714.43,10,4.0,true,42,,1
+2696,F,33.2,Москва,Bronze,756.92,13,4.7,false,36,Neutral,1
+2174,Male,39.3,,Silver,609.96,9,3.7,FALSE,17,Neutral,1
+2912,F,30.3,Montréal,,894.6,,2.7,0,31,,1
+2615,F,35.8,Montréal,,822.29,8,3.7,Yes,39,N/A,1
+2332,Non-binary,33.3,São Paulo,Bronze,972.93,0,2.9,No,29,,1
+2873,Female,36.9,Zürich,Gold,738.65,18,4.0,,5,,1
+2734,F,31.2,Montréal,Gold,547.85,15,3.6,0,4,Neutral,1
+2612,M,31.1,Москва,gold,310.06,25,3.9,Yes,8,Satisfied,1
+2760,Male,37.7,New York,Bronze,231.39,18,3.6,No,48,Satisfied,1
+2460,Male,38.4,Tokyo,,716.26,13,3.2,TRUE,8,Neutral,1
+2785,Non-binary,35.9,Tokyo,,-500,12,4.5,Yes,44,Unsatisfied,1
+2322,,37.3,,GOLD,1010.59,17,3.2,No,22,,1
+2399,F,36.8,New York,,1165.19,8,3.6,TRUE,44,Unsatisfied,1
+2081,Female,31.2,,Gold,862.76,13,3.9,false,38,Neutral,1
+2717,,22.1,Москва,Gold,1115.53,13,3.2,,-12,Unsatisfied,1
+2707,Male,27.8,São Paulo,,841.5,18,3.3,No,28,N/A,1
+2901,Female,32.8,,Silver,1068.75,17,3.9,TRUE,99999,Unsatisfied,1
+2909,Male,30.2,São Paulo,gold,1284.51,10,4.4,true,29,,1
+2082,Non-binary,34.3,São Paulo,GOLD,1211.56,9,2.5,false,28,N/A,1
+2182,Non-binary,29.5,New York,Bronze,964.14,18,3.7,FALSE,49,,1
+2623,Female,24.0,Montréal,Gold,1417.02,16,3.8,false,37,Unsatisfied,1
+2168,M,45.6,Zürich,Bronze,1110.3,18,3.5,1,59,,1
+2776,Male,44.5,Montréal,Silver,817.29,15,4.6,TRUE,41,N/A,1
+2613,Female,33.4,Zürich,GOLD,912.56,10,great,TRUE,60,,1
+2468,Female,28.2,Zürich,GOLD,1150.7,2,3.8,FALSE,3,Satisfied,1
+2020,Non-binary,29.5,São Paulo,Bronze,760.78,11,4.0,No,45,,1
+2553,Female,28.7,Tokyo,Silver,929.0,18,2.7,1,29,,1
+2626,Male,28.7,,Silver,1264.27,11,4.1,TRUE,33,Neutral,1
+2908,Female,41.3,Los Angeles,gold,1830.36,21,4.4,No,15,,1
+2764,F,41.7,São Paulo,gold,1001.37,11,3.3,true,43,,1
+2151,F,31.6,São Paulo,Silver,$1200,13,4.5,0,10,,1
+2118,Male,41.4,Tokyo,Silver,474.43,18,3.5,TRUE,20,Neutral,1
+2403,Non-binary,35.0,,Bronze,771.69,13,3.9,Yes,7,,1
+2263,F,44.9,New York,Bronze,411.42,7,4.3,FALSE,22,Unsatisfied,1
+2348,Male,40.8,Zürich,Silver,1313.45,9,4.8,0,43,Neutral,1
+2503,M,37.4,,Bronze,-500,10,4.9,Yes,15,N/A,1
+2018,F,34.3,Москва,,805.58,15,4.0,1,29,Neutral,1
+2171,Non-binary,36.3,New York,Gold,1005.63,0,4.6,,20,Neutral,1
+2561,Non-binary,28.3,Zürich,Silver,478.03,9,-1,Yes,61,Unsatisfied,1
+2708,F,41.3,São Paulo,Silver,376.74,17,3.6,false,40,N/A,1
+2415,M,30.7,Ñoño City,Silver,1597.12,11,3.9,false,63,Satisfied,1
+2034,Male,38.4,São Paulo,Bronze,1329.42,13,3.2,FALSE,16,,1
+2212,M,27.2,,Bronze,1382.23,14,3.8,No,53,,1
+2126,Non-binary,27.7,Montréal,GOLD,882.72,21,3.9,,15,Unsatisfied,1
+2859,,26.1,Zürich,Silver,224.4,-3,4.1,true,-10,Unsatisfied,1
+2829,Non-binary,30.9,New York,Silver,875.14,8,4.1,false,52,,1
+2747,,39.8,Tokyo,Bronze,1493.44,5,3.3,true,52,,1
+2875,M,36.9,Zürich,Gold,408.13,10,4.6,,32,N/A,1
+2243,Male,36.3,Zürich,Silver,965.84,9,5.5,true,36,,1
+2310,Non-binary,35.9,São Paulo,Bronze,1404.62,18,3.6,,50,Neutral,1
+2286,Male,33.8,Los Angeles,Gold,1246.47,10,3.2,false,41,,1
+2714,M,39.1,,,921.43,18,3.8,true,40,N/A,1
+2486,Non-binary,27.4,São Paulo,gold,425.34,0,3.8,false,23,Unsatisfied,1
+2062,Male,29.8,São Paulo,Gold,1065.49,12,4.6,Yes,15,N/A,1
+2264,,27.3,,gold,755.05,500,3.6,false,20,Neutral,1
+2976,M,30.0,São Paulo,gold,1301.78,13,3.5,true,1,,1
+2189,Male,23.8,,Bronze,1875.89,19,3.7,1,52,,1
+2097,Male,36.8,New York,Bronze,730.58,13,4.0,TRUE,75,N/A,1
+2007,M,29.5,Москва,Silver,1043.81,8,2.3,TRUE,44,,1
+2308,F,36.2,Los Angeles,Silver,828.25,15,4.1,1,62,,1
+2318,Male,35.2,,Silver,507.85,8,4.4,true,29,,1
+2473,Male,34.0,Zürich,Silver,840.36,13,3.6,false,10,Satisfied,1
+2575,M,33.9,New York,GOLD,1491.37,10,4.2,,46,Neutral,1
+2029,Male,31.7,,,958.45,11,3.8,No,54,,1
+2963,Non-binary,41.4,New York,gold,858.88,9,3.2,1,41,N/A,1
+2494,Female,41.0,Ñoño City,gold,1096.4,10,3.0,Yes,56,,1
+2761,F,38.5,Los Angeles,,-0.01,10,3.4,FALSE,28,Unsatisfied,1
+2221,M,28.9,Москва,Gold,1185.3,15,3.1,No,31,N/A,1
+2956,F,29.6,Tokyo,Silver,$1200,9,3.9,FALSE,-2,,1
+2765,Male,35.4,Montréal,Bronze,965.24,18,3.7,,69,Neutral,1
+2926,Female,33.5,Москва,Silver,1111.84,6,3.0,,19,,1
+2848,M,35.3,New York,GOLD,1029.94,13,4.3,,3,,1
+2039,Non-binary,29.9,Los Angeles,,781.1,8,3.1,TRUE,33,,1

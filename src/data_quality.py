@@ -278,7 +278,7 @@ def render_quality_report(report: dict[str, Any]) -> None:
 
 # 10. Smoke test
 if __name__ == "__main__":
-
+    import sys
     RAW = "data/raw/ecommerce_customer_data.csv"
     if not os.path.exists(RAW):
         print(f"Raw CSV not found at {RAW}. Place the Kaggle CSV there first.")

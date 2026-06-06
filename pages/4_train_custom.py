@@ -18,6 +18,8 @@ sys.path.insert(0, ".")
 
 st.set_page_config(page_title="Train on Your Data", layout="wide")
 
+from src import dataset_store
+
 # Session state initialisation 
 _defaults = {
     "custom_df":        None,   # trained + enriched DataFrame
@@ -29,6 +31,21 @@ _defaults = {
 for k, v in _defaults.items():
     if k not in st.session_state:
         st.session_state[k] = v
+
+if not st.session_state["train_history"]:
+    datasets = dataset_store.list_datasets()
+    for idx, d in enumerate(reversed(datasets)):
+        if not d.get("is_default"):
+            st.session_state["train_history"].append({
+                "dataset_id": d["dataset_id"],
+                "Run":        len(st.session_state["train_history"]) + 1,
+                "File":       d["name"],
+                "Rows":       d["n_rows"],
+                "Segments":   d["n_segments"],
+                "ROC-AUC":    f"{d['auc']:.4f}" if d.get("auc") else "n/a",
+                "Silhouette": f"{d.get('silhouette', 0):.4f}",
+                "Time":       d["trained_at"][11:19], # HH:MM:SS
+            })
 
 
 # Helpers
@@ -253,6 +270,7 @@ def _run_pipeline(df_raw: pd.DataFrame, hp: dict, col_map: dict, dataset_name: s
         "primary_algo": primary,
         "n_rows": len(df),
         "feature_cols": feature_cols,
+        "clf": clf,
     }
 
     # 10. Save enriched DB
@@ -275,7 +293,8 @@ def _run_pipeline(df_raw: pd.DataFrame, hp: dict, col_map: dict, dataset_name: s
     return df, metrics, pdf_path
 
 
-# UI
+# Sidebar
+dataset_store.render_sidebar()
 
 st.title("Train on Your Data")
 st.markdown(
@@ -404,13 +423,32 @@ if st.button("Run Full Pipeline", type="primary", use_container_width=True):
             st.session_state["custom_metrics"]     = metrics
             st.session_state["custom_report_path"] = pdf_path
 
+            # Register dataset in store
+            n_rows = len(df_out)
+            n_segments = df_out["Segment"].nunique() if "Segment" in df_out.columns else 0
+            clv_dist = df_out["CLV_Band"].value_counts().to_dict() if "CLV_Band" in df_out.columns else {}
+            
+            dataset_id = dataset_store.register_dataset(
+                name=uploaded.name,
+                db_path="data/processed/customers_clean.db",
+                model_dir="models",
+                n_rows=n_rows,
+                n_segments=n_segments,
+                clv_dist=clv_dist,
+                auc=metrics.get("auc"),
+                silhouette=metrics.get("silhouette"),
+                is_default=False
+            )
+            st.session_state["newly_trained_id"] = dataset_id
+
             # Append to training history
             import datetime
             st.session_state["train_history"].append({
+                "dataset_id": dataset_id,
                 "Run":       len(st.session_state["train_history"]) + 1,
                 "File":      uploaded.name,
                 "Rows":      len(df_out),
-                "Segments":  df_out["Segment"].nunique() if "Segment" in df_out.columns else "—",
+                "Segments":  n_segments,
                 "ROC-AUC":   f"{metrics['auc']:.4f}" if metrics.get("auc") else "n/a",
                 "Silhouette": f"{metrics.get('silhouette', 0):.4f}",
                 "Time":      datetime.datetime.now().strftime("%H:%M:%S"),
@@ -429,6 +467,25 @@ if st.session_state["custom_df"] is not None:
 
     st.markdown("---")
     st.subheader("Results")
+
+    new_id = st.session_state.get("newly_trained_id")
+    if new_id:
+        rec = dataset_store.get_dataset(new_id)
+        if rec:
+            st.success(
+                f"✅ Training complete — {rec['name']}\n\n"
+                f"{rec['n_rows']:,} customers · {rec['n_segments']} segments · "
+                f"ROC-AUC {rec['auc'] if rec['auc'] else 'n/a'} · Silhouette {rec['silhouette'] if rec['silhouette'] else 'n/a'}\n\n"
+                f"PDF report ready for download below."
+            )
+            if st.button("Set as active dataset", key="set_active_new_ds", type="primary", use_container_width=True):
+                if dataset_store.activate_dataset(new_id):
+                    st.session_state["active_dataset_id"] = new_id
+                    del st.session_state["newly_trained_id"]
+                    st.cache_data.clear()
+                    st.cache_resource.clear()
+                    st.success(f"Activated dataset: {rec['name']}")
+                    st.rerun()
 
     r1, r2, r3, r4 = st.columns(4)
     r1.metric("Customers",    f"{len(df_out):,}")
@@ -495,5 +552,38 @@ if st.session_state["custom_df"] is not None:
 if st.session_state["train_history"]:
     st.markdown("---")
     st.subheader("Training History (this session)")
-    hist_df = pd.DataFrame(st.session_state["train_history"])
-    st.dataframe(hist_df, use_container_width=True, hide_index=True)
+    
+    # Headers
+    h_cols = st.columns([1, 3, 2, 2, 2, 2, 2, 2])
+    h_cols[0].markdown("**Run**")
+    h_cols[1].markdown("**File**")
+    h_cols[2].markdown("**Rows**")
+    h_cols[3].markdown("**Segments**")
+    h_cols[4].markdown("**ROC-AUC**")
+    h_cols[5].markdown("**Silhouette**")
+    h_cols[6].markdown("**Time**")
+    h_cols[7].markdown("**Restore**")
+    
+    for row in st.session_state["train_history"]:
+        dataset_id = row.get("dataset_id")
+        r_cols = st.columns([1, 3, 2, 2, 2, 2, 2, 2])
+        r_cols[0].write(str(row["Run"]))
+        r_cols[1].write(str(row["File"]))
+        r_cols[2].write(f"{row['Rows']:,}" if isinstance(row['Rows'], int) else str(row['Rows']))
+        r_cols[3].write(str(row["Segments"]))
+        r_cols[4].write(str(row["ROC-AUC"]))
+        r_cols[5].write(str(row["Silhouette"]))
+        r_cols[6].write(str(row["Time"]))
+        
+        # Restore button
+        if dataset_id:
+            if r_cols[7].button("↩ Restore", key=f"restore_{dataset_id}"):
+                if dataset_store.activate_dataset(dataset_id):
+                    st.session_state["active_dataset_id"] = dataset_id
+                    # Clear newly_trained_id in case it is restored
+                    if "newly_trained_id" in st.session_state:
+                        del st.session_state["newly_trained_id"]
+                    st.cache_data.clear()
+                    st.cache_resource.clear()
+                    st.success(f"Restored dataset run: {row['File']}")
+                    st.rerun()

@@ -176,12 +176,24 @@ def _generate_all_plots(df: pd.DataFrame, metrics: dict | None, tmp_dir: str) ->
         plt.close(fig)
         
     # 2. eda_correlation.png
-    num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
-    num_cols = [c for c in num_cols if not (c.endswith("_Scaled") or c.endswith("_Enc") or c.endswith("Cluster") or "ID" in c or c == "Customer ID")]
-    if num_cols:
-        fig, ax = plt.subplots(figsize=(6, 4.5))
-        sns.heatmap(df[num_cols].corr(), annot=True, cmap="coolwarm", fmt=".2f", ax=ax, cbar=True)
-        ax.set_title("Pearson Correlation Heatmap", fontsize=11, fontweight="bold")
+    wanted = ["Age", "Days Since Last Purchase", "Total Spend", "Items Purchased",
+              "Average Rating", "Discount Applied", "Purchase_Prob",
+              "Engagement_Score", "CLV_Score"]
+    cols = [c for c in wanted if c in df.columns]
+    if len(cols) >= 3:
+        corr = df[cols].apply(pd.to_numeric, errors="coerce").corr()
+        mask = np.triu(np.ones_like(corr, dtype=bool))
+        fig, ax = plt.subplots(figsize=(9, 7))
+        sns.heatmap(
+            corr, mask=mask,
+            annot=True, fmt=".2f",
+            cmap="RdYlGn",
+            center=0, vmin=-1, vmax=1,
+            linewidths=0.3,
+            annot_kws={"size": 8},
+            ax=ax,
+        )
+        ax.set_title("Feature Correlation Heatmap", fontsize=11, fontweight="bold", pad=12)
         fig.tight_layout()
         fig.savefig(os.path.join(tmp_dir, "eda_correlation.png"), dpi=130, bbox_inches="tight")
         plt.close(fig)
@@ -291,7 +303,9 @@ def _generate_all_plots(df: pd.DataFrame, metrics: dict | None, tmp_dir: str) ->
 
     # 8. model_feature_importance.png
     clf = None
-    if os.path.exists("models/clv_classifier.pkl"):
+    if metrics and metrics.get("clf"):
+        clf = metrics["clf"]
+    elif os.path.exists("models/clv_classifier.pkl"):
         try:
             import joblib
             clf = joblib.load("models/clv_classifier.pkl")
@@ -622,8 +636,22 @@ def generate_report(
         pdf.add_page()
         add_section_title("4. Business Recommendations by Segment")
         add_paragraph(
-            "Each customer segment maps to a business interpretation and a recommended "
-            "retention or acquisition action. The table below should guide marketing decisions."
+            "This section synthesises the clustering and classification results into actionable "
+            "business intelligence. Each customer segment is mapped to a behavioural interpretation "
+            "and a recommended retention or acquisition strategy. The analysis is complemented by a "
+            "CLV Band cross-tabulation, key performance indicators per segment, and strategic "
+            "focus areas by CLV band — providing a holistic view suitable for marketing decision-making."
+        )
+
+        # 4a. Segment Interpretation & Recommended Action Table
+        _ensure_space(20)
+        _set_font("B", 11)
+        pdf.cell(0, 7, _s("4a. Segment Interpretation & Recommended Actions"), new_x="LMARGIN", new_y="NEXT")
+        pdf.ln(2)
+        add_paragraph(
+            "The table below maps each discovered segment to a human-readable business interpretation "
+            "and a concrete retention/acquisition action. Segments are named using RFM-inspired labels "
+            "where applicable; unnamed clusters receive a generic label."
         )
 
         segments_present = (
@@ -635,19 +663,129 @@ def generate_report(
         rec_rows = []
         for seg in sorted(set(segments_present)):
             interp, action = SEGMENT_ACTIONS.get(seg, FALLBACK_ACTION)
-            n = int((df["Segment"] == seg).sum()) if "Segment" in df.columns else "—"
-            rec_rows.append([seg, str(n), interp, action])
+            n = int((df["Segment"] == seg).sum()) if "Segment" in df.columns else "-"
+            pct = f"{n / len(df) * 100:.1f}%" if isinstance(n, int) and len(df) > 0 else "-"
+            rec_rows.append([seg, str(n), pct, interp, action])
 
-        rec_df = pd.DataFrame(rec_rows, columns=["Segment", "Count", "Interpretation", "Action"])
+        rec_df = pd.DataFrame(rec_rows, columns=["Segment", "Count", "% of Total", "Interpretation", "Recommended Action"])
         tmp = _df_to_png(rec_df, "Segment Action Table")
         _ensure_space(90)
         _clamp_image(pdf, tmp, max_h=80)
 
-        _ensure_space(20)
+        # 4b. CLV Band x Segment Cross-Tab
+        if "Segment" in df.columns and "CLV_Band" in df.columns:
+            try:
+                _ensure_space(30)
+                _set_font("B", 11)
+                pdf.cell(0, 7, _s("4b. CLV Band x Segment Cross-Tabulation"), new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(2)
+                add_paragraph(
+                    "The cross-tabulation below shows how customers in each segment distribute across "
+                    "CLV bands. The 'High %' column highlights which segments concentrate the most "
+                    "valuable customers — these segments should receive the highest retention investment."
+                )
+
+                ct = df.groupby(["Segment", "CLV_Band"], observed=False).size().unstack(fill_value=0)
+                for b in ["High", "Medium", "Low"]:
+                    if b not in ct.columns:
+                        ct[b] = 0
+                ct = ct[["High", "Medium", "Low"]]
+                ct["Total"] = ct.sum(axis=1)
+                ct["High %"] = (ct["High"] / ct["Total"] * 100).round(1).astype(str) + "%"
+                ct = ct.reset_index()
+                tmp_ct = _df_to_png(ct, "CLV Band x Customer Segment Cross-Tab")
+                _ensure_space(65)
+                _clamp_image(pdf, tmp_ct, max_h=55)
+            except Exception as exc:
+                log.warning("CLV Band x Segment cross-tab table skipped: %s", exc)
+
+        # 4c. Segment KPI Summary
+        if "Segment" in df.columns:
+            try:
+                _ensure_space(30)
+                _set_font("B", 11)
+                pdf.cell(0, 7, _s("4c. Key Performance Indicators by Segment"), new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(2)
+                add_paragraph(
+                    "Median values of the three most decision-relevant features are shown per segment, "
+                    "alongside a business priority label. These KPIs help marketing teams size budgets "
+                    "and select channels for each cohort."
+                )
+
+                kpi_cols = {
+                    "Total Spend": "Avg Spend",
+                    "Days Since Last Purchase": "Avg Days Since",
+                    "Average Rating": "Avg Rating",
+                }
+                cols_present = [c for c in kpi_cols.keys() if c in df.columns]
+                if cols_present:
+                    kpi_df = df.groupby("Segment")[cols_present].median()
+                    kpi_df = kpi_df.rename(columns=kpi_cols)
+                    if "Avg Spend" in kpi_df.columns:
+                        kpi_df["Avg Spend"] = kpi_df["Avg Spend"].apply(lambda x: f"Rs.{x:,.0f}")
+                    if "Avg Days Since" in kpi_df.columns:
+                        kpi_df["Avg Days Since"] = kpi_df["Avg Days Since"].apply(lambda x: f"{x:.0f} days")
+                    if "Avg Rating" in kpi_df.columns:
+                        kpi_df["Avg Rating"] = kpi_df["Avg Rating"].apply(lambda x: f"{x:.1f}")
+
+                    priority_map = {
+                        "Champions":  "VIP Retain",
+                        "Loyalists":  "Loyalty Growth",
+                        "At-Risk":    "Win-Back",
+                        "Lost":       "Reactivate",
+                        "Outlier":    "Manual Review",
+                    }
+                    kpi_df["Priority"] = kpi_df.index.map(lambda x: priority_map.get(x, "Monitor"))
+                    kpi_df = kpi_df.reset_index()
+                    tmp_kpi = _df_to_png(kpi_df, "Key Performance Indicators by Segment (Medians)")
+                    _ensure_space(65)
+                    _clamp_image(pdf, tmp_kpi, max_h=55)
+            except Exception as exc:
+                log.warning("Segment KPI table skipped: %s", exc)
+
+        # 4d. Strategic Focus Areas Narrative
+        _ensure_space(65)
+        pdf.ln(4)
+        _set_font("B", 11)
+        pdf.cell(0, 7, _s("4d. Strategic Focus Areas by CLV Band"), new_x="LMARGIN", new_y="NEXT")
+        pdf.ln(2)
         add_paragraph(
-            "Priority: focus retention budget on 'Champions' and 'Loyalists' first. "
-            "'At-Risk' customers offer the highest ROI for win-back campaigns. "
-            "'Lost' customers should only receive low-cost outreach."
+            "The following recommendations translate the quantitative analysis above into "
+            "concrete marketing strategies segmented by customer lifetime value band."
+        )
+
+        _set_font("B", 10)
+        pdf.cell(0, 6, _s("High CLV Customers"), new_x="LMARGIN", new_y="NEXT")
+        _set_font("", 10)
+        add_paragraph(
+            "These are the core revenue drivers and should receive the highest retention investment. "
+            "Strategies include white-glove VIP service, early access to new product launches, "
+            "exclusive rewards programmes, and high-touch relationship management through dedicated "
+            "account representatives. Any 'At-Risk' customers within this band must be flagged for "
+            "immediate churn-prevention intervention, as losing a single High-CLV customer has an "
+            "outsized impact on overall revenue."
+        )
+
+        _set_font("B", 10)
+        pdf.cell(0, 6, _s("Medium CLV Customers"), new_x="LMARGIN", new_y="NEXT")
+        _set_font("", 10)
+        add_paragraph(
+            "This band represents the primary growth opportunity. The goal is to increase their "
+            "purchase frequency and average order value to elevate them into the High CLV band. "
+            "Effective tactics include targeted personalised cross-selling based on browsing and "
+            "purchase history, category-specific recommendations, time-limited value-based incentives, "
+            "and loyalty programme tier upgrades tied to spend milestones."
+        )
+
+        _set_font("B", 10)
+        pdf.cell(0, 6, _s("Low CLV Customers"), new_x="LMARGIN", new_y="NEXT")
+        _set_font("", 10)
+        add_paragraph(
+            "Focus on low-cost automated re-engagement to minimise customer acquisition cost (CAC). "
+            "Deploy re-engagement email sequences and standard discount offers. Customers inactive "
+            "for over 180 days should be considered for outreach suppression to redirect marketing "
+            "spend toward higher-value cohorts. A/B testing of re-activation offers is recommended "
+            "before scaling any campaign targeting this band."
         )
 
         # Save

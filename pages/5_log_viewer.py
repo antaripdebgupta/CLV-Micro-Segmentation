@@ -9,6 +9,11 @@ import streamlit as st
 
 st.set_page_config(page_title="Log Viewer", layout="wide")
 
+from src import dataset_store
+
+# Sidebar
+dataset_store.render_sidebar()
+
 LOG_FILE    = "logs/pipeline.log"
 MAX_LINES   = 500  # never render more than this to keep the page fast
 

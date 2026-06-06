@@ -1,0 +1,1001 @@
+Customer ID,Gender,Age,City,Membership Type,Total Spend,Items Purchased,Average Rating,Discount Applied,Days Since Last Purchase,Satisfaction Level
+3001,Male,46,Boston,Silver,895.78,13,3.8,TRUE,36,Satisfied
+3002,Female,33,Chicago,Silver,885.87,14,3.7,FALSE,27,Satisfied
+3003,Female,38,Chicago,Gold,1338.76,19,4.7,FALSE,19,Satisfied
+3004,Female,35,San Francisco,Gold,1503.61,19,4.6,TRUE,21,Satisfied
+3005,Male,38,Seattle,Gold,1466.91,16,4.3,TRUE,13,Satisfied
+3006,Female,41,San Francisco,Silver,870.1,10,4.4,FALSE,28,Satisfied
+3007,Male,40,New York,Silver,809.44,15,3.7,FALSE,19,Satisfied
+3008,Female,43,Chicago,Gold,1416.83,18,4.7,FALSE,11,Satisfied
+3009,Female,36,Boston,Gold,1401.56,18,4.6,TRUE,6,Satisfied
+3010,Male,40,Miami,Gold,1262.93,19,4.8,FALSE,11,Satisfied
+3011,Male,31,Boston,Gold,1496.73,16,4.5,FALSE,21,Satisfied
+3012,Male,31,New York,Silver,863.16,13,4.3,TRUE,28,Satisfied
+3013,Female,46,Seattle,Gold,1221.87,17,4.8,FALSE,3,Satisfied
+3014,Female,33,Los Angeles,Silver,1046.74,14,3.7,FALSE,35,Satisfied
+3015,Female,42,San Francisco,Gold,1487.05,20,4.8,TRUE,15,Unsatisfied
+3016,Male,36,Chicago,Gold,1397.27,19,4.4,TRUE,16,Satisfied
+3017,Female,29,Los Angeles,Gold,1313.19,19,4.7,FALSE,15,Satisfied
+3018,Male,26,Miami,Gold,1252.49,18,4.3,FALSE,19,Satisfied
+3019,Male,37,Miami,Gold,1500.75,18,4.6,FALSE,14,Satisfied
+3020,Female,35,Houston,Bronze,641.61,11,3.5,FALSE,68,Neutral
+3021,Male,31,Miami,Silver,954.25,14,3.7,FALSE,43,Satisfied
+3022,Male,40,Chicago,Gold,1317.82,18,4.8,TRUE,17,Satisfied
+3023,Female,51,Seattle,Bronze,595.12,10,3.7,FALSE,56,Unsatisfied
+3024,Male,38,New York,Bronze,756.81,9,3.5,TRUE,60,Neutral
+3025,Male,35,Miami,Gold,1388.52,18,4.8,TRUE,8,Satisfied
+3026,Male,31,Seattle,Gold,1353.98,18,4.5,TRUE,19,Satisfied
+3027,Female,36,Houston,Silver,740.38,10,3.7,FALSE,25,Satisfied
+3028,Male,33,San Francisco,Gold,1294.27,20,4.1,FALSE,16,Satisfied
+3029,Female,40,Miami,Gold,1141.43,15,4.2,FALSE,1,Satisfied
+3030,Female,30,Seattle,Gold,1237.02,13,4.9,FALSE,21,Satisfied
+3031,Female,28,Boston,Silver,922.32,10,4.1,TRUE,46,Satisfied
+3032,Female,41,Boston,Silver,1091.86,13,3.5,FALSE,27,Neutral
+3033,Male,35,Chicago,Silver,1146.76,10,3.9,FALSE,17,Satisfied
+3034,Female,36,Boston,Gold,1384.38,14,4.6,TRUE,18,Satisfied
+3035,Male,42,San Francisco,Silver,943.14,14,4.1,TRUE,23,Neutral
+3036,Male,35,Boston,Gold,1561.78,18,4.7,TRUE,9,Satisfied
+3037,Male,34,New York,Gold,1481.14,20,4.3,FALSE,20,Satisfied
+3038,Female,36,Houston,Gold,1227.52,18,4.3,FALSE,10,Satisfied
+3039,Male,32,Chicago,Gold,1583.44,16,4.3,TRUE,16,Satisfied
+3040,Male,35,San Francisco,Gold,1481.58,18,4.0,FALSE,16,Satisfied
+3041,Female,45,Miami,Gold,1622.66,13,4.6,FALSE,15,Satisfied
+3042,Male,28,Seattle,Bronze,763.43,8,3.1,FALSE,48,Unsatisfied
+3043,Male,45,New York,Gold,1333.59,15,4.4,FALSE,23,Unsatisfied
+3044,Female,33,Los Angeles,Bronze,551.67,9,3.5,TRUE,46,Satisfied
+3045,Female,34,New York,Gold,1294.68,17,4.3,FALSE,16,Satisfied
+3046,Female,28,San Francisco,Gold,1466.19,16,4.7,FALSE,18,Satisfied
+3047,Male,36,Los Angeles,Silver,848.12,12,3.8,FALSE,39,Satisfied
+3048,Male,32,Houston,Gold,1244.97,18,4.6,FALSE,18,Satisfied
+3049,Female,34,Boston,Gold,1319.94,21,4.2,FALSE,12,Satisfied
+3050,Female,43,Houston,Silver,844.78,11,4.2,FALSE,25,Neutral
+3051,Female,32,Seattle,Gold,1299.4,19,4.2,TRUE,19,Satisfied
+3052,Female,38,New York,Silver,835.57,12,4.0,FALSE,32,Satisfied
+3053,Female,42,Seattle,Gold,1488.04,15,4.7,FALSE,15,Satisfied
+3054,Female,26,Chicago,Gold,1366.15,18,4.5,FALSE,16,Satisfied
+3055,Male,41,Boston,Gold,1194.1,19,4.5,TRUE,10,Satisfied
+3056,Male,45,Seattle,Gold,1319.66,16,4.6,TRUE,13,Satisfied
+3057,Female,22,Houston,Gold,1446.46,16,4.6,TRUE,12,Neutral
+3058,Female,39,Seattle,Gold,1459.99,15,4.4,TRUE,11,Neutral
+3059,Male,39,New York,Silver,997.95,15,3.8,FALSE,31,Unsatisfied
+3060,Male,24,Miami,Bronze,767.97,9,3.2,TRUE,49,Neutral
+3061,Female,41,Houston,Bronze,721.5,9,3.7,TRUE,65,Neutral
+3062,Female,37,San Francisco,Gold,1339.07,15,4.8,TRUE,16,Satisfied
+3063,Female,26,San Francisco,Gold,1118.58,17,5.0,TRUE,15,Unsatisfied
+3064,Female,28,Los Angeles,Gold,1522.79,19,4.2,FALSE,15,Satisfied
+3065,Female,28,Seattle,Silver,921.81,15,3.7,FALSE,42,Satisfied
+3066,Female,36,San Francisco,Gold,1185.71,15,4.6,FALSE,11,Satisfied
+3067,Male,29,San Francisco,Gold,1399.91,18,4.6,TRUE,18,Satisfied
+3068,Male,49,San Francisco,Gold,1451.3,16,4.0,TRUE,15,Satisfied
+3069,Female,25,Chicago,Bronze,732.07,10,4.1,TRUE,43,Unsatisfied
+3070,Male,31,Houston,Silver,908.61,11,4.0,FALSE,36,Neutral
+3071,Male,33,Boston,Gold,1216.79,18,4.3,FALSE,8,Satisfied
+3072,Male,35,Houston,Gold,1290.05,20,4.4,FALSE,14,Satisfied
+3073,Male,32,Chicago,Gold,1286.83,15,4.3,FALSE,11,Satisfied
+3074,Male,40,Los Angeles,Gold,1307.89,13,4.3,FALSE,17,Satisfied
+3075,Female,32,Miami,Gold,1349.31,17,4.6,FALSE,26,Satisfied
+3076,Female,51,Los Angeles,Gold,1521.12,18,4.6,TRUE,13,Satisfied
+3077,Male,40,Boston,Gold,1477.18,20,4.9,TRUE,8,Neutral
+3078,Female,39,Houston,Gold,1545.2,15,4.0,TRUE,14,Satisfied
+3079,Male,27,Miami,Silver,941.31,15,4.2,TRUE,34,Satisfied
+3080,Male,33,Los Angeles,Gold,1278.11,16,4.6,TRUE,20,Neutral
+3081,Male,35,San Francisco,Silver,1155.75,8,4.4,TRUE,28,Neutral
+3082,Female,22,Los Angeles,Silver,896.08,12,4.2,FALSE,25,Satisfied
+3083,Male,33,New York,Gold,1454.77,14,4.0,FALSE,10,Neutral
+3084,Female,38,Los Angeles,Bronze,423.03,13,3.4,TRUE,38,Neutral
+3085,Female,31,Boston,Gold,1177.04,18,4.6,FALSE,11,Satisfied
+3086,Female,34,Houston,Gold,1393.7,14,4.5,FALSE,17,Satisfied
+3087,Male,42,Seattle,Gold,1288.37,19,4.3,FALSE,17,Satisfied
+3088,Male,26,Los Angeles,Silver,893.05,12,3.6,FALSE,24,Satisfied
+3089,Female,44,Boston,Gold,1364.08,19,4.5,TRUE,16,Neutral
+3090,Female,40,Houston,Silver,1077.23,16,3.9,TRUE,26,Satisfied
+3091,Female,27,Boston,Bronze,740.68,10,3.7,FALSE,45,Neutral
+3092,Female,50,New York,Gold,1170.62,18,4.6,FALSE,16,Satisfied
+3093,Male,34,Houston,Gold,1377.6,14,4.2,FALSE,18,Neutral
+3094,Male,47,Boston,Gold,1214.03,18,4.1,TRUE,17,Satisfied
+3095,Female,38,New York,Gold,1479.24,17,4.8,FALSE,12,Satisfied
+3096,Female,44,Houston,Gold,1447.33,19,4.6,TRUE,8,Satisfied
+3097,Male,34,San Francisco,Bronze,447.65,8,3.3,FALSE,50,Unsatisfied
+3098,Male,45,San Francisco,Gold,1248.55,14,4.1,FALSE,12,Satisfied
+3099,Female,29,Miami,Gold,1260.83,18,4.6,FALSE,13,Satisfied
+3100,Female,41,Chicago,Gold,1341.29,18,4.3,FALSE,13,Satisfied
+3101,Male,33,Chicago,Gold,1628.53,20,4.7,FALSE,11,Satisfied
+3102,Female,37,San Francisco,Gold,1371.77,15,4.4,TRUE,19,Unsatisfied
+3103,Female,24,Houston,Gold,1404.65,16,4.3,TRUE,15,Satisfied
+3104,Female,34,Houston,Bronze,562.07,9,3.9,FALSE,57,Unsatisfied
+3105,Female,27,Boston,Gold,1297.08,14,4.6,FALSE,24,Satisfied
+3106,Male,27,Seattle,Gold,1326.01,17,4.7,FALSE,13,Neutral
+3107,Female,38,Boston,Gold,1457.85,15,4.6,TRUE,12,Neutral
+3108,Female,23,San Francisco,Silver,901.6,12,4.0,FALSE,32,Neutral
+3109,Male,38,Los Angeles,Silver,1059.11,16,4.0,FALSE,33,Unsatisfied
+3110,Male,29,Miami,Gold,1143.16,15,4.8,FALSE,9,Neutral
+3111,Male,52,Los Angeles,Silver,918.26,11,4.1,FALSE,31,Satisfied
+3112,Female,46,New York,Gold,1322.9,16,4.7,FALSE,11,Satisfied
+3113,Female,29,Houston,Gold,1191.75,17,4.5,TRUE,13,Satisfied
+3114,Female,34,Boston,Gold,1357.05,16,4.8,FALSE,7,Satisfied
+3115,Male,44,Chicago,Gold,1321.04,17,4.4,FALSE,9,Satisfied
+3116,Female,33,Houston,Gold,1493.19,17,4.6,TRUE,8,Satisfied
+3117,Female,50,Seattle,Silver,839.55,14,3.8,FALSE,25,Neutral
+3118,Female,31,San Francisco,Gold,1345.87,18,4.7,FALSE,4,Satisfied
+3119,Female,31,Houston,Bronze,659.57,8,3.5,FALSE,48,Neutral
+3120,Male,46,New York,Gold,1337.04,18,4.6,FALSE,12,Satisfied
+3121,Female,28,Houston,Gold,1499.55,14,4.7,FALSE,18,Satisfied
+3122,Male,46,Seattle,Gold,1466.14,15,4.5,FALSE,12,Satisfied
+3123,Female,34,New York,Gold,1265.79,14,4.4,FALSE,15,Unsatisfied
+3124,Female,41,Boston,Gold,1665.82,15,4.6,TRUE,7,Satisfied
+3125,Female,32,Miami,Gold,1348.12,15,4.1,FALSE,14,Satisfied
+3126,Female,30,Los Angeles,Gold,1282.32,18,4.6,FALSE,28,Neutral
+3127,Male,40,New York,Gold,1403.0,18,4.5,TRUE,16,Satisfied
+3128,Male,49,Miami,Gold,1381.32,18,4.5,TRUE,20,Unsatisfied
+3129,Male,32,Seattle,Gold,1414.99,16,4.4,TRUE,21,Neutral
+3130,Male,28,Miami,Gold,1471.23,16,4.5,TRUE,13,Unsatisfied
+3131,Female,39,Los Angeles,Gold,1413.63,14,4.7,FALSE,23,Satisfied
+3132,Female,44,Houston,Gold,1605.68,16,4.7,FALSE,12,Satisfied
+3133,Female,31,San Francisco,Silver,863.24,15,3.9,FALSE,34,Neutral
+3134,Female,35,Miami,Silver,879.61,14,4.2,FALSE,48,Neutral
+3135,Male,32,Boston,Silver,1041.23,13,3.7,FALSE,28,Neutral
+3136,Female,42,Houston,Gold,1470.59,17,4.8,TRUE,11,Unsatisfied
+3137,Female,32,Seattle,Gold,1468.22,20,4.1,FALSE,17,Satisfied
+3138,Male,49,New York,Gold,1493.31,19,4.9,TRUE,15,Neutral
+3139,Female,31,Chicago,Gold,1533.68,17,4.9,TRUE,5,Satisfied
+3140,Male,29,Miami,Gold,1181.84,16,5.0,FALSE,13,Neutral
+3141,Male,44,Seattle,Silver,902.47,12,4.2,FALSE,35,Satisfied
+3142,Female,31,Seattle,Silver,1115.63,9,4.4,FALSE,19,Neutral
+3143,Female,41,Houston,Gold,1292.76,17,4.2,TRUE,6,Satisfied
+3144,Female,27,Los Angeles,Gold,1327.86,16,4.4,FALSE,16,Satisfied
+3145,Male,35,Chicago,Gold,1280.7,18,4.1,FALSE,13,Satisfied
+3146,Female,29,Los Angeles,Silver,807.24,12,3.8,TRUE,14,Unsatisfied
+3147,Male,31,Chicago,Gold,1249.91,17,4.1,TRUE,11,Satisfied
+3148,Male,42,Seattle,Silver,1046.97,11,3.7,TRUE,20,Satisfied
+3149,Female,29,San Francisco,Silver,874.34,12,3.7,FALSE,31,Satisfied
+3150,Female,37,Los Angeles,Gold,1371.78,19,4.6,TRUE,13,Neutral
+3151,Female,35,San Francisco,Gold,1522.32,19,4.2,TRUE,19,Satisfied
+3152,Female,43,Miami,Gold,1631.19,19,4.2,FALSE,22,Satisfied
+3153,Male,33,Boston,Gold,1328.55,17,5.0,FALSE,8,Satisfied
+3154,Male,42,Chicago,Gold,1202.46,13,4.7,FALSE,11,Satisfied
+3155,Male,34,New York,Bronze,584.82,11,2.8,FALSE,45,Unsatisfied
+3156,Female,31,Miami,Gold,1409.04,19,4.6,TRUE,8,Satisfied
+3157,Male,30,San Francisco,Gold,1279.43,19,4.3,FALSE,20,Satisfied
+3158,Male,35,Boston,Bronze,461.93,10,3.1,FALSE,57,Satisfied
+3159,Male,28,Los Angeles,Gold,1428.89,17,5.0,TRUE,19,Satisfied
+3160,Male,35,San Francisco,Bronze,593.7,12,3.2,FALSE,40,Satisfied
+3161,Male,28,San Francisco,Gold,1270.3,17,4.4,TRUE,14,Satisfied
+3162,Male,26,New York,Bronze,602.15,11,2.8,FALSE,60,Unsatisfied
+3163,Male,47,New York,Bronze,576.24,9,3.2,TRUE,39,Satisfied
+3164,Male,36,Los Angeles,Silver,941.58,10,4.2,FALSE,39,Satisfied
+3165,Male,42,Boston,Bronze,423.81,12,3.6,TRUE,47,Satisfied
+3166,Female,32,Miami,Silver,729.7,15,4.0,TRUE,19,Satisfied
+3167,Female,35,Los Angeles,Gold,1229.5,19,4.5,TRUE,18,Satisfied
+3168,Female,32,Miami,Gold,1318.55,19,4.8,TRUE,21,Satisfied
+3169,Female,36,Houston,Gold,1251.04,17,4.4,FALSE,15,Satisfied
+3170,Male,38,Boston,Bronze,584.34,11,4.3,FALSE,65,Satisfied
+3171,Male,39,San Francisco,Gold,1384.07,19,4.6,TRUE,13,Satisfied
+3172,Male,29,Boston,Gold,1337.56,16,4.7,TRUE,18,Unsatisfied
+3173,Male,38,Boston,Gold,1479.07,17,4.8,FALSE,18,Satisfied
+3174,Male,42,Boston,Gold,1355.32,16,4.6,FALSE,24,Satisfied
+3175,Female,29,San Francisco,Bronze,524.45,12,3.7,FALSE,75,Neutral
+3176,Female,33,Miami,Gold,1237.7,19,4.6,TRUE,22,Satisfied
+3177,Male,41,Boston,Gold,1400.0,17,4.7,FALSE,14,Satisfied
+3178,Male,30,Chicago,Gold,1260.45,18,4.5,FALSE,12,Satisfied
+3179,Female,39,Chicago,Silver,904.61,16,4.6,TRUE,15,Neutral
+3180,Female,32,Los Angeles,Silver,973.04,10,4.7,FALSE,29,Satisfied
+3181,Male,40,Boston,Bronze,582.06,10,3.3,FALSE,42,Unsatisfied
+3182,Male,32,Boston,Silver,959.79,14,4.0,FALSE,18,Satisfied
+3183,Male,38,Boston,Bronze,666.88,8,3.5,TRUE,47,Neutral
+3184,Female,42,Seattle,Gold,1351.47,19,4.6,FALSE,12,Neutral
+3185,Female,28,Los Angeles,Gold,1560.03,17,4.4,FALSE,12,Neutral
+3186,Male,26,Houston,Gold,1371.5,18,4.5,TRUE,19,Satisfied
+3187,Female,35,Chicago,Gold,1406.44,17,4.4,FALSE,13,Satisfied
+3188,Male,40,Los Angeles,Silver,997.23,18,4.5,TRUE,39,Satisfied
+3189,Female,47,Los Angeles,Gold,1383.9,18,4.8,FALSE,7,Satisfied
+3190,Male,29,Miami,Silver,989.03,13,3.8,FALSE,39,Satisfied
+3191,Female,33,Seattle,Silver,887.9,11,4.4,FALSE,32,Satisfied
+3192,Male,39,Chicago,Gold,1281.98,19,4.4,TRUE,17,Satisfied
+3193,Female,29,San Francisco,Silver,1080.49,11,4.6,FALSE,15,Satisfied
+3194,Female,33,Seattle,Bronze,531.12,9,3.6,TRUE,67,Satisfied
+3195,Female,32,Houston,Gold,1198.35,15,4.0,FALSE,30,Satisfied
+3196,Female,50,Seattle,Gold,1389.59,21,4.6,FALSE,22,Neutral
+3197,Female,35,Boston,Gold,1363.09,17,4.3,TRUE,30,Satisfied
+3198,Male,37,Chicago,Bronze,528.26,9,3.6,FALSE,43,Satisfied
+3199,Male,35,Chicago,Gold,1303.93,19,4.8,FALSE,17,Satisfied
+3200,Male,50,Seattle,Gold,1036.12,17,4.6,TRUE,12,Satisfied
+3201,Male,33,Seattle,Bronze,777.4,6,3.4,FALSE,52,Satisfied
+3202,Male,37,Houston,Gold,1533.33,18,4.4,FALSE,21,Neutral
+3203,Male,42,Boston,Bronze,677.8,11,3.1,FALSE,28,Neutral
+3204,Male,35,Seattle,Gold,1181.42,14,4.1,FALSE,15,Satisfied
+3205,Female,48,New York,Gold,1191.92,13,4.3,FALSE,12,Satisfied
+3206,Male,44,Miami,Gold,1196.69,16,4.0,FALSE,17,Unsatisfied
+3207,Female,46,Seattle,Gold,1202.58,16,5.0,FALSE,4,Neutral
+3208,Male,45,New York,Silver,1091.36,13,4.1,TRUE,17,Satisfied
+3209,Male,35,Miami,Silver,1066.88,12,4.6,TRUE,33,Satisfied
+3210,Male,41,Los Angeles,Silver,871.59,12,4.3,TRUE,25,Unsatisfied
+3211,Male,27,Houston,Gold,1122.49,17,4.1,TRUE,26,Satisfied
+3212,Male,28,Seattle,Gold,1427.76,17,4.8,FALSE,7,Satisfied
+3213,Male,42,Miami,Gold,1287.64,16,4.5,FALSE,20,Satisfied
+3214,Female,42,San Francisco,Gold,1249.93,16,4.4,TRUE,12,Satisfied
+3215,Male,36,Seattle,Bronze,658.34,11,3.3,TRUE,35,Unsatisfied
+3216,Male,38,San Francisco,Gold,1650.37,21,4.6,FALSE,15,Neutral
+3217,Male,27,Seattle,Silver,1073.68,12,3.9,FALSE,11,Neutral
+3218,Female,37,Seattle,Gold,1500.68,19,4.7,TRUE,21,Satisfied
+3219,Male,36,Boston,Gold,1418.08,18,4.5,FALSE,22,Satisfied
+3220,Male,40,Seattle,Gold,1320.42,18,4.4,TRUE,6,Satisfied
+3221,Female,35,Houston,Silver,826.73,16,4.1,FALSE,23,Neutral
+3222,Male,47,Chicago,Silver,946.09,12,3.4,FALSE,10,Neutral
+3223,Male,51,Boston,Gold,1213.69,19,4.6,FALSE,15,Satisfied
+3224,Female,39,New York,Gold,1238.77,16,4.6,TRUE,21,Satisfied
+3225,Male,43,Seattle,Gold,1327.48,18,4.7,FALSE,11,Satisfied
+3226,Female,27,Chicago,Gold,1277.15,22,4.2,FALSE,22,Unsatisfied
+3227,Male,33,Chicago,Gold,1287.34,14,4.4,FALSE,11,Satisfied
+3228,Female,48,San Francisco,Silver,785.05,14,3.4,FALSE,11,Neutral
+3229,Male,22,Boston,Gold,1203.71,13,4.6,FALSE,9,Satisfied
+3230,Female,27,Seattle,Silver,1067.73,12,3.8,FALSE,28,Unsatisfied
+3231,Male,38,Los Angeles,Gold,1494.38,16,4.6,TRUE,14,Neutral
+3232,Female,42,Boston,Gold,1528.74,16,4.5,TRUE,14,Satisfied
+3233,Female,38,Los Angeles,Silver,1021.63,13,3.9,TRUE,17,Unsatisfied
+3234,Male,34,San Francisco,Gold,1515.77,15,4.2,FALSE,14,Satisfied
+3235,Female,35,Miami,Bronze,581.2,9,3.4,TRUE,47,Neutral
+3236,Male,35,San Francisco,Bronze,478.05,9,4.0,FALSE,47,Satisfied
+3237,Female,37,Miami,Gold,1402.05,17,4.5,FALSE,13,Satisfied
+3238,Male,32,Los Angeles,Bronze,685.52,11,3.9,FALSE,43,Satisfied
+3239,Male,36,Boston,Bronze,629.43,8,3.4,FALSE,56,Neutral
+3240,Male,36,Houston,Gold,1124.16,14,4.7,FALSE,26,Satisfied
+3241,Female,37,Chicago,Gold,1355.75,13,4.3,FALSE,6,Satisfied
+3242,Male,42,Seattle,Silver,850.33,15,3.8,TRUE,33,Neutral
+3243,Female,36,Houston,Silver,789.57,15,3.4,FALSE,18,Neutral
+3244,Female,28,New York,Gold,1500.61,13,4.3,FALSE,18,Satisfied
+3245,Male,48,San Francisco,Gold,1033.67,17,4.4,TRUE,1,Satisfied
+3246,Male,38,Los Angeles,Gold,1291.94,22,4.4,FALSE,19,Satisfied
+3247,Female,28,Chicago,Gold,1256.95,19,4.6,FALSE,12,Satisfied
+3248,Male,43,Los Angeles,Gold,1424.71,16,4.8,TRUE,19,Satisfied
+3249,Female,42,San Francisco,Silver,955.81,12,3.8,FALSE,30,Unsatisfied
+3250,Male,33,Houston,Gold,1633.99,18,4.5,FALSE,15,Neutral
+3251,Female,57,Miami,Gold,1387.52,19,4.5,FALSE,17,Neutral
+3252,Male,38,Seattle,Gold,1449.33,16,4.7,TRUE,11,Satisfied
+3253,Male,49,San Francisco,Silver,829.14,14,3.4,FALSE,31,Neutral
+3254,Male,43,Miami,Gold,1476.83,17,4.6,FALSE,13,Satisfied
+3255,Male,28,New York,Gold,1262.56,16,4.4,FALSE,3,Neutral
+3256,Male,34,New York,Bronze,596.58,8,3.3,TRUE,44,Satisfied
+3257,Female,39,New York,Gold,1277.44,19,4.3,FALSE,14,Satisfied
+3258,Female,39,San Francisco,Gold,1259.03,16,4.6,FALSE,15,Unsatisfied
+3259,Female,33,New York,Bronze,583.74,9,3.0,FALSE,49,Unsatisfied
+3260,Male,37,Chicago,Gold,1350.4,16,4.6,FALSE,27,Satisfied
+3261,Female,44,Chicago,Gold,1369.94,18,4.3,FALSE,13,Satisfied
+3262,Male,22,Houston,Gold,1432.03,16,4.8,FALSE,14,Satisfied
+3263,Female,32,Miami,Gold,1396.94,16,4.6,TRUE,11,Satisfied
+3264,Male,31,New York,Gold,1429.31,23,4.4,TRUE,18,Satisfied
+3265,Female,54,Chicago,Gold,1241.45,13,4.6,FALSE,19,Satisfied
+3266,Male,40,Miami,Gold,1184.26,19,4.0,TRUE,8,Satisfied
+3267,Male,22,Chicago,Gold,1406.95,15,4.4,FALSE,8,Satisfied
+3268,Female,26,Chicago,Gold,1460.38,20,4.5,FALSE,18,Satisfied
+3269,Male,40,Boston,Gold,1333.31,16,4.5,FALSE,13,Satisfied
+3270,Male,40,Boston,Gold,1462.32,17,4.5,FALSE,17,Satisfied
+3271,Female,22,Seattle,Silver,838.04,13,4.0,TRUE,42,Neutral
+3272,Male,42,Houston,Gold,1279.08,15,4.6,FALSE,8,Neutral
+3273,Male,41,Seattle,Gold,1233.29,16,4.3,FALSE,22,Neutral
+3274,Male,35,Chicago,Gold,1422.57,20,4.3,TRUE,16,Satisfied
+3275,Female,27,Chicago,Silver,883.92,13,3.6,FALSE,25,Satisfied
+3276,Male,31,Chicago,Silver,1049.8,12,3.8,FALSE,40,Neutral
+3277,Female,29,San Francisco,Gold,1345.46,16,4.3,FALSE,19,Satisfied
+3278,Male,37,Houston,Gold,1302.4,15,4.5,FALSE,7,Satisfied
+3279,Male,48,San Francisco,Silver,1036.44,14,3.7,TRUE,32,Satisfied
+3280,Female,43,Chicago,Bronze,546.46,9,3.4,TRUE,55,Neutral
+3281,Female,29,New York,Gold,1254.7,16,4.7,TRUE,21,Satisfied
+3282,Male,37,Houston,Silver,904.96,14,3.8,FALSE,23,Neutral
+3283,Female,31,Los Angeles,Gold,1209.26,17,4.1,TRUE,14,Satisfied
+3284,Male,44,Chicago,Gold,1342.78,15,4.6,FALSE,9,Neutral
+3285,Female,39,Seattle,Gold,1531.11,14,4.4,TRUE,14,Satisfied
+3286,Male,44,Houston,Silver,889.51,11,3.7,FALSE,33,Satisfied
+3287,Male,31,Los Angeles,Gold,1320.28,17,4.5,FALSE,10,Neutral
+3288,Male,29,Houston,Gold,1377.78,16,4.3,FALSE,6,Satisfied
+3289,Female,33,Boston,Gold,1194.84,15,4.2,FALSE,2,Satisfied
+3290,Male,47,Miami,Gold,1182.28,17,4.6,TRUE,1,Satisfied
+3291,Female,46,Boston,Bronze,712.1,10,3.5,FALSE,48,Unsatisfied
+3292,Female,46,Chicago,Gold,1205.91,12,4.7,FALSE,10,Neutral
+3293,Male,29,Chicago,Gold,1216.17,19,4.4,FALSE,11,Satisfied
+3294,Female,32,Boston,Gold,1283.39,18,4.7,TRUE,13,Satisfied
+3295,Female,26,New York,Gold,1296.22,14,4.6,FALSE,8,Satisfied
+3296,Male,45,Houston,Gold,1531.15,18,4.5,FALSE,9,Satisfied
+3297,Male,43,San Francisco,Gold,1585.76,17,4.3,FALSE,18,Satisfied
+3298,Female,50,Houston,Gold,1347.55,18,4.2,TRUE,14,Satisfied
+3299,Female,34,Chicago,Gold,1047.48,20,4.9,FALSE,17,Satisfied
+3300,Male,42,San Francisco,Gold,1475.26,16,4.4,FALSE,11,Satisfied
+3301,Female,42,Chicago,Gold,1490.32,18,4.3,FALSE,11,Satisfied
+3302,Female,42,San Francisco,Gold,1328.49,16,4.3,FALSE,15,Neutral
+3303,Male,36,Seattle,Silver,942.24,16,3.9,FALSE,35,Satisfied
+3304,Female,45,Boston,Silver,1210.89,9,4.0,TRUE,27,Satisfied
+3305,Female,41,San Francisco,Gold,1216.63,14,4.4,TRUE,9,Satisfied
+3306,Female,33,Seattle,Gold,1152.34,19,4.3,TRUE,12,Satisfied
+3307,Male,37,San Francisco,Gold,1224.5,15,4.0,FALSE,15,Satisfied
+3308,Female,37,Boston,Gold,1516.13,18,4.5,FALSE,16,Satisfied
+3309,Female,30,Houston,Gold,1514.34,18,4.4,FALSE,16,Satisfied
+3310,Male,39,Seattle,Gold,1387.6,13,4.7,FALSE,16,Unsatisfied
+3311,Female,40,Los Angeles,Gold,1552.77,18,4.7,FALSE,15,Satisfied
+3312,Female,47,New York,Gold,1348.69,19,4.0,FALSE,11,Satisfied
+3313,Male,22,Los Angeles,Gold,1232.75,15,4.8,TRUE,22,Satisfied
+3314,Female,34,San Francisco,Gold,1369.57,19,4.8,FALSE,15,Satisfied
+3315,Female,42,San Francisco,Gold,1334.31,16,4.3,FALSE,20,Satisfied
+3316,Female,33,Miami,Gold,1235.79,18,4.8,FALSE,11,Satisfied
+3317,Female,26,Houston,Gold,1684.5,18,5.0,TRUE,11,Satisfied
+3318,Male,38,San Francisco,Gold,1088.0,18,4.3,FALSE,23,Satisfied
+3319,Male,43,New York,Silver,966.26,12,4.1,FALSE,18,Satisfied
+3320,Male,33,Miami,Gold,1219.19,15,4.4,TRUE,21,Satisfied
+3321,Female,32,Houston,Gold,1398.05,16,4.6,TRUE,11,Satisfied
+3322,Female,33,Chicago,Gold,1287.59,17,4.7,TRUE,3,Satisfied
+3323,Male,34,San Francisco,Gold,1370.37,13,4.4,TRUE,7,Satisfied
+3324,Male,38,Boston,Gold,1390.27,17,4.4,FALSE,10,Satisfied
+3325,Female,49,Chicago,Silver,1053.08,14,3.8,FALSE,33,Satisfied
+3326,Male,24,Los Angeles,Bronze,454.27,10,3.4,FALSE,61,Unsatisfied
+3327,Female,50,Chicago,Gold,1397.97,21,4.4,FALSE,12,Satisfied
+3328,Male,39,Miami,Gold,1673.93,16,4.8,FALSE,19,Satisfied
+3329,Female,23,Miami,Silver,928.53,15,3.8,FALSE,33,Neutral
+3330,Male,50,New York,Gold,1335.1,17,4.9,TRUE,18,Satisfied
+3331,Female,41,Boston,Silver,827.55,14,3.8,FALSE,38,Neutral
+3332,Female,33,San Francisco,Gold,1431.53,19,4.3,TRUE,9,Satisfied
+3333,Female,47,Boston,Gold,1580.56,13,4.4,FALSE,12,Satisfied
+3334,Female,43,Seattle,Gold,1512.71,23,4.6,FALSE,21,Unsatisfied
+3335,Male,45,Chicago,Gold,1250.4,14,4.5,TRUE,6,Satisfied
+3336,Male,41,Boston,Gold,1628.32,18,4.8,TRUE,6,Satisfied
+3337,Male,34,Chicago,Gold,1455.78,17,4.8,FALSE,16,Unsatisfied
+3338,Female,37,New York,Gold,1391.35,18,4.5,FALSE,12,Unsatisfied
+3339,Female,41,Seattle,Gold,1281.9,15,4.4,TRUE,23,Neutral
+3340,Female,37,Houston,Gold,1266.68,21,4.6,FALSE,10,Satisfied
+3341,Female,34,Los Angeles,Silver,910.48,15,4.4,FALSE,30,Satisfied
+3342,Male,35,Seattle,Gold,1504.97,16,4.5,TRUE,19,Satisfied
+3343,Female,46,Houston,Gold,1450.33,15,4.4,TRUE,25,Satisfied
+3344,Male,24,Boston,Bronze,546.57,8,3.8,FALSE,46,Unsatisfied
+3345,Female,40,Miami,Gold,1310.58,15,4.3,FALSE,9,Neutral
+3346,Female,22,New York,Silver,968.47,13,4.0,TRUE,37,Satisfied
+3347,Female,22,San Francisco,Gold,1416.93,21,4.3,TRUE,13,Satisfied
+3348,Female,37,New York,Gold,1401.54,19,4.4,FALSE,15,Satisfied
+3349,Male,37,Miami,Bronze,613.68,10,3.3,FALSE,28,Unsatisfied
+3350,Female,48,Miami,Gold,1186.51,16,4.4,FALSE,16,Satisfied
+3351,Female,29,Chicago,Gold,1458.9,15,4.5,FALSE,11,Satisfied
+3352,Female,45,Los Angeles,Gold,1417.12,19,4.9,TRUE,19,Neutral
+3353,Male,28,Boston,Gold,1344.35,18,4.5,TRUE,13,Neutral
+3354,Female,36,New York,Gold,1165.22,19,5.0,TRUE,17,Satisfied
+3355,Male,35,Chicago,Silver,998.7,11,4.2,FALSE,22,Satisfied
+3356,Female,33,New York,Gold,1319.51,16,4.6,TRUE,19,Satisfied
+3357,Female,29,Houston,Gold,1337.57,18,5.0,FALSE,17,Unsatisfied
+3358,Male,45,Los Angeles,Silver,756.8,10,3.9,TRUE,14,Neutral
+3359,Male,29,Miami,Gold,1461.4,19,4.5,TRUE,15,Satisfied
+3360,Female,34,Seattle,Gold,1446.78,15,4.4,TRUE,13,Satisfied
+3361,Male,38,New York,Gold,1421.71,17,4.1,FALSE,20,Satisfied
+3362,Male,32,Chicago,Silver,840.9,11,4.0,FALSE,12,Satisfied
+3363,Female,27,Chicago,Gold,1392.12,16,4.5,FALSE,13,Satisfied
+3364,Female,30,Chicago,Gold,1347.89,14,4.6,TRUE,10,Neutral
+3365,Female,35,Miami,Gold,1573.58,13,4.6,FALSE,11,Satisfied
+3366,Female,33,Seattle,Gold,1290.14,20,4.8,FALSE,19,Satisfied
+3367,Male,26,Seattle,Gold,1707.17,15,4.2,FALSE,24,Satisfied
+3368,Female,46,New York,Silver,1034.85,13,3.6,FALSE,20,Satisfied
+3369,Female,30,San Francisco,Gold,1472.87,17,4.8,TRUE,10,Satisfied
+3370,Female,28,Seattle,Gold,1521.56,20,4.4,FALSE,19,Satisfied
+3371,Female,43,San Francisco,Silver,939.08,14,4.2,TRUE,30,Neutral
+3372,Male,36,San Francisco,Gold,1177.23,13,4.8,FALSE,12,Satisfied
+3373,Male,31,Los Angeles,Gold,1297.99,17,4.3,FALSE,5,Satisfied
+3374,Female,22,Chicago,Bronze,760.72,6,3.6,FALSE,36,Neutral
+3375,Male,33,Los Angeles,Silver,851.9,12,3.9,FALSE,20,Satisfied
+3376,Female,41,Boston,Gold,1308.6,19,4.7,FALSE,11,Satisfied
+3377,Female,37,New York,Gold,1312.23,14,4.4,FALSE,16,Satisfied
+3378,Male,43,Los Angeles,Bronze,553.54,12,3.7,FALSE,57,Neutral
+3379,Male,33,Los Angeles,Gold,1472.0,16,4.6,FALSE,25,Satisfied
+3380,Female,35,Boston,Gold,1564.34,14,4.1,TRUE,3,Satisfied
+3381,Male,28,Chicago,Silver,1029.65,11,4.5,FALSE,26,Neutral
+3382,Female,34,San Francisco,Gold,1471.07,14,4.7,TRUE,15,Neutral
+3383,Female,31,Seattle,Gold,1471.76,18,4.9,FALSE,17,Satisfied
+3384,Female,29,Boston,Gold,1225.21,14,4.8,FALSE,20,Neutral
+3385,Female,42,Seattle,Gold,1233.1,17,4.8,TRUE,23,Satisfied
+3386,Male,39,Seattle,Gold,1574.87,17,4.5,FALSE,14,Satisfied
+3387,Male,38,Boston,Silver,915.81,14,4.1,TRUE,41,Satisfied
+3388,Male,38,Los Angeles,Bronze,574.26,10,3.3,FALSE,43,Satisfied
+3389,Male,37,Houston,Gold,1518.39,16,4.4,TRUE,9,Satisfied
+3390,Male,40,Miami,Silver,891.92,17,4.0,FALSE,29,Neutral
+3391,Female,38,Seattle,Gold,1440.15,19,4.3,FALSE,15,Satisfied
+3392,Female,31,Seattle,Gold,1081.5,18,4.2,TRUE,14,Satisfied
+3393,Male,39,Miami,Silver,691.35,15,3.9,TRUE,17,Satisfied
+3394,Male,42,Los Angeles,Gold,1484.97,21,5.0,TRUE,9,Satisfied
+3395,Male,31,San Francisco,Gold,1467.66,16,5.0,TRUE,23,Satisfied
+3396,Female,43,Boston,Gold,1211.04,17,4.2,TRUE,6,Satisfied
+3397,Female,30,Houston,Silver,891.41,12,4.0,TRUE,22,Neutral
+3398,Male,37,New York,Silver,888.53,14,3.7,TRUE,27,Neutral
+3399,Female,29,Los Angeles,Bronze,588.05,6,4.2,TRUE,50,Satisfied
+3400,Male,43,Houston,Gold,1342.22,18,4.0,FALSE,15,Satisfied
+3401,Male,43,Boston,Gold,1400.32,17,4.5,FALSE,13,Satisfied
+3402,Male,39,Seattle,Gold,1159.05,16,4.6,TRUE,16,Neutral
+3403,Male,39,Los Angeles,Gold,1396.46,18,4.5,FALSE,19,Neutral
+3404,Female,39,Houston,Gold,1413.77,17,4.4,TRUE,17,Satisfied
+3405,Male,42,San Francisco,Gold,1389.48,17,4.6,TRUE,14,Satisfied
+3406,Female,36,San Francisco,Gold,1521.15,17,4.3,TRUE,18,Satisfied
+3407,Female,49,Houston,Gold,1390.76,22,4.7,FALSE,7,Satisfied
+3408,Female,37,San Francisco,Gold,1493.55,18,4.6,TRUE,16,Satisfied
+3409,Female,35,New York,Gold,1380.14,17,4.1,FALSE,7,Neutral
+3410,Male,36,Boston,Gold,1515.79,19,4.5,FALSE,23,Neutral
+3411,Female,35,Miami,Gold,1361.34,15,4.5,TRUE,15,Satisfied
+3412,Female,45,Chicago,Gold,1405.24,17,4.3,FALSE,6,Neutral
+3413,Male,32,Chicago,Gold,1297.11,15,4.7,FALSE,4,Neutral
+3414,Male,42,Chicago,Gold,1575.21,16,4.8,FALSE,10,Satisfied
+3415,Female,36,Los Angeles,Gold,1318.67,16,4.5,FALSE,17,Satisfied
+3416,Female,41,Chicago,Gold,1390.4,17,4.4,FALSE,14,Satisfied
+3417,Male,43,Los Angeles,Gold,1375.28,19,4.4,TRUE,16,Satisfied
+3418,Female,34,Chicago,Gold,1222.61,18,4.8,FALSE,22,Neutral
+3419,Male,22,Houston,Gold,1230.54,16,4.8,FALSE,18,Unsatisfied
+3420,Male,36,Seattle,Silver,940.49,12,3.3,TRUE,26,Neutral
+3421,Female,33,Seattle,Gold,1336.16,25,4.3,TRUE,10,Satisfied
+3422,Female,39,Houston,Gold,1183.46,18,4.7,TRUE,20,Satisfied
+3423,Female,40,Chicago,Silver,917.34,10,3.9,FALSE,19,Satisfied
+3424,Male,42,Houston,Gold,1374.75,16,4.7,TRUE,21,Satisfied
+3425,Female,29,New York,Silver,867.21,18,3.9,TRUE,26,Satisfied
+3426,Female,25,Chicago,Gold,1431.01,18,4.5,TRUE,8,Satisfied
+3427,Male,34,Miami,Gold,1251.68,19,4.6,FALSE,9,Satisfied
+3428,Male,31,Houston,Gold,1410.75,16,4.5,FALSE,14,Satisfied
+3429,Male,42,Houston,Gold,1382.9,18,4.2,FALSE,13,Satisfied
+3430,Male,39,New York,Gold,1272.28,21,4.5,FALSE,22,Satisfied
+3431,Male,27,Houston,Silver,955.55,13,3.7,FALSE,20,Neutral
+3432,Male,44,San Francisco,Silver,933.6,9,4.2,TRUE,27,Satisfied
+3433,Female,27,Houston,Gold,1376.56,17,4.5,TRUE,11,Unsatisfied
+3434,Male,29,Boston,Gold,1453.26,18,4.8,TRUE,14,Satisfied
+3435,Female,38,Boston,Bronze,516.9,5,3.0,FALSE,55,Unsatisfied
+3436,Male,22,Miami,Gold,1274.75,15,4.6,FALSE,13,Satisfied
+3437,Female,38,New York,Silver,901.55,16,4.2,FALSE,30,Satisfied
+3438,Female,30,New York,Gold,1267.02,17,4.6,FALSE,12,Satisfied
+3439,Male,40,Boston,Gold,1393.87,18,4.3,FALSE,9,Neutral
+3440,Male,22,Chicago,Silver,988.89,13,3.2,FALSE,26,Neutral
+3441,Male,43,Los Angeles,Silver,1016.4,16,4.4,FALSE,36,Satisfied
+3442,Female,46,Miami,Silver,855.8,13,4.2,FALSE,26,Neutral
+3443,Male,38,Seattle,Gold,1203.47,17,4.5,FALSE,12,Satisfied
+3444,Male,43,Seattle,Gold,1108.16,15,4.9,FALSE,11,Satisfied
+3445,Female,49,Chicago,Gold,1266.75,16,4.3,TRUE,8,Satisfied
+3446,Male,39,New York,Gold,1260.48,14,4.1,FALSE,8,Satisfied
+3447,Female,39,Los Angeles,Gold,1564.11,19,4.6,TRUE,21,Satisfied
+3448,Female,28,Chicago,Gold,1226.75,18,4.3,FALSE,11,Satisfied
+3449,Male,33,Los Angeles,Gold,1217.41,17,4.6,FALSE,18,Satisfied
+3450,Female,38,Miami,Silver,1017.7,10,3.7,FALSE,19,Neutral
+3451,Female,50,Chicago,Gold,1409.6,17,4.3,FALSE,5,Satisfied
+3452,Male,38,Miami,Gold,1384.77,19,4.1,TRUE,10,Neutral
+3453,Female,47,Miami,Silver,958.62,11,4.1,FALSE,40,Neutral
+3454,Female,38,Houston,Gold,1462.17,19,4.6,TRUE,15,Satisfied
+3455,Female,35,Houston,Gold,1266.97,16,4.7,FALSE,18,Neutral
+3456,Female,42,Los Angeles,Gold,1083.41,15,4.3,TRUE,18,Neutral
+3457,Female,43,Los Angeles,Silver,949.07,12,3.9,TRUE,24,Satisfied
+3458,Male,38,Houston,Gold,1354.37,15,4.2,FALSE,11,Satisfied
+3459,Female,31,Seattle,Gold,1486.2,16,4.5,FALSE,14,Satisfied
+3460,Female,26,New York,Gold,1517.31,18,4.4,FALSE,14,Neutral
+3461,Female,30,Los Angeles,Silver,864.51,11,3.5,TRUE,38,Satisfied
+3462,Female,33,Boston,Gold,1087.09,16,4.4,TRUE,16,Satisfied
+3463,Male,40,Houston,Gold,1291.79,15,4.7,FALSE,18,Satisfied
+3464,Female,39,Boston,Gold,1421.23,17,4.6,TRUE,15,Satisfied
+3465,Male,37,San Francisco,Gold,1192.75,19,4.4,FALSE,9,Satisfied
+3466,Male,35,Los Angeles,Bronze,791.39,13,4.5,TRUE,39,Unsatisfied
+3467,Male,42,Miami,Gold,1340.66,17,4.5,FALSE,9,Satisfied
+3468,Female,40,San Francisco,Gold,1348.24,18,4.4,FALSE,13,Satisfied
+3469,Female,33,Los Angeles,Silver,1094.45,15,3.9,FALSE,26,Neutral
+3470,Male,34,Boston,Gold,1501.69,21,4.5,TRUE,18,Satisfied
+3471,Female,42,Miami,Gold,1246.11,19,4.0,FALSE,14,Satisfied
+3472,Female,42,Boston,Bronze,565.22,8,2.5,TRUE,54,Satisfied
+3473,Female,50,Houston,Gold,1242.13,16,4.1,FALSE,19,Neutral
+3474,Male,37,Houston,Gold,1364.3,18,4.7,TRUE,13,Satisfied
+3475,Male,35,Boston,Gold,1569.98,17,4.7,FALSE,10,Satisfied
+3476,Male,38,Miami,Silver,825.95,14,4.0,FALSE,30,Satisfied
+3477,Female,36,San Francisco,Gold,1317.36,15,4.6,FALSE,19,Satisfied
+3478,Female,26,San Francisco,Gold,1314.12,18,4.5,TRUE,1,Satisfied
+3479,Male,36,Miami,Silver,903.83,13,4.0,TRUE,31,Neutral
+3480,Female,24,Seattle,Gold,1342.31,19,4.7,FALSE,11,Neutral
+3481,Male,49,Houston,Gold,1358.96,16,4.7,FALSE,4,Satisfied
+3482,Female,35,Seattle,Bronze,622.7,8,4.0,TRUE,29,Neutral
+3483,Female,27,Houston,Gold,1190.62,20,4.6,FALSE,16,Neutral
+3484,Male,33,Miami,Gold,1258.58,20,4.8,FALSE,25,Satisfied
+3485,Female,29,Boston,Bronze,521.6,8,3.3,TRUE,52,Satisfied
+3486,Female,39,San Francisco,Gold,1205.46,19,4.2,TRUE,16,Satisfied
+3487,Male,33,Houston,Gold,1340.01,16,4.2,FALSE,12,Satisfied
+3488,Male,44,San Francisco,Silver,885.74,14,3.8,FALSE,33,Satisfied
+3489,Male,39,Seattle,Gold,1417.7,17,4.3,FALSE,13,Satisfied
+3490,Male,40,Chicago,Gold,1319.18,14,4.8,FALSE,12,Satisfied
+3491,Female,36,Houston,Gold,1344.84,18,4.3,FALSE,17,Satisfied
+3492,Male,35,Chicago,Gold,1320.52,15,4.0,FALSE,15,Satisfied
+3493,Female,33,Houston,Silver,1050.43,10,4.3,FALSE,46,Neutral
+3494,Male,31,Miami,Gold,1546.7,14,4.8,TRUE,19,Satisfied
+3495,Male,27,Boston,Gold,1440.75,17,5.0,FALSE,21,Satisfied
+3496,Female,27,Miami,Bronze,485.0,10,3.0,FALSE,57,Unsatisfied
+3497,Male,31,New York,Gold,1456.69,17,4.4,FALSE,14,Satisfied
+3498,Male,40,New York,Gold,1192.96,17,4.8,FALSE,17,Satisfied
+3499,Female,38,New York,Gold,1285.93,17,4.5,FALSE,22,Neutral
+3500,Female,33,Boston,Gold,1314.21,19,4.5,FALSE,17,Satisfied
+3501,Female,31,Los Angeles,Silver,766.12,18,3.2,TRUE,20,Satisfied
+3502,Female,34,Boston,Gold,1308.86,18,4.6,TRUE,6,Satisfied
+3503,Male,32,Los Angeles,Silver,938.41,12,3.9,FALSE,43,Satisfied
+3504,Male,38,Chicago,Gold,1466.82,17,4.0,FALSE,7,Satisfied
+3505,Male,32,Chicago,Gold,1206.39,18,4.3,FALSE,16,Satisfied
+3506,Female,31,Houston,Silver,917.11,10,3.9,TRUE,30,Unsatisfied
+3507,Female,39,Boston,Gold,1318.82,18,4.3,TRUE,17,Neutral
+3508,Male,48,San Francisco,Gold,1332.34,15,4.6,FALSE,7,Satisfied
+3509,Female,45,Chicago,Gold,1378.47,20,4.8,TRUE,19,Satisfied
+3510,Female,32,San Francisco,Gold,1343.58,17,4.2,FALSE,10,Neutral
+3511,Female,38,Houston,Gold,1359.27,17,4.2,FALSE,4,Satisfied
+3512,Female,32,Houston,Gold,1231.76,19,4.3,FALSE,14,Satisfied
+3513,Female,38,Boston,Gold,1222.05,20,5.0,FALSE,5,Neutral
+3514,Female,45,Chicago,Bronze,640.8,9,3.0,FALSE,46,Unsatisfied
+3515,Male,44,Boston,Gold,1220.66,21,4.4,FALSE,24,Satisfied
+3516,Female,48,New York,Gold,1223.47,17,4.2,TRUE,19,Satisfied
+3517,Male,39,Houston,Bronze,506.62,8,3.1,FALSE,52,Unsatisfied
+3518,Female,42,New York,Bronze,581.91,7,3.8,TRUE,54,Unsatisfied
+3519,Female,36,Houston,Gold,1437.22,17,4.6,FALSE,12,Satisfied
+3520,Male,41,Houston,Gold,1411.69,18,4.4,FALSE,21,Satisfied
+3521,Male,47,San Francisco,Gold,1437.11,18,4.4,FALSE,11,Neutral
+3522,Male,44,Chicago,Gold,1542.27,16,4.3,TRUE,20,Satisfied
+3523,Female,42,Miami,Gold,1375.55,18,4.5,TRUE,11,Neutral
+3524,Male,28,Houston,Gold,1386.25,19,4.6,FALSE,16,Satisfied
+3525,Female,45,Miami,Bronze,499.08,10,3.6,TRUE,50,Neutral
+3526,Male,34,Chicago,Gold,1256.91,17,4.4,TRUE,7,Satisfied
+3527,Male,46,Houston,Gold,1501.99,17,4.4,TRUE,19,Satisfied
+3528,Male,40,New York,Silver,885.16,11,4.3,FALSE,27,Neutral
+3529,Female,50,San Francisco,Silver,757.14,12,3.7,TRUE,31,Satisfied
+3530,Female,37,Miami,Gold,1255.48,16,4.7,TRUE,9,Satisfied
+3531,Female,41,Houston,Gold,1389.69,14,4.4,TRUE,8,Satisfied
+3532,Male,29,Miami,Gold,1399.46,17,4.6,TRUE,8,Neutral
+3533,Female,41,New York,Gold,1289.4,17,4.2,TRUE,14,Satisfied
+3534,Male,29,Miami,Gold,1152.58,18,4.5,FALSE,18,Satisfied
+3535,Female,50,San Francisco,Gold,1445.21,14,4.4,TRUE,18,Satisfied
+3536,Female,27,New York,Gold,1458.7,15,4.6,FALSE,16,Unsatisfied
+3537,Female,31,San Francisco,Gold,1400.28,18,4.6,FALSE,19,Unsatisfied
+3538,Female,33,Los Angeles,Silver,937.33,15,4.0,FALSE,28,Neutral
+3539,Female,38,Seattle,Silver,947.19,12,3.7,FALSE,26,Neutral
+3540,Female,40,New York,Gold,1245.6,14,4.7,FALSE,15,Satisfied
+3541,Male,52,New York,Gold,1579.9,20,4.3,FALSE,15,Neutral
+3542,Male,37,Boston,Gold,1507.83,19,4.7,TRUE,11,Satisfied
+3543,Male,34,Seattle,Gold,1472.47,18,4.6,FALSE,11,Satisfied
+3544,Female,36,Boston,Bronze,685.52,13,4.3,FALSE,64,Unsatisfied
+3545,Male,36,Chicago,Gold,1349.65,19,4.6,TRUE,15,Satisfied
+3546,Male,45,Chicago,Gold,1462.03,17,4.8,FALSE,11,Neutral
+3547,Male,38,Chicago,Gold,1310.95,17,5.0,FALSE,12,Satisfied
+3548,Male,50,Houston,Gold,1374.85,12,4.6,FALSE,6,Neutral
+3549,Male,44,Chicago,Gold,1349.62,20,4.4,TRUE,16,Satisfied
+3550,Male,32,Chicago,Gold,1352.45,18,4.4,TRUE,12,Satisfied
+3551,Female,37,Chicago,Gold,1650.43,14,4.4,TRUE,16,Satisfied
+3552,Female,43,San Francisco,Gold,1212.53,17,4.3,TRUE,13,Satisfied
+3553,Male,43,Chicago,Bronze,546.53,11,3.5,FALSE,64,Neutral
+3554,Male,31,New York,Gold,1298.05,15,4.8,TRUE,10,Satisfied
+3555,Male,40,New York,Gold,1436.65,19,4.0,FALSE,13,Unsatisfied
+3556,Male,37,Boston,Silver,954.16,9,4.3,FALSE,23,Neutral
+3557,Male,25,San Francisco,Gold,1151.85,17,4.7,FALSE,6,Satisfied
+3558,Male,35,San Francisco,Gold,1357.52,18,4.3,FALSE,18,Satisfied
+3559,Male,28,Los Angeles,Gold,1334.99,19,4.2,TRUE,18,Satisfied
+3560,Male,43,San Francisco,Gold,1480.29,18,4.6,FALSE,14,Satisfied
+3561,Female,36,Boston,Silver,1026.81,12,3.7,TRUE,23,Satisfied
+3562,Female,30,Houston,Silver,994.33,12,3.6,FALSE,26,Neutral
+3563,Male,32,Boston,Gold,1283.93,19,4.6,FALSE,6,Neutral
+3564,Female,41,Chicago,Gold,1411.16,19,4.5,FALSE,9,Neutral
+3565,Male,33,Chicago,Gold,1287.56,19,4.5,FALSE,13,Satisfied
+3566,Female,26,Seattle,Bronze,734.29,8,3.8,FALSE,73,Neutral
+3567,Male,29,San Francisco,Gold,1484.65,16,4.4,TRUE,15,Satisfied
+3568,Male,41,Seattle,Gold,1445.18,19,4.1,FALSE,12,Satisfied
+3569,Female,42,San Francisco,Gold,1425.33,18,4.4,FALSE,15,Satisfied
+3570,Male,39,Boston,Silver,1029.71,13,4.2,TRUE,30,Neutral
+3571,Male,39,Los Angeles,Gold,1181.06,16,4.3,TRUE,15,Satisfied
+3572,Male,45,Miami,Gold,1086.07,18,4.4,FALSE,12,Satisfied
+3573,Male,28,Miami,Gold,1475.47,16,4.2,FALSE,11,Satisfied
+3574,Male,36,Miami,Gold,1217.92,16,4.5,TRUE,11,Satisfied
+3575,Male,40,Los Angeles,Gold,1381.34,15,4.3,FALSE,21,Unsatisfied
+3576,Female,35,San Francisco,Gold,1410.05,18,4.5,FALSE,13,Satisfied
+3577,Female,37,Miami,Silver,937.57,17,3.7,TRUE,27,Satisfied
+3578,Male,40,New York,Silver,865.36,13,4.2,FALSE,31,Satisfied
+3579,Male,30,Chicago,Gold,1380.87,19,4.6,FALSE,7,Satisfied
+3580,Female,39,Houston,Gold,1311.58,18,4.4,TRUE,11,Unsatisfied
+3581,Female,44,Los Angeles,Bronze,521.91,10,3.6,TRUE,66,Neutral
+3582,Male,28,New York,Silver,946.57,16,4.2,FALSE,32,Neutral
+3583,Female,48,Miami,Gold,1223.39,19,4.3,FALSE,19,Neutral
+3584,Female,43,San Francisco,Bronze,654.49,5,3.7,FALSE,58,Satisfied
+3585,Female,33,New York,Gold,1186.85,18,4.4,FALSE,22,Satisfied
+3586,Male,27,Seattle,Gold,1415.23,12,4.8,FALSE,22,Satisfied
+3587,Female,39,San Francisco,Gold,1191.21,16,4.7,FALSE,8,Satisfied
+3588,Female,28,Chicago,Gold,1375.07,17,4.0,FALSE,16,Satisfied
+3589,Male,39,Miami,Gold,1322.46,21,4.5,TRUE,12,Satisfied
+3590,Female,48,Los Angeles,Silver,951.44,10,4.0,TRUE,35,Satisfied
+3591,Male,27,Miami,Gold,1548.01,16,4.5,TRUE,13,Satisfied
+3592,Female,37,New York,Bronze,564.12,9,4.0,FALSE,48,Unsatisfied
+3593,Male,24,Chicago,Gold,1363.11,18,4.3,FALSE,5,Satisfied
+3594,Male,33,Seattle,Gold,1342.37,15,4.5,FALSE,15,Neutral
+3595,Female,36,Miami,Silver,866.98,15,3.3,FALSE,39,Satisfied
+3596,Male,32,New York,Bronze,598.42,10,3.3,FALSE,64,Satisfied
+3597,Female,34,San Francisco,Bronze,620.89,9,3.5,TRUE,77,Unsatisfied
+3598,Female,26,New York,Gold,1340.3,14,4.8,FALSE,15,Satisfied
+3599,Male,36,Boston,Gold,1316.39,17,4.8,FALSE,21,Satisfied
+3600,Female,41,Los Angeles,Bronze,652.95,6,4.0,FALSE,72,Unsatisfied
+3601,Male,44,New York,Silver,945.63,14,3.9,FALSE,19,Satisfied
+3602,Male,29,San Francisco,Silver,956.36,13,3.8,FALSE,21,Neutral
+3603,Female,36,Seattle,Gold,1511.84,18,4.4,TRUE,13,Satisfied
+3604,Male,32,Chicago,Gold,1470.06,18,4.3,TRUE,3,Satisfied
+3605,Female,38,Seattle,Bronze,621.25,8,3.9,TRUE,45,Unsatisfied
+3606,Female,31,Chicago,Gold,1428.44,19,4.7,FALSE,14,Neutral
+3607,Male,30,Boston,Gold,1431.59,22,4.7,TRUE,24,Satisfied
+3608,Male,42,San Francisco,Gold,1411.69,13,4.2,FALSE,18,Neutral
+3609,Female,42,Miami,Gold,1266.69,16,4.9,FALSE,19,Neutral
+3610,Female,32,Chicago,Gold,1435.48,19,4.4,TRUE,25,Satisfied
+3611,Female,30,New York,Silver,912.85,12,4.0,TRUE,35,Satisfied
+3612,Male,31,Boston,Bronze,665.33,9,3.2,FALSE,86,Satisfied
+3613,Male,46,Seattle,Gold,1365.43,20,4.7,FALSE,13,Satisfied
+3614,Male,35,Boston,Bronze,562.74,6,3.9,FALSE,66,Satisfied
+3615,Male,38,Houston,Gold,1353.12,18,4.4,FALSE,16,Satisfied
+3616,Male,46,San Francisco,Gold,1221.66,18,4.7,FALSE,18,Satisfied
+3617,Male,35,Los Angeles,Gold,1518.16,14,4.7,TRUE,7,Satisfied
+3618,Female,36,Seattle,Gold,1373.05,12,4.6,FALSE,18,Satisfied
+3619,Male,23,Miami,Gold,1189.09,19,4.0,FALSE,17,Neutral
+3620,Female,52,Los Angeles,Bronze,644.13,11,3.7,FALSE,56,Neutral
+3621,Male,23,Miami,Gold,1268.08,20,4.5,TRUE,15,Satisfied
+3622,Female,43,Chicago,Silver,927.3,13,4.2,TRUE,31,Neutral
+3623,Male,22,Houston,Gold,1466.67,16,4.9,FALSE,3,Satisfied
+3624,Male,27,Boston,Gold,1199.2,16,4.4,TRUE,9,Neutral
+3625,Male,34,Houston,Silver,922.98,13,3.3,TRUE,26,Satisfied
+3626,Female,46,San Francisco,Gold,1568.37,16,4.7,TRUE,11,Neutral
+3627,Female,38,Seattle,Silver,862.29,12,3.7,FALSE,28,Neutral
+3628,Female,31,Los Angeles,Silver,786.61,13,4.4,FALSE,20,Neutral
+3629,Male,36,Boston,Silver,904.85,12,3.8,FALSE,26,Neutral
+3630,Female,45,San Francisco,Gold,1525.15,20,4.7,TRUE,11,Satisfied
+3631,Female,38,New York,Gold,1424.47,15,4.3,FALSE,9,Satisfied
+3632,Male,29,Boston,Silver,836.02,14,4.7,TRUE,32,Unsatisfied
+3633,Male,49,Miami,Gold,1354.87,17,4.5,FALSE,23,Satisfied
+3634,Female,25,Los Angeles,Gold,1355.38,17,4.5,FALSE,18,Satisfied
+3635,Female,39,Los Angeles,Silver,965.43,14,4.6,TRUE,17,Satisfied
+3636,Female,35,Chicago,Gold,1184.28,14,4.0,FALSE,21,Satisfied
+3637,Male,31,Miami,Silver,800.73,15,4.3,FALSE,23,Unsatisfied
+3638,Male,27,Miami,Gold,1178.87,19,4.0,TRUE,15,Satisfied
+3639,Female,40,New York,Gold,1398.27,12,4.3,FALSE,22,Satisfied
+3640,Male,46,Chicago,Gold,1263.7,14,4.6,FALSE,2,Satisfied
+3641,Female,28,Chicago,Gold,1119.62,17,4.6,FALSE,11,Unsatisfied
+3642,Male,26,Seattle,Gold,1357.97,18,4.2,TRUE,15,Satisfied
+3643,Female,28,Chicago,Gold,1435.23,15,4.9,FALSE,15,Neutral
+3644,Female,36,Miami,Bronze,604.45,5,3.9,TRUE,54,Unsatisfied
+3645,Female,31,Boston,Silver,924.73,16,4.3,FALSE,32,Unsatisfied
+3646,Male,36,Seattle,Bronze,601.63,8,3.8,FALSE,47,Unsatisfied
+3647,Male,32,Miami,Gold,1389.28,18,4.4,TRUE,12,Neutral
+3648,Female,40,New York,Gold,1412.16,20,4.4,TRUE,12,Satisfied
+3649,Female,40,Los Angeles,Silver,824.48,17,4.1,TRUE,37,Neutral
+3650,Male,42,Los Angeles,Gold,1390.28,13,4.5,TRUE,13,Satisfied
+3651,Female,47,Chicago,Gold,1394.66,16,4.2,TRUE,12,Unsatisfied
+3652,Male,36,Boston,Bronze,683.92,6,3.7,FALSE,70,Satisfied
+3653,Male,38,San Francisco,Gold,1051.84,17,4.5,FALSE,10,Satisfied
+3654,Male,31,Seattle,Gold,1346.31,17,4.4,TRUE,16,Satisfied
+3655,Male,55,Chicago,Gold,1327.17,19,4.7,FALSE,11,Neutral
+3656,Female,32,New York,Gold,1408.92,18,4.2,FALSE,20,Neutral
+3657,Female,39,San Francisco,Gold,1323.3,16,4.7,TRUE,8,Satisfied
+3658,Female,34,Seattle,Gold,1431.28,14,4.3,FALSE,21,Satisfied
+3659,Male,42,Los Angeles,Bronze,664.17,7,3.9,TRUE,24,Unsatisfied
+3660,Female,28,Chicago,Bronze,556.74,10,3.5,FALSE,41,Neutral
+3661,Male,28,Chicago,Gold,1443.01,21,4.9,FALSE,8,Satisfied
+3662,Male,30,Houston,Gold,1232.03,17,5.0,FALSE,23,Unsatisfied
+3663,Female,30,Boston,Gold,1320.51,16,4.5,FALSE,10,Neutral
+3664,Male,47,Los Angeles,Gold,1376.7,20,4.1,FALSE,18,Satisfied
+3665,Male,32,Boston,Gold,1283.96,15,4.5,FALSE,17,Satisfied
+3666,Female,34,Los Angeles,Gold,1130.48,14,4.4,TRUE,18,Satisfied
+3667,Female,36,Boston,Gold,1115.98,20,4.6,FALSE,6,Satisfied
+3668,Female,24,Miami,Gold,1324.27,17,4.5,TRUE,14,Satisfied
+3669,Female,50,Chicago,Gold,1396.55,16,4.3,FALSE,10,Satisfied
+3670,Male,42,Miami,Gold,1265.95,17,4.5,FALSE,9,Satisfied
+3671,Female,42,Seattle,Gold,1257.51,18,4.4,FALSE,14,Satisfied
+3672,Male,45,San Francisco,Gold,1118.73,16,4.4,FALSE,12,Satisfied
+3673,Male,23,Miami,Gold,1385.02,18,4.0,TRUE,6,Satisfied
+3674,Female,36,New York,Gold,1372.53,16,4.4,FALSE,22,Satisfied
+3675,Female,47,Houston,Gold,1151.52,16,4.4,FALSE,14,Satisfied
+3676,Male,33,Boston,Gold,1386.43,19,4.2,TRUE,6,Neutral
+3677,Female,45,New York,Gold,1229.72,17,4.7,TRUE,8,Satisfied
+3678,Male,40,Chicago,Gold,1276.97,16,4.6,FALSE,14,Satisfied
+3679,Female,40,Chicago,Gold,1272.75,17,4.8,TRUE,11,Satisfied
+3680,Female,30,Boston,Silver,926.05,13,3.8,FALSE,35,Unsatisfied
+3681,Male,43,Chicago,Gold,1282.6,19,4.5,FALSE,13,Neutral
+3682,Female,39,New York,Gold,1519.48,14,4.4,FALSE,14,Satisfied
+3683,Female,28,Boston,Gold,1223.71,17,4.8,FALSE,16,Neutral
+3684,Female,28,Los Angeles,Gold,1360.74,20,4.5,TRUE,15,Satisfied
+3685,Female,46,Los Angeles,Gold,1390.08,16,4.9,TRUE,7,Satisfied
+3686,Female,35,San Francisco,Bronze,757.14,11,3.6,FALSE,58,Unsatisfied
+3687,Male,41,New York,Gold,1101.82,17,4.9,FALSE,30,Satisfied
+3688,Male,27,New York,Gold,1253.43,20,4.5,TRUE,8,Satisfied
+3689,Female,38,Miami,Gold,1430.65,17,4.3,FALSE,5,Satisfied
+3690,Female,34,Miami,Gold,1421.97,17,4.3,TRUE,10,Satisfied
+3691,Male,39,Boston,Gold,1335.9,14,4.7,FALSE,13,Satisfied
+3692,Male,35,Houston,Gold,1484.94,19,4.9,TRUE,13,Satisfied
+3693,Male,35,Chicago,Gold,1444.51,17,4.1,TRUE,18,Satisfied
+3694,Male,40,Miami,Gold,1387.72,21,4.4,FALSE,18,Satisfied
+3695,Male,32,Seattle,Bronze,765.34,11,3.9,FALSE,43,Satisfied
+3696,Female,53,Los Angeles,Gold,1658.19,14,4.6,FALSE,14,Satisfied
+3697,Male,29,Los Angeles,Gold,1281.7,16,4.6,FALSE,17,Satisfied
+3698,Male,34,San Francisco,Gold,1486.86,16,4.3,FALSE,10,Satisfied
+3699,Male,36,Seattle,Silver,978.52,14,4.0,FALSE,22,Satisfied
+3700,Female,39,Boston,Bronze,694.16,10,3.4,TRUE,44,Neutral
+3701,Female,42,Seattle,Gold,1470.71,18,4.5,FALSE,13,Satisfied
+3702,Female,28,Chicago,Gold,1266.2,18,4.5,FALSE,14,Satisfied
+3703,Male,32,Chicago,Gold,1252.83,15,5.0,FALSE,15,Satisfied
+3704,Male,40,Seattle,Gold,1273.71,17,4.4,TRUE,15,Neutral
+3705,Female,42,New York,Gold,1466.11,17,4.6,TRUE,7,Satisfied
+3706,Male,42,Chicago,Gold,1330.34,18,4.6,FALSE,13,Unsatisfied
+3707,Female,38,New York,Gold,1299.28,14,4.6,TRUE,18,Satisfied
+3708,Male,40,Los Angeles,Gold,1491.03,15,4.6,TRUE,8,Satisfied
+3709,Male,36,San Francisco,Gold,1275.22,18,4.8,TRUE,9,Satisfied
+3710,Female,41,Seattle,Gold,1551.46,22,4.1,TRUE,15,Satisfied
+3711,Female,31,Miami,Gold,1515.85,17,5.0,TRUE,3,Satisfied
+3712,Male,28,Miami,Gold,1359.01,16,4.2,TRUE,16,Neutral
+3713,Female,34,Houston,Gold,1484.77,13,4.8,FALSE,19,Satisfied
+3714,Female,31,Los Angeles,Silver,995.81,13,3.9,FALSE,32,Satisfied
+3715,Female,40,Los Angeles,Gold,1418.22,15,4.9,TRUE,9,Satisfied
+3716,Female,33,Houston,Gold,1256.44,18,4.6,TRUE,16,Satisfied
+3717,Male,36,New York,Gold,1313.14,16,4.8,FALSE,20,Satisfied
+3718,Female,26,Miami,Gold,1505.16,17,4.7,FALSE,16,Neutral
+3719,Female,35,Chicago,Gold,1422.77,18,4.6,TRUE,14,Satisfied
+3720,Female,35,Houston,Gold,1260.86,16,4.3,FALSE,12,Satisfied
+3721,Female,45,Chicago,Gold,1385.11,17,4.6,FALSE,16,Neutral
+3722,Male,29,Boston,Gold,1228.56,16,4.3,FALSE,19,Satisfied
+3723,Female,49,Seattle,Silver,861.25,16,4.0,TRUE,36,Neutral
+3724,Male,25,Miami,Silver,756.07,14,4.7,FALSE,29,Neutral
+3725,Male,32,Miami,Bronze,564.06,12,3.5,TRUE,44,Unsatisfied
+3726,Male,41,Miami,Silver,837.96,15,4.1,TRUE,35,Satisfied
+3727,Female,44,Houston,Silver,951.31,13,4.2,TRUE,28,Unsatisfied
+3728,Female,36,Boston,Gold,1366.23,17,4.3,FALSE,19,Satisfied
+3729,Male,32,Boston,Gold,1395.41,17,4.5,TRUE,19,Satisfied
+3730,Male,30,Chicago,Gold,1105.51,17,4.6,FALSE,15,Neutral
+3731,Female,38,Miami,Gold,1379.36,18,4.5,FALSE,16,Satisfied
+3732,Female,36,Seattle,Gold,1353.17,16,4.2,TRUE,20,Satisfied
+3733,Female,37,San Francisco,Gold,1522.67,20,4.4,FALSE,11,Satisfied
+3734,Male,34,Houston,Gold,1283.2,20,4.8,FALSE,6,Unsatisfied
+3735,Female,29,New York,Gold,1326.14,16,4.8,TRUE,13,Satisfied
+3736,Male,59,Houston,Gold,1445.11,16,4.5,FALSE,15,Satisfied
+3737,Female,25,Los Angeles,Gold,1248.84,17,4.7,FALSE,14,Satisfied
+3738,Male,23,Boston,Bronze,664.61,6,3.4,TRUE,44,Neutral
+3739,Female,35,Miami,Gold,1254.08,18,4.5,FALSE,14,Satisfied
+3740,Male,28,Seattle,Gold,1376.62,16,4.4,FALSE,20,Satisfied
+3741,Male,41,Seattle,Gold,1194.16,15,4.9,FALSE,19,Satisfied
+3742,Female,32,Chicago,Bronze,530.55,11,3.4,FALSE,59,Neutral
+3743,Female,36,Boston,Silver,974.67,13,3.7,FALSE,22,Satisfied
+3744,Male,40,Los Angeles,Gold,1432.77,17,4.5,FALSE,11,Satisfied
+3745,Male,31,Miami,Silver,792.12,13,4.5,TRUE,36,Neutral
+3746,Male,33,Houston,Gold,1382.75,20,4.7,TRUE,10,Satisfied
+3747,Male,47,San Francisco,Bronze,628.21,5,3.7,TRUE,52,Satisfied
+3748,Male,31,Los Angeles,Bronze,556.41,10,3.3,FALSE,40,Neutral
+3749,Male,36,San Francisco,Gold,1433.02,19,4.6,TRUE,10,Satisfied
+3750,Female,29,San Francisco,Silver,1013.98,17,4.2,TRUE,29,Satisfied
+3751,Female,30,Boston,Silver,761.75,14,4.0,FALSE,27,Satisfied
+3752,Male,37,Miami,Gold,1420.94,15,4.8,TRUE,15,Satisfied
+3753,Female,37,Los Angeles,Gold,1236.76,15,4.2,TRUE,14,Satisfied
+3754,Male,39,Seattle,Gold,1396.35,17,4.7,FALSE,19,Satisfied
+3755,Female,30,Seattle,Gold,1407.27,20,4.3,FALSE,15,Satisfied
+3756,Male,36,San Francisco,Gold,1422.07,13,4.5,FALSE,20,Satisfied
+3757,Female,49,Seattle,Silver,1095.77,15,3.8,FALSE,31,Satisfied
+3758,Female,38,Miami,Silver,980.27,13,3.5,FALSE,26,Neutral
+3759,Female,38,Houston,Gold,1399.15,19,4.3,FALSE,21,Satisfied
+3760,Male,37,San Francisco,Gold,1344.88,16,4.4,FALSE,18,Neutral
+3761,Male,42,Boston,Silver,947.05,18,4.2,TRUE,25,Neutral
+3762,Female,44,Chicago,Gold,1286.97,16,4.7,TRUE,20,Neutral
+3763,Female,38,San Francisco,Gold,1209.17,13,4.3,FALSE,15,Satisfied
+3764,Female,30,Boston,Gold,1647.49,20,4.6,FALSE,20,Satisfied
+3765,Female,25,New York,Gold,1321.72,19,4.5,TRUE,9,Satisfied
+3766,Male,43,New York,Gold,1325.79,16,4.3,TRUE,7,Satisfied
+3767,Female,27,San Francisco,Silver,1031.03,18,4.1,FALSE,23,Neutral
+3768,Male,39,Boston,Silver,994.62,16,4.3,TRUE,31,Satisfied
+3769,Male,35,Houston,Silver,890.28,11,4.4,FALSE,26,Satisfied
+3770,Female,22,Los Angeles,Silver,961.72,15,3.6,TRUE,24,Unsatisfied
+3771,Male,43,Boston,Gold,1444.2,15,4.4,FALSE,17,Satisfied
+3772,Male,39,Seattle,Gold,1182.03,16,4.4,TRUE,20,Satisfied
+3773,Female,22,Houston,Gold,1406.91,14,4.6,TRUE,8,Neutral
+3774,Male,35,Seattle,Gold,1130.23,16,4.4,FALSE,18,Satisfied
+3775,Female,43,Seattle,Silver,863.71,11,3.6,FALSE,32,Neutral
+3776,Male,28,New York,Silver,935.42,16,4.0,FALSE,39,Neutral
+3777,Female,38,Houston,Gold,1382.62,20,4.6,FALSE,20,Satisfied
+3778,Female,22,Miami,Silver,854.0,13,4.5,FALSE,14,Satisfied
+3779,Male,38,Seattle,Silver,918.9,12,4.6,TRUE,22,Satisfied
+3780,Female,26,New York,Bronze,601.25,10,3.7,TRUE,45,Unsatisfied
+3781,Female,45,Chicago,Bronze,574.18,9,3.3,FALSE,39,Satisfied
+3782,Female,35,Chicago,Gold,1282.56,16,4.4,FALSE,13,Satisfied
+3783,Male,28,Miami,Gold,1288.34,14,4.3,FALSE,19,Neutral
+3784,Female,31,Boston,Gold,1272.51,16,4.4,FALSE,23,Neutral
+3785,Female,37,Los Angeles,Silver,954.68,11,3.5,FALSE,18,Satisfied
+3786,Female,45,Seattle,Gold,1508.93,15,4.2,FALSE,12,Satisfied
+3787,Male,44,Boston,Silver,818.85,15,3.9,FALSE,39,Satisfied
+3788,Female,45,Boston,Silver,861.48,13,4.2,TRUE,21,Neutral
+3789,Female,41,San Francisco,Silver,931.68,11,3.4,FALSE,30,Neutral
+3790,Male,34,Houston,Gold,1447.86,16,4.1,FALSE,9,Unsatisfied
+3791,Male,41,Los Angeles,Gold,1509.91,18,4.6,TRUE,7,Satisfied
+3792,Female,22,Chicago,Silver,829.53,15,3.3,FALSE,33,Neutral
+3793,Female,47,Seattle,Gold,1077.19,18,4.4,FALSE,16,Satisfied
+3794,Female,34,New York,Gold,1330.36,17,4.9,FALSE,7,Satisfied
+3795,Male,22,Boston,Gold,1286.45,20,4.3,TRUE,15,Satisfied
+3796,Female,45,San Francisco,Gold,1534.31,15,4.7,FALSE,30,Satisfied
+3797,Male,47,Boston,Gold,1225.65,16,4.6,FALSE,19,Satisfied
+3798,Male,39,Chicago,Bronze,732.36,7,4.2,FALSE,56,Neutral
+3799,Female,43,Miami,Gold,1357.72,14,4.5,FALSE,9,Neutral
+3800,Female,34,Houston,Silver,951.33,16,4.2,TRUE,20,Satisfied
+3801,Male,35,Los Angeles,Gold,1183.99,15,4.1,FALSE,5,Satisfied
+3802,Male,30,Seattle,Gold,1595.86,22,5.0,FALSE,18,Satisfied
+3803,Female,39,New York,Gold,1383.77,13,4.6,FALSE,15,Satisfied
+3804,Female,38,Seattle,Silver,1014.92,14,4.0,TRUE,27,Satisfied
+3805,Male,38,San Francisco,Gold,1430.66,19,4.0,FALSE,15,Satisfied
+3806,Male,27,Houston,Gold,1396.38,17,4.3,FALSE,21,Satisfied
+3807,Female,38,Miami,Silver,849.03,12,4.0,FALSE,23,Satisfied
+3808,Female,33,Miami,Bronze,795.06,12,3.5,FALSE,41,Neutral
+3809,Female,25,Boston,Silver,857.0,17,4.6,FALSE,30,Neutral
+3810,Male,42,New York,Gold,1281.92,17,5.0,FALSE,19,Satisfied
+3811,Female,36,Los Angeles,Bronze,645.38,12,3.8,TRUE,65,Satisfied
+3812,Female,42,Seattle,Gold,1332.6,15,4.8,FALSE,11,Neutral
+3813,Female,26,Chicago,Silver,769.03,11,3.5,FALSE,26,Satisfied
+3814,Male,30,Boston,Gold,1222.1,16,4.5,TRUE,14,Neutral
+3815,Male,42,Houston,Gold,1180.55,17,4.3,FALSE,16,Satisfied
+3816,Male,44,Boston,Bronze,541.01,9,3.4,TRUE,58,Unsatisfied
+3817,Male,22,Houston,Gold,1036.81,17,4.4,TRUE,4,Satisfied
+3818,Female,33,New York,Gold,1344.45,15,5.0,TRUE,14,Satisfied
+3819,Male,36,Miami,Gold,1404.24,14,4.6,FALSE,17,Unsatisfied
+3820,Male,42,Chicago,Gold,1486.47,15,4.2,FALSE,20,Satisfied
+3821,Female,46,San Francisco,Gold,1284.08,18,4.1,FALSE,17,Satisfied
+3822,Female,42,Houston,Gold,1297.28,16,4.5,TRUE,10,Satisfied
+3823,Female,29,Boston,Bronze,514.11,11,3.9,TRUE,40,Unsatisfied
+3824,Male,32,New York,Silver,910.49,14,3.7,FALSE,28,Neutral
+3825,Male,36,Chicago,Gold,1367.84,20,4.8,TRUE,16,Neutral
+3826,Male,38,Houston,Gold,1381.26,15,4.3,FALSE,12,Satisfied
+3827,Female,28,Miami,Silver,842.54,13,4.3,FALSE,38,Neutral
+3828,Male,39,Los Angeles,Gold,1251.72,19,4.5,FALSE,6,Unsatisfied
+3829,Female,22,Chicago,Silver,879.94,12,3.7,FALSE,36,Satisfied
+3830,Male,27,San Francisco,Gold,1398.78,19,4.1,TRUE,17,Satisfied
+3831,Male,41,Los Angeles,Gold,1416.61,19,4.5,FALSE,12,Satisfied
+3832,Female,31,Houston,Gold,1427.28,16,4.3,TRUE,3,Satisfied
+3833,Female,45,Seattle,Gold,1353.08,13,4.4,TRUE,15,Satisfied
+3834,Male,36,Los Angeles,Gold,1395.36,16,4.6,FALSE,14,Satisfied
+3835,Male,37,Boston,Gold,1220.03,19,4.8,TRUE,17,Satisfied
+3836,Male,36,Los Angeles,Gold,1171.53,19,4.8,FALSE,22,Neutral
+3837,Male,30,San Francisco,Gold,1289.21,16,4.9,FALSE,5,Satisfied
+3838,Female,26,Boston,Bronze,521.27,10,2.5,FALSE,40,Satisfied
+3839,Female,36,Los Angeles,Gold,1236.21,19,4.5,FALSE,7,Satisfied
+3840,Male,46,San Francisco,Gold,1369.71,17,4.4,FALSE,8,Satisfied
+3841,Male,39,San Francisco,Silver,800.02,14,4.0,TRUE,30,Neutral
+3842,Female,24,Seattle,Bronze,562.87,11,3.3,FALSE,55,Neutral
+3843,Female,34,San Francisco,Gold,1431.67,19,4.8,TRUE,18,Neutral
+3844,Female,37,Seattle,Gold,1352.31,16,4.7,TRUE,6,Satisfied
+3845,Male,28,Los Angeles,Gold,1363.25,21,4.5,TRUE,9,Satisfied
+3846,Female,40,Boston,Silver,1065.99,14,3.9,TRUE,26,Satisfied
+3847,Male,37,New York,Gold,1291.59,18,4.3,FALSE,12,Satisfied
+3848,Male,31,New York,Gold,1529.51,16,4.3,FALSE,14,Satisfied
+3849,Female,35,San Francisco,Silver,753.89,14,3.8,FALSE,35,Satisfied
+3850,Female,41,New York,Gold,1563.71,19,4.3,FALSE,14,Satisfied
+3851,Female,30,Houston,Bronze,611.33,10,3.9,FALSE,59,Unsatisfied
+3852,Male,32,Seattle,Gold,1354.28,17,4.3,FALSE,26,Neutral
+3853,Female,40,Houston,Gold,1471.61,16,4.2,FALSE,9,Satisfied
+3854,Female,38,New York,Gold,1323.05,14,4.7,FALSE,14,Neutral
+3855,Female,29,New York,Silver,1059.88,15,4.1,FALSE,26,Satisfied
+3856,Female,33,San Francisco,Gold,1389.72,20,4.4,FALSE,8,Satisfied
+3857,Male,39,Houston,Silver,960.82,13,4.8,FALSE,15,Neutral
+3858,Female,46,New York,Gold,1352.56,17,4.4,FALSE,15,Satisfied
+3859,Female,33,Seattle,Silver,781.1,9,4.4,TRUE,28,Neutral
+3860,Male,31,Chicago,Bronze,535.52,11,3.6,FALSE,31,Unsatisfied
+3861,Male,43,Boston,Gold,1396.3,17,4.3,FALSE,17,Unsatisfied
+3862,Male,36,Miami,Silver,858.52,12,3.6,TRUE,29,Satisfied
+3863,Female,36,Houston,Gold,1342.29,16,4.8,FALSE,9,Satisfied
+3864,Female,30,New York,Gold,1305.15,14,4.4,FALSE,13,Unsatisfied
+3865,Male,41,San Francisco,Gold,1602.89,15,4.7,FALSE,4,Satisfied
+3866,Male,27,Los Angeles,Gold,1402.08,18,4.7,TRUE,9,Satisfied
+3867,Female,47,Houston,Gold,1161.82,16,4.2,FALSE,19,Satisfied
+3868,Female,43,Seattle,Gold,1252.67,19,5.0,TRUE,16,Satisfied
+3869,Male,28,Miami,Bronze,718.47,8,3.8,FALSE,60,Satisfied
+3870,Male,42,San Francisco,Gold,1319.33,17,4.2,FALSE,17,Satisfied
+3871,Male,31,Boston,Silver,851.26,12,4.7,FALSE,38,Neutral
+3872,Female,42,Seattle,Gold,1558.16,19,5.0,TRUE,14,Satisfied
+3873,Male,40,San Francisco,Silver,952.15,16,4.1,FALSE,24,Satisfied
+3874,Male,37,Los Angeles,Gold,1319.38,15,4.3,FALSE,15,Satisfied
+3875,Female,33,San Francisco,Silver,884.17,15,3.4,FALSE,17,Satisfied
+3876,Female,43,New York,Gold,1434.96,17,4.5,FALSE,11,Satisfied
+3877,Female,43,Chicago,Gold,1404.11,16,4.8,FALSE,7,Satisfied
+3878,Male,37,Seattle,Gold,1416.02,16,4.6,TRUE,18,Satisfied
+3879,Female,26,Houston,Gold,1426.87,17,4.4,FALSE,16,Satisfied
+3880,Male,41,Miami,Gold,1332.1,16,4.4,TRUE,21,Satisfied
+3881,Male,30,Seattle,Bronze,700.49,6,3.2,FALSE,34,Satisfied
+3882,Male,29,San Francisco,Bronze,672.35,6,3.0,TRUE,65,Satisfied
+3883,Male,52,Houston,Gold,1297.12,19,4.2,FALSE,22,Satisfied
+3884,Male,24,New York,Gold,1392.37,18,4.1,TRUE,19,Satisfied
+3885,Male,42,Seattle,Gold,1325.63,17,4.7,FALSE,12,Satisfied
+3886,Female,44,Miami,Gold,1550.36,18,4.7,TRUE,13,Satisfied
+3887,Male,38,New York,Gold,1300.69,18,4.7,FALSE,12,Satisfied
+3888,Female,34,Seattle,Silver,843.77,12,4.9,FALSE,20,Satisfied
+3889,Female,43,Boston,Gold,1193.55,20,4.9,FALSE,14,Satisfied
+3890,Male,38,San Francisco,Silver,886.06,11,3.8,TRUE,22,Satisfied
+3891,Male,38,Chicago,Gold,1436.12,17,4.1,FALSE,8,Neutral
+3892,Male,39,New York,Gold,1218.71,15,4.5,TRUE,20,Satisfied
+3893,Male,50,Los Angeles,Gold,1202.41,15,4.5,FALSE,19,Unsatisfied
+3894,Female,39,Chicago,Silver,1019.01,12,3.6,TRUE,18,Satisfied
+3895,Male,47,Chicago,Gold,1369.53,16,4.6,FALSE,18,Neutral
+3896,Female,47,New York,Silver,771.43,12,4.4,FALSE,26,Satisfied
+3897,Male,38,Miami,Gold,1360.1,17,4.5,TRUE,12,Satisfied
+3898,Male,34,Chicago,Gold,1320.33,15,4.8,FALSE,20,Unsatisfied
+3899,Male,43,Seattle,Gold,1408.84,17,4.0,FALSE,15,Unsatisfied
+3900,Female,28,Los Angeles,Gold,1071.36,18,4.3,FALSE,18,Neutral
+3901,Male,42,Chicago,Gold,1256.23,17,4.4,FALSE,15,Satisfied
+3902,Female,32,Boston,Gold,1304.82,14,4.6,TRUE,16,Neutral
+3903,Female,44,New York,Gold,1217.37,16,4.7,FALSE,11,Satisfied
+3904,Male,44,Boston,Silver,1110.72,13,3.8,FALSE,29,Satisfied
+3905,Male,40,Chicago,Gold,1364.22,17,4.4,FALSE,17,Satisfied
+3906,Female,51,Miami,Gold,1245.2,18,4.3,FALSE,16,Satisfied
+3907,Male,34,Los Angeles,Gold,1329.74,18,4.3,TRUE,11,Satisfied
+3908,Male,42,Seattle,Silver,932.98,14,3.8,FALSE,18,Satisfied
+3909,Female,33,Houston,Gold,1447.71,15,5.0,FALSE,14,Satisfied
+3910,Male,35,Houston,Gold,1231.73,17,4.2,TRUE,20,Satisfied
+3911,Male,28,San Francisco,Gold,1559.49,15,4.8,TRUE,5,Satisfied
+3912,Male,25,San Francisco,Gold,1458.93,18,4.5,FALSE,16,Unsatisfied
+3913,Male,43,Houston,Gold,1301.55,21,5.0,TRUE,11,Neutral
+3914,Female,42,Miami,Gold,1329.12,19,5.0,FALSE,20,Neutral
+3915,Female,40,Los Angeles,Silver,897.92,13,3.8,FALSE,28,Neutral
+3916,Male,35,Chicago,Silver,951.0,13,4.6,FALSE,33,Neutral
+3917,Female,41,Chicago,Silver,895.17,14,4.5,FALSE,24,Unsatisfied
+3918,Female,41,Los Angeles,Gold,1430.17,16,4.6,TRUE,10,Satisfied
+3919,Female,29,New York,Gold,1356.05,16,4.8,FALSE,22,Satisfied
+3920,Male,43,Miami,Gold,1062.34,16,4.8,FALSE,20,Satisfied
+3921,Female,35,Los Angeles,Gold,1281.64,18,4.6,FALSE,13,Satisfied
+3922,Male,49,Seattle,Bronze,452.62,8,3.9,FALSE,29,Satisfied
+3923,Male,39,Houston,Gold,1324.44,15,4.6,TRUE,16,Satisfied
+3924,Male,43,Houston,Gold,1226.71,19,4.3,FALSE,17,Satisfied
+3925,Female,48,Los Angeles,Gold,1358.6,16,4.3,FALSE,23,Satisfied
+3926,Female,23,Chicago,Gold,1282.32,15,4.6,FALSE,4,Satisfied
+3927,Male,32,Chicago,Gold,1257.53,22,4.6,FALSE,13,Neutral
+3928,Female,32,New York,Gold,1292.94,15,4.3,FALSE,14,Satisfied
+3929,Male,43,Seattle,Gold,1294.47,17,4.5,TRUE,9,Neutral
+3930,Male,32,Houston,Gold,1443.97,17,4.7,TRUE,10,Satisfied
+3931,Female,38,San Francisco,Bronze,466.74,8,2.9,FALSE,56,Unsatisfied
+3932,Male,32,San Francisco,Gold,1389.73,17,4.6,FALSE,12,Satisfied
+3933,Female,40,New York,Silver,946.76,10,4.2,FALSE,43,Satisfied
+3934,Male,33,Houston,Bronze,587.77,9,3.6,TRUE,67,Neutral
+3935,Male,38,Los Angeles,Gold,1400.21,16,4.3,TRUE,15,Satisfied
+3936,Male,37,Boston,Silver,904.86,12,4.3,FALSE,28,Neutral
+3937,Female,32,Boston,Gold,1390.03,14,4.0,FALSE,11,Neutral
+3938,Female,35,Los Angeles,Bronze,627.7,8,3.1,FALSE,50,Satisfied
+3939,Male,37,New York,Gold,1317.21,16,4.5,FALSE,17,Satisfied
+3940,Male,42,Boston,Silver,955.19,13,4.0,FALSE,22,Neutral
+3941,Male,45,Miami,Gold,1355.95,15,4.5,FALSE,19,Satisfied
+3942,Male,37,Los Angeles,Gold,1456.24,16,4.5,FALSE,17,Satisfied
+3943,Male,40,Chicago,Silver,728.42,14,4.0,TRUE,30,Unsatisfied
+3944,Female,41,Miami,Silver,1048.98,12,3.9,TRUE,23,Satisfied
+3945,Male,29,Boston,Gold,1369.15,17,4.7,TRUE,16,Satisfied
+3946,Male,38,San Francisco,Gold,1133.3,14,4.3,TRUE,14,Satisfied
+3947,Male,32,Miami,Gold,1396.44,14,4.7,FALSE,14,Satisfied
+3948,Male,25,Chicago,Gold,1160.11,21,4.6,TRUE,14,Neutral
+3949,Female,46,Miami,Silver,948.32,14,4.3,FALSE,29,Satisfied
+3950,Male,40,Chicago,Silver,942.76,12,4.1,TRUE,25,Satisfied
+3951,Male,52,New York,Gold,1430.28,14,4.7,TRUE,9,Satisfied
+3952,Female,25,Miami,Silver,920.22,16,3.8,FALSE,9,Neutral
+3953,Female,27,Chicago,Gold,1279.35,15,4.5,FALSE,18,Satisfied
+3954,Male,33,San Francisco,Silver,816.81,14,4.0,TRUE,33,Neutral
+3955,Female,35,Miami,Gold,1401.31,16,4.5,TRUE,13,Satisfied
+3956,Female,45,Miami,Gold,1322.11,14,4.6,TRUE,15,Satisfied
+3957,Male,36,New York,Gold,1298.06,18,4.7,FALSE,8,Satisfied
+3958,Female,33,Seattle,Gold,1309.09,14,4.4,FALSE,17,Neutral
+3959,Male,33,Miami,Gold,1313.5,18,4.4,FALSE,11,Neutral
+3960,Female,43,Miami,Gold,1119.64,19,4.3,TRUE,15,Satisfied
+3961,Male,43,Miami,Gold,1405.08,18,4.4,TRUE,15,Satisfied
+3962,Female,28,Miami,Gold,1670.64,20,5.0,FALSE,17,Satisfied
+3963,Male,40,Seattle,Bronze,553.38,11,2.9,FALSE,53,Neutral
+3964,Male,33,Boston,Gold,1680.84,16,5.0,FALSE,11,Satisfied
+3965,Female,28,Houston,Gold,1381.31,13,4.4,TRUE,11,Satisfied
+3966,Male,33,San Francisco,Silver,903.39,15,3.9,FALSE,15,Neutral
+3967,Male,39,Miami,Gold,1410.93,19,4.5,TRUE,20,Satisfied
+3968,Male,39,Los Angeles,Gold,1262.06,16,4.6,FALSE,15,Satisfied
+3969,Female,37,San Francisco,Gold,1389.6,16,4.3,TRUE,30,Satisfied
+3970,Male,32,New York,Gold,1424.63,15,4.3,FALSE,11,Satisfied
+3971,Male,37,Chicago,Gold,1256.62,17,4.1,FALSE,6,Satisfied
+3972,Female,34,New York,Gold,1452.89,20,5.0,TRUE,11,Satisfied
+3973,Male,37,Seattle,Gold,1346.94,15,4.4,FALSE,22,Satisfied
+3974,Male,39,Los Angeles,Gold,1384.67,16,4.4,TRUE,10,Satisfied
+3975,Female,28,Miami,Gold,1263.76,18,4.0,FALSE,18,Satisfied
+3976,Male,27,Seattle,Gold,1483.57,22,4.9,FALSE,12,Satisfied
+3977,Male,37,Seattle,Silver,801.28,13,3.7,FALSE,18,Satisfied
+3978,Female,38,San Francisco,Silver,1014.89,12,4.0,FALSE,26,Satisfied
+3979,Male,31,New York,Silver,968.47,12,3.5,FALSE,22,Satisfied
+3980,Female,35,Seattle,Gold,1355.94,18,4.4,TRUE,15,Satisfied
+3981,Female,30,Boston,Silver,904.76,16,3.9,FALSE,17,Neutral
+3982,Female,35,Boston,Gold,1280.0,16,4.3,FALSE,22,Satisfied
+3983,Female,28,Miami,Gold,1315.37,18,4.2,FALSE,17,Satisfied
+3984,Female,35,Miami,Gold,1397.72,16,4.3,TRUE,18,Satisfied
+3985,Female,22,San Francisco,Silver,1003.27,17,3.8,FALSE,10,Satisfied
+3986,Male,29,Seattle,Gold,1544.86,18,4.4,FALSE,7,Satisfied
+3987,Male,30,Houston,Gold,1323.68,16,4.5,FALSE,9,Satisfied
+3988,Female,35,Chicago,Gold,1370.57,16,4.0,TRUE,21,Neutral
+3989,Female,36,Seattle,Gold,1482.45,18,4.8,TRUE,19,Satisfied
+3990,Female,41,Houston,Gold,1399.9,18,4.7,FALSE,23,Satisfied
+3991,Female,43,Houston,Bronze,689.08,8,3.4,TRUE,66,Satisfied
+3992,Female,54,Los Angeles,Gold,1156.88,14,4.3,TRUE,4,Satisfied
+3993,Female,34,New York,Bronze,583.66,10,3.1,FALSE,41,Unsatisfied
+3994,Male,31,Miami,Gold,1250.98,17,4.2,FALSE,14,Neutral
+3995,Male,27,New York,Gold,1340.37,19,4.3,TRUE,13,Satisfied
+3996,Female,36,Houston,Gold,1289.41,18,4.5,FALSE,12,Satisfied
+3997,Female,32,New York,Silver,856.86,12,4.2,FALSE,28,Unsatisfied
+3998,Female,37,Los Angeles,Gold,1144.92,19,4.2,TRUE,19,Satisfied
+3999,Female,35,New York,Gold,1242.35,18,4.5,FALSE,13,Neutral
+4000,Male,37,Seattle,Gold,1257.78,18,5.0,FALSE,3,Unsatisfied

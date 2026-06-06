@@ -1,4 +1,5 @@
 """
+app.py
 Main Streamlit entry point.
 Run with: streamlit run app.py
 """
@@ -15,38 +16,40 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DB_PATH = "data/processed/customers_clean.db"
+from src import dataset_store
+
+# Check onboarding status
+if not dataset_store.list_datasets():
+    st.info("Welcome! Run `python train_pipeline.py` first, then refresh.")
+    st.stop()
+
+active_record = dataset_store.get_active_dataset_record()
+if active_record:
+    db_path = active_record["db_path"]
+else:
+    db_path = "data/processed/customers_clean.db"
 
 
-@st.cache_data
-def load_data():
-    if not os.path.exists(DB_PATH):
+@st.cache_data(ttl=0)
+def load_data(path):
+    if not os.path.exists(path):
         st.error("Database not found. Please run `python train_pipeline.py` first.")
         st.stop()
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(path)
     df = pd.read_sql("SELECT * FROM customers", conn)
     conn.close()
     return df
 
 
-df = load_data()
+df = load_data(db_path)
 
 # Sidebar
-with st.sidebar:
-    st.title("CLV Segmentation")
-    st.caption("E-Commerce Customer Behaviour Analysis")
-    st.markdown("---")
-    st.markdown("**Navigation**")
-    st.page_link("pages/1_segment_explorer.py",  label="Segment Explorer",    icon="🗂️")
-    st.page_link("pages/2_whatif_simulator.py",  label="What-If Simulator",   icon="🔮")
-    st.page_link("pages/3_batch_upload.py",       label="Batch Prediction",    icon="📂")
-    st.page_link("pages/4_train_custom.py",       label="Train on Your Data",  icon="🧪")
-    st.page_link("pages/5_log_viewer.py",         label="Log Viewer",          icon="📋")
-    st.markdown("---")
-    st.caption("Final Year DS Project · 2026")
+dataset_store.render_sidebar()
 
 # Home page
 st.title("E-Commerce CLV Micro-Segmentation")
+if active_record:
+    st.caption(f"Active dataset: {active_record['name']} · {active_record['n_rows']:,} customers · trained {active_record['trained_at'][:10]}")
 st.markdown(
     "A complete end-to-end Data Science pipeline: "
     "**customer segmentation** (K-Means + DBSCAN) combined with "

@@ -1,5 +1,4 @@
 """
-pages/3_batch_upload.py
 Batch CSV upload page — upload any customer CSV,
 get CLV band predictions + downloadable results.
 Also shows full model evaluation metrics.
@@ -31,7 +30,17 @@ def check_models_ready():
     return all(os.path.exists(p) for p in [MODEL_PATH, ENCODER_PATH, SCALER_PATH])
 
 
+from src import dataset_store
+
+active_record = dataset_store.get_active_dataset_record()
+active_name = active_record["name"] if active_record else "Default Dataset"
+db_path = active_record["db_path"] if active_record else "data/processed/customers_clean.db"
+
+# Sidebar
+dataset_store.render_sidebar()
+
 st.title("Batch Prediction & Model Evaluation")
+st.info(f"Showing predictions and evaluation based on: **{active_name}**")
 
 tab1, tab2 = st.tabs(["Batch CSV Upload", "Model Evaluation Report"])
 
@@ -154,19 +163,18 @@ with tab2:
         )
         from sklearn.model_selection import train_test_split
 
-        DB_PATH = "data/processed/customers_clean.db"
-        if not os.path.exists(DB_PATH):
+        if not os.path.exists(db_path):
             st.warning("Database not found. Run train_pipeline.py first.")
             st.stop()
 
-        @st.cache_data
-        def get_eval_data():
-            df = load_from_db()
+        @st.cache_data(ttl=0)
+        def get_eval_data(path):
+            df = load_from_db(db_path=path)
             df = engineer_features(df)
             df = run_clustering(df)
             return df
 
-        df = get_eval_data()
+        df = get_eval_data(db_path)
         feature_cols = [c for c in get_ml_feature_cols() if c in df.columns]
         X = df[feature_cols].fillna(0)
         y = le.transform(df["CLV_Band"].astype(str))

@@ -1,0 +1,1001 @@
+Customer ID,Gender,Age,City,Membership Type,Total Spend,Items Purchased,Average Rating,Discount Applied,Days Since Last Purchase,Satisfaction Level,Region,Account Age Years,Last Campaign
+4001,Male,44,Chicago,Bronze,363.78,8,3.2,TRUE,73,Unsatisfied,West,0,SMS
+4002,Female,23,Chicago,Bronze,444.77,6,3.9,FALSE,70,Neutral,North,4,SMS
+4003,Male,45,Houston,Gold,1032.17,18,4.0,TRUE,11,Neutral,West,4,SMS
+4004,Female,55,Los Angeles,Silver,538.23,8,3.9,FALSE,50,Neutral,West,6,SMS
+4005,Female,42,Houston,Bronze,484.36,5,2.8,TRUE,71,Unsatisfied,East,4,Push
+4006,Female,36,Los Angeles,Silver,764.14,14,3.2,TRUE,59,Satisfied,North,1,Email
+4007,Male,44,Los Angeles,Bronze,519.19,9,3.6,TRUE,41,Unsatisfied,North,5,SMS
+4008,Female,59,Miami,Silver,921.48,8,4.1,TRUE,55,Neutral,North,4,Retargeting
+4009,Male,41,Chicago,Bronze,613.98,5,3.5,FALSE,73,Neutral,South,4,Push
+4010,Female,42,New York,Silver,695.11,8,3.6,TRUE,57,Satisfied,South,2,Email
+4011,Female,40,San Francisco,Bronze,679.6,9,3.1,FALSE,50,Unsatisfied,West,4,SMS
+4012,Female,49,Los Angeles,Silver,725.29,11,3.4,TRUE,52,Satisfied,South,3,Push
+4013,Male,33,Boston,Bronze,549.76,5,3.1,FALSE,52,Satisfied,North,3,Email
+4014,Male,36,Los Angeles,Silver,659.18,11,3.7,FALSE,47,Satisfied,East,4,Retargeting
+4015,Male,52,San Francisco,Gold,825.77,13,4.1,FALSE,10,Unsatisfied,East,0,Push
+4016,Male,27,Houston,Bronze,456.56,6,2.8,TRUE,56,Satisfied,South,5,Email
+4017,Male,43,Seattle,Bronze,232.94,8,2.9,TRUE,82,Unsatisfied,North,1,None
+4018,Male,54,Seattle,Gold,940.31,17,4.2,FALSE,28,Satisfied,South,3,Push
+4019,Female,39,Los Angeles,Gold,1163.11,17,3.9,FALSE,18,Satisfied,West,4,Retargeting
+4020,Male,38,Chicago,Bronze,616.14,5,3.1,TRUE,90,Unsatisfied,East,1,Retargeting
+4021,Male,42,Seattle,Bronze,292.15,6,4.2,FALSE,35,Unsatisfied,East,3,Push
+4022,Male,52,Miami,Gold,956.25,12,4.7,FALSE,35,Neutral,North,2,None
+4023,Female,41,New York,Bronze,346.28,6,3.7,TRUE,120,Neutral,North,1,Email
+4024,Female,41,Los Angeles,Bronze,291.0,11,3.0,TRUE,82,Unsatisfied,North,4,Retargeting
+4025,Male,49,Seattle,Bronze,568.54,7,4.0,TRUE,79,Unsatisfied,East,2,SMS
+4026,Male,55,Chicago,Silver,546.03,9,3.6,FALSE,65,Satisfied,South,6,Retargeting
+4027,Female,49,New York,Bronze,506.87,7,3.2,TRUE,63,Unsatisfied,South,3,Email
+4028,Female,39,Miami,Silver,780.4,7,3.2,TRUE,71,Unsatisfied,West,0,Push
+4029,Male,45,Miami,Bronze,550.96,7,2.3,TRUE,78,Unsatisfied,East,4,Push
+4030,Male,50,Houston,Bronze,229.02,5,3.0,FALSE,46,Unsatisfied,South,3,Push
+4031,Male,53,San Francisco,Bronze,738.34,6,4.0,FALSE,108,Satisfied,South,4,SMS
+4032,Female,30,Miami,Gold,1304.95,15,4.2,TRUE,35,Satisfied,West,4,SMS
+4033,Female,42,Miami,Bronze,409.84,5,2.7,FALSE,90,Unsatisfied,South,3,None
+4034,Female,43,Boston,Silver,840.63,12,3.8,TRUE,58,Satisfied,North,4,Email
+4035,Male,34,Seattle,Bronze,306.33,8,2.6,TRUE,64,Unsatisfied,South,4,None
+4036,Female,36,Chicago,Bronze,312.41,13,3.5,FALSE,56,Neutral,East,3,Push
+4037,Male,51,Houston,Bronze,593.39,6,3.7,TRUE,85,Unsatisfied,North,4,Push
+4038,Female,33,Miami,Bronze,289.87,3,2.8,TRUE,79,Unsatisfied,West,5,None
+4039,Female,46,Houston,Bronze,437.38,6,3.4,TRUE,83,Neutral,West,3,None
+4040,Male,56,Chicago,Bronze,392.1,6,3.1,TRUE,87,Unsatisfied,West,4,Push
+4041,Female,34,Los Angeles,Bronze,388.76,6,3.3,TRUE,85,Neutral,West,5,Retargeting
+4042,Female,27,Seattle,Bronze,283.89,7,2.6,FALSE,44,Neutral,East,3,Retargeting
+4043,Female,43,Boston,Bronze,264.81,5,3.1,FALSE,70,Neutral,North,2,None
+4044,Female,52,New York,Bronze,371.96,5,3.2,FALSE,60,Neutral,West,4,Push
+4045,Male,34,Los Angeles,Bronze,595.44,12,3.7,TRUE,46,Neutral,East,1,SMS
+4046,Male,40,San Francisco,Bronze,437.58,5,2.8,TRUE,103,Unsatisfied,West,3,Push
+4047,Male,46,Los Angeles,Silver,760.22,10,3.7,TRUE,70,Satisfied,South,3,None
+4048,Female,51,Chicago,Bronze,371.02,5,1.5,FALSE,66,Neutral,North,4,Email
+4049,Male,46,Chicago,Silver,744.27,11,3.7,TRUE,59,Neutral,South,1,None
+4050,Male,38,San Francisco,Bronze,470.14,8,3.3,TRUE,79,Unsatisfied,South,5,Push
+4051,Male,39,Miami,Silver,821.85,10,4.1,TRUE,50,Neutral,East,4,Email
+4052,Female,34,New York,Silver,479.31,7,3.5,TRUE,52,Unsatisfied,South,5,None
+4053,Female,45,San Francisco,Bronze,647.61,7,3.3,FALSE,67,Unsatisfied,North,0,Retargeting
+4054,Male,48,Houston,Bronze,307.7,5,3.5,FALSE,81,Satisfied,North,2,Push
+4055,Female,23,Seattle,Bronze,396.68,9,3.2,TRUE,54,Unsatisfied,West,3,SMS
+4056,Female,34,Los Angeles,Bronze,451.7,9,2.7,FALSE,78,Neutral,North,3,Retargeting
+4057,Female,63,Miami,Silver,727.92,11,3.6,TRUE,66,Neutral,North,3,Email
+4058,Female,29,Houston,Bronze,417.33,6,2.9,TRUE,49,Satisfied,North,5,SMS
+4059,Male,22,Seattle,Bronze,643.66,5,3.4,TRUE,116,Neutral,South,0,None
+4060,Female,40,New York,Bronze,277.37,11,3.5,TRUE,74,Satisfied,North,3,Email
+4061,Female,31,Chicago,Silver,729.7,14,3.1,TRUE,20,Unsatisfied,East,3,Email
+4062,Female,54,Chicago,Silver,640.74,7,3.5,TRUE,30,Satisfied,South,5,SMS
+4063,Male,24,San Francisco,Gold,795.93,14,4.4,TRUE,25,Neutral,South,2,Email
+4064,Female,28,Miami,Silver,579.28,12,4.1,FALSE,61,Neutral,East,4,Retargeting
+4065,Male,51,Los Angeles,Bronze,427.33,5,3.8,TRUE,52,Unsatisfied,East,3,Email
+4066,Male,29,New York,Bronze,502.56,12,2.6,TRUE,120,Unsatisfied,West,3,None
+4067,Male,60,San Francisco,Bronze,661.71,5,2.4,TRUE,90,Neutral,West,2,Email
+4068,Female,33,Miami,Bronze,569.29,4,3.0,TRUE,120,Unsatisfied,South,2,Email
+4069,Male,31,San Francisco,Gold,1028.29,17,4.1,TRUE,32,Satisfied,South,6,None
+4070,Male,48,Seattle,Bronze,622.92,8,2.7,FALSE,78,Unsatisfied,West,3,None
+4071,Female,59,San Francisco,Bronze,515.85,7,2.8,TRUE,78,Unsatisfied,North,4,Retargeting
+4072,Female,27,Houston,Bronze,587.51,6,3.2,TRUE,111,Unsatisfied,East,3,SMS
+4073,Male,31,Miami,Silver,579.35,11,3.2,TRUE,20,Neutral,South,5,Push
+4074,Male,38,New York,Bronze,428.98,8,2.4,FALSE,102,Neutral,South,5,None
+4075,Male,65,Houston,Bronze,169.16,8,2.6,FALSE,86,Satisfied,West,2,SMS
+4076,Male,57,Boston,Gold,1117.78,11,4.5,TRUE,22,Neutral,North,0,SMS
+4077,Male,46,Los Angeles,Bronze,557.35,6,2.8,TRUE,87,Unsatisfied,East,2,Email
+4078,Male,30,Houston,Silver,593.69,14,3.4,FALSE,60,Unsatisfied,East,3,None
+4079,Male,49,Miami,Gold,1107.82,19,4.2,TRUE,36,Satisfied,North,5,Email
+4080,Male,34,Los Angeles,Bronze,532.11,8,3.1,FALSE,102,Unsatisfied,West,6,Retargeting
+4081,Male,44,Los Angeles,Silver,768.56,10,3.4,TRUE,35,Neutral,North,5,Email
+4082,Female,57,Miami,Bronze,636.83,7,3.6,TRUE,87,Unsatisfied,North,1,Push
+4083,Female,35,Boston,Silver,730.19,15,3.1,TRUE,33,Neutral,South,0,Push
+4084,Female,39,Miami,Silver,650.96,6,3.5,TRUE,69,Neutral,North,3,Push
+4085,Female,52,New York,Silver,602.96,3,3.4,FALSE,28,Satisfied,North,3,Push
+4086,Male,53,Houston,Silver,607.0,9,4.2,TRUE,61,Unsatisfied,West,2,Retargeting
+4087,Male,61,Seattle,Bronze,406.37,5,2.5,FALSE,74,Unsatisfied,East,2,None
+4088,Female,23,Los Angeles,Bronze,291.7,5,2.0,TRUE,66,Satisfied,West,1,None
+4089,Female,50,San Francisco,Gold,1152.1,14,4.2,TRUE,32,Satisfied,East,5,Email
+4090,Male,45,Seattle,Bronze,255.4,6,2.5,FALSE,38,Neutral,North,3,Retargeting
+4091,Female,38,Miami,Silver,487.28,6,3.4,TRUE,38,Satisfied,West,3,Retargeting
+4092,Female,61,New York,Silver,860.36,6,3.7,TRUE,58,Unsatisfied,North,3,Push
+4093,Female,45,Boston,Bronze,194.13,7,3.1,TRUE,93,Neutral,East,3,Retargeting
+4094,Female,27,Chicago,Bronze,659.11,9,2.8,FALSE,78,Neutral,South,0,Push
+4095,Male,36,Seattle,Silver,690.34,7,3.5,FALSE,41,Neutral,North,4,None
+4096,Male,36,San Francisco,Silver,571.75,6,4.2,FALSE,51,Unsatisfied,East,5,Retargeting
+4097,Male,25,San Francisco,Bronze,592.79,7,2.3,FALSE,120,Unsatisfied,East,3,None
+4098,Male,54,Chicago,Bronze,404.55,8,2.4,FALSE,63,Neutral,North,5,SMS
+4099,Male,29,New York,Silver,734.16,12,3.6,TRUE,58,Satisfied,South,3,SMS
+4100,Male,51,Miami,Bronze,347.71,7,3.0,TRUE,59,Neutral,East,0,Retargeting
+4101,Male,38,New York,Silver,825.18,8,3.5,TRUE,51,Neutral,South,4,None
+4102,Female,37,Chicago,Bronze,350.95,8,3.0,TRUE,76,Unsatisfied,West,2,Retargeting
+4103,Female,35,Los Angeles,Bronze,470.19,8,3.4,TRUE,66,Unsatisfied,West,1,Retargeting
+4104,Male,51,Chicago,Bronze,501.17,6,3.2,TRUE,92,Unsatisfied,East,3,Email
+4105,Male,40,New York,Silver,797.33,8,3.9,TRUE,39,Satisfied,South,3,SMS
+4106,Male,46,Chicago,Bronze,339.53,8,2.7,TRUE,85,Unsatisfied,East,1,SMS
+4107,Male,61,Los Angeles,Silver,783.99,13,3.8,TRUE,34,Neutral,West,5,Retargeting
+4108,Male,42,New York,Silver,1004.82,7,3.7,TRUE,43,Neutral,North,3,Push
+4109,Male,43,Houston,Silver,710.58,8,3.6,TRUE,67,Neutral,West,2,SMS
+4110,Male,32,Miami,Silver,603.27,12,3.3,TRUE,50,Neutral,West,0,Push
+4111,Male,51,Seattle,Gold,1180.68,12,3.8,TRUE,25,Satisfied,East,5,Retargeting
+4112,Male,37,Boston,Bronze,466.33,11,3.3,TRUE,61,Neutral,West,3,SMS
+4113,Female,50,Los Angeles,Bronze,361.74,4,2.1,FALSE,78,Unsatisfied,West,1,Retargeting
+4114,Male,46,New York,Gold,1047.98,14,4.1,TRUE,25,Satisfied,South,5,Push
+4115,Male,51,New York,Bronze,185.19,7,3.5,TRUE,61,Satisfied,West,4,Email
+4116,Female,33,Chicago,Bronze,378.14,9,2.8,FALSE,61,Neutral,South,3,Push
+4117,Male,31,Seattle,Silver,699.42,11,3.6,TRUE,48,Satisfied,North,0,Email
+4118,Female,40,Boston,Bronze,465.96,8,2.5,FALSE,81,Unsatisfied,North,4,SMS
+4119,Male,22,Boston,Bronze,325.85,8,3.1,TRUE,36,Neutral,West,6,Push
+4120,Male,44,New York,Bronze,497.73,7,2.4,FALSE,51,Unsatisfied,West,4,Retargeting
+4121,Male,30,New York,Bronze,528.53,8,2.8,TRUE,98,Neutral,South,3,SMS
+4122,Male,50,Miami,Gold,1292.27,12,4.3,FALSE,29,Satisfied,East,2,SMS
+4123,Male,34,Chicago,Bronze,318.4,11,3.7,TRUE,60,Unsatisfied,West,1,Retargeting
+4124,Female,38,Houston,Silver,714.63,7,4.4,FALSE,34,Neutral,East,1,SMS
+4125,Male,45,Houston,Silver,729.69,14,3.7,TRUE,52,Neutral,East,2,None
+4126,Male,40,New York,Bronze,528.28,7,2.8,TRUE,32,Unsatisfied,West,1,Retargeting
+4127,Female,42,Seattle,Silver,513.86,11,3.2,FALSE,35,Neutral,East,3,None
+4128,Male,51,San Francisco,Bronze,609.61,3,3.2,TRUE,67,Unsatisfied,North,5,None
+4129,Female,55,Houston,Bronze,600.17,5,3.2,FALSE,95,Unsatisfied,East,3,None
+4130,Female,46,New York,Silver,629.73,13,3.3,TRUE,43,Neutral,North,0,None
+4131,Male,55,Seattle,Bronze,481.66,7,3.2,TRUE,100,Unsatisfied,North,2,Email
+4132,Male,45,New York,Bronze,324.55,6,3.2,TRUE,81,Satisfied,West,4,Retargeting
+4133,Female,34,Boston,Bronze,635.81,8,3.3,FALSE,78,Unsatisfied,North,5,SMS
+4134,Female,63,San Francisco,Silver,435.87,11,3.5,TRUE,53,Satisfied,North,4,Push
+4135,Female,36,Boston,Bronze,452.02,11,3.0,FALSE,60,Unsatisfied,East,3,SMS
+4136,Female,35,New York,Bronze,341.96,9,2.6,TRUE,65,Neutral,West,3,Email
+4137,Female,31,Miami,Bronze,477.75,9,4.2,TRUE,71,Neutral,South,3,SMS
+4138,Male,34,New York,Bronze,480.66,9,3.4,TRUE,81,Neutral,South,3,None
+4139,Male,49,Miami,Bronze,446.69,6,3.1,TRUE,102,Unsatisfied,North,4,Retargeting
+4140,Male,37,Chicago,Silver,787.86,9,3.7,FALSE,36,Unsatisfied,West,3,SMS
+4141,Female,35,Seattle,Silver,589.25,10,3.1,TRUE,45,Satisfied,North,2,Push
+4142,Female,51,Los Angeles,Bronze,233.15,8,3.2,TRUE,68,Unsatisfied,North,0,None
+4143,Female,54,Houston,Bronze,383.51,8,3.6,TRUE,94,Unsatisfied,East,2,SMS
+4144,Female,56,Boston,Silver,806.57,14,3.3,TRUE,58,Neutral,North,4,SMS
+4145,Female,42,New York,Silver,526.73,5,3.2,FALSE,57,Neutral,North,2,Email
+4146,Female,37,San Francisco,Silver,889.2,11,3.9,FALSE,46,Unsatisfied,South,6,Retargeting
+4147,Male,35,Houston,Silver,459.56,10,3.4,TRUE,36,Neutral,North,3,Email
+4148,Male,44,Chicago,Bronze,579.06,4,3.0,TRUE,106,Neutral,North,0,SMS
+4149,Female,50,Boston,Gold,1080.11,13,4.7,FALSE,28,Satisfied,South,5,Email
+4150,Female,37,Chicago,Bronze,318.43,8,3.1,FALSE,30,Unsatisfied,East,3,Retargeting
+4151,Male,37,San Francisco,Silver,776.12,9,4.4,TRUE,51,Satisfied,North,1,Retargeting
+4152,Female,49,Los Angeles,Bronze,470.8,6,3.6,TRUE,93,Neutral,West,3,Retargeting
+4153,Female,53,Seattle,Bronze,551.33,6,2.7,TRUE,75,Neutral,South,4,SMS
+4154,Male,49,Chicago,Bronze,536.2,12,3.5,TRUE,41,Unsatisfied,South,2,SMS
+4155,Female,47,Los Angeles,Bronze,624.26,11,3.7,TRUE,63,Unsatisfied,North,2,Retargeting
+4156,Female,42,New York,Silver,728.33,10,3.7,TRUE,20,Unsatisfied,North,0,Push
+4157,Female,55,Miami,Bronze,445.87,7,3.5,TRUE,97,Unsatisfied,South,6,Email
+4158,Female,49,Los Angeles,Bronze,596.26,8,3.4,TRUE,111,Unsatisfied,North,3,Retargeting
+4159,Female,57,Chicago,Silver,684.05,7,3.7,TRUE,53,Neutral,North,2,Email
+4160,Male,53,Boston,Bronze,391.7,8,3.3,TRUE,92,Unsatisfied,East,3,Email
+4161,Female,31,Boston,Silver,653.84,6,3.5,TRUE,70,Unsatisfied,West,6,Push
+4162,Female,42,San Francisco,Silver,681.53,8,3.3,TRUE,57,Satisfied,West,3,Push
+4163,Female,37,Boston,Bronze,441.53,9,2.8,FALSE,62,Unsatisfied,South,0,SMS
+4164,Female,48,Seattle,Bronze,533.38,8,2.2,TRUE,97,Unsatisfied,North,2,Email
+4165,Female,40,Houston,Silver,577.7,11,3.6,TRUE,55,Neutral,East,4,None
+4166,Male,46,Miami,Bronze,402.84,8,3.8,FALSE,100,Neutral,North,2,SMS
+4167,Male,33,Seattle,Silver,657.43,12,3.8,TRUE,44,Unsatisfied,North,2,SMS
+4168,Male,51,San Francisco,Silver,950.75,9,3.9,TRUE,41,Satisfied,South,2,None
+4169,Female,41,Miami,Silver,756.06,6,3.4,TRUE,33,Satisfied,East,4,Push
+4170,Male,43,San Francisco,Bronze,362.19,9,2.9,TRUE,109,Unsatisfied,South,3,Retargeting
+4171,Male,35,Seattle,Bronze,465.36,9,2.7,TRUE,66,Unsatisfied,South,1,Push
+4172,Male,52,San Francisco,Bronze,527.97,10,2.9,TRUE,94,Neutral,South,1,Email
+4173,Female,27,New York,Bronze,204.14,10,3.6,TRUE,102,Unsatisfied,East,0,None
+4174,Female,42,Chicago,Silver,767.43,13,3.0,TRUE,61,Unsatisfied,East,3,Push
+4175,Male,35,Seattle,Bronze,489.89,10,3.1,TRUE,70,Unsatisfied,West,1,SMS
+4176,Male,25,Miami,Silver,665.85,8,3.8,TRUE,33,Unsatisfied,West,3,None
+4177,Male,46,Chicago,Silver,822.13,4,4.4,FALSE,50,Unsatisfied,South,3,Push
+4178,Male,54,New York,Silver,819.48,14,4.0,TRUE,50,Satisfied,South,4,Retargeting
+4179,Female,51,Los Angeles,Silver,784.39,5,3.6,TRUE,66,Satisfied,South,6,None
+4180,Male,57,Los Angeles,Bronze,365.17,9,3.6,FALSE,102,Neutral,South,2,Push
+4181,Female,41,Houston,Bronze,533.76,5,2.8,TRUE,80,Unsatisfied,West,4,Push
+4182,Male,49,New York,Gold,1162.84,16,4.2,FALSE,21,Unsatisfied,North,5,SMS
+4183,Male,39,Seattle,Gold,940.68,9,4.5,TRUE,35,Satisfied,East,4,SMS
+4184,Female,42,San Francisco,Silver,667.24,3,3.3,TRUE,40,Neutral,East,3,Email
+4185,Male,38,Seattle,Bronze,422.51,9,3.8,FALSE,60,Neutral,North,4,Email
+4186,Male,56,San Francisco,Bronze,596.36,7,3.8,TRUE,76,Satisfied,West,5,Push
+4187,Female,43,Boston,Silver,729.42,6,3.3,TRUE,51,Neutral,East,3,Push
+4188,Female,26,Miami,Silver,718.74,10,3.1,TRUE,52,Unsatisfied,East,3,SMS
+4189,Male,55,Chicago,Silver,623.12,13,3.2,TRUE,53,Satisfied,West,2,Email
+4190,Male,58,Miami,Gold,1136.22,17,4.4,FALSE,40,Satisfied,South,2,None
+4191,Female,60,Boston,Silver,707.43,8,3.6,FALSE,57,Neutral,North,5,Push
+4192,Male,35,San Francisco,Bronze,522.22,9,3.4,TRUE,91,Unsatisfied,West,2,Push
+4193,Male,50,Seattle,Silver,845.84,11,3.8,FALSE,54,Satisfied,West,1,SMS
+4194,Female,37,Los Angeles,Bronze,321.14,5,2.4,TRUE,75,Unsatisfied,North,3,None
+4195,Female,47,Los Angeles,Bronze,512.02,8,3.4,TRUE,93,Neutral,North,2,Push
+4196,Female,42,New York,Bronze,514.19,7,2.9,FALSE,94,Unsatisfied,West,2,Push
+4197,Female,38,New York,Bronze,542.46,6,2.7,TRUE,94,Neutral,East,4,None
+4198,Male,44,Miami,Bronze,559.53,5,3.1,FALSE,100,Neutral,West,5,Email
+4199,Female,53,Chicago,Silver,836.68,6,3.0,FALSE,31,Unsatisfied,North,4,Email
+4200,Female,28,San Francisco,Bronze,411.93,11,3.2,TRUE,63,Neutral,South,4,Email
+4201,Male,44,New York,Silver,723.43,10,3.2,FALSE,45,Satisfied,North,2,Push
+4202,Female,47,Los Angeles,Bronze,447.31,7,3.1,FALSE,71,Neutral,East,2,Email
+4203,Male,50,Los Angeles,Bronze,302.99,5,3.7,FALSE,70,Unsatisfied,East,2,Push
+4204,Male,47,Houston,Bronze,333.96,8,3.8,TRUE,63,Satisfied,South,2,SMS
+4205,Female,36,San Francisco,Silver,652.57,10,3.3,TRUE,48,Neutral,North,4,Push
+4206,Female,33,Boston,Bronze,578.86,6,3.3,FALSE,95,Unsatisfied,South,3,SMS
+4207,Female,41,Chicago,Silver,548.48,6,3.7,TRUE,51,Neutral,West,6,Push
+4208,Female,33,New York,Silver,715.66,6,3.6,TRUE,27,Neutral,East,5,Push
+4209,Female,50,Seattle,Bronze,541.75,5,3.4,FALSE,95,Unsatisfied,East,2,Push
+4210,Male,24,San Francisco,Bronze,458.0,9,3.1,FALSE,77,Unsatisfied,East,3,Email
+4211,Male,52,San Francisco,Bronze,342.36,7,2.8,TRUE,55,Neutral,South,0,Retargeting
+4212,Female,59,Boston,Silver,661.71,15,3.5,TRUE,73,Unsatisfied,South,0,SMS
+4213,Female,59,Los Angeles,Bronze,570.84,7,3.5,FALSE,76,Satisfied,West,4,SMS
+4214,Male,33,Boston,Bronze,418.08,5,3.3,FALSE,87,Unsatisfied,North,3,None
+4215,Female,52,New York,Bronze,435.54,6,3.4,TRUE,84,Unsatisfied,South,3,Retargeting
+4216,Female,70,San Francisco,Bronze,446.88,7,2.7,FALSE,113,Unsatisfied,West,2,Email
+4217,Male,22,Chicago,Bronze,543.48,8,3.0,FALSE,75,Neutral,South,3,Email
+4218,Male,31,Los Angeles,Bronze,642.93,7,3.1,FALSE,80,Satisfied,West,2,Push
+4219,Female,41,Boston,Silver,630.24,6,3.3,TRUE,56,Unsatisfied,North,6,Email
+4220,Female,35,Chicago,Bronze,647.67,7,3.5,TRUE,102,Unsatisfied,North,4,Push
+4221,Female,44,Seattle,Silver,779.99,8,4.0,TRUE,46,Unsatisfied,West,1,Retargeting
+4222,Male,43,Los Angeles,Gold,1102.14,14,4.2,FALSE,13,Satisfied,West,4,Email
+4223,Female,37,New York,Gold,1067.41,18,4.2,TRUE,20,Satisfied,West,2,Retargeting
+4224,Male,40,Chicago,Bronze,415.03,8,2.6,FALSE,60,Unsatisfied,West,3,SMS
+4225,Male,29,Los Angeles,Bronze,456.33,8,2.4,FALSE,96,Neutral,East,6,None
+4226,Male,56,Miami,Bronze,456.25,6,3.0,TRUE,46,Unsatisfied,South,3,Email
+4227,Male,54,Houston,Bronze,443.82,10,4.0,FALSE,108,Unsatisfied,West,3,Push
+4228,Female,57,San Francisco,Bronze,652.03,8,2.7,FALSE,75,Neutral,East,4,Retargeting
+4229,Female,30,Chicago,Bronze,332.97,8,2.3,TRUE,76,Neutral,South,0,None
+4230,Male,26,Seattle,Bronze,298.1,4,3.7,TRUE,51,Neutral,South,4,Email
+4231,Male,31,Houston,Silver,717.81,7,4.1,TRUE,27,Unsatisfied,South,3,Retargeting
+4232,Female,28,Houston,Silver,555.49,9,4.3,FALSE,57,Unsatisfied,North,4,None
+4233,Male,27,Houston,Silver,760.52,11,3.4,FALSE,45,Satisfied,South,4,Retargeting
+4234,Female,53,Chicago,Bronze,427.41,6,2.8,FALSE,92,Unsatisfied,North,3,Push
+4235,Male,70,Houston,Gold,1108.95,12,3.5,FALSE,6,Satisfied,North,2,Push
+4236,Male,29,San Francisco,Gold,1267.89,17,4.7,FALSE,33,Neutral,West,4,None
+4237,Male,38,Seattle,Bronze,589.74,6,3.6,TRUE,86,Neutral,East,3,Push
+4238,Male,35,Chicago,Bronze,422.93,5,2.8,FALSE,74,Unsatisfied,South,0,None
+4239,Male,59,Los Angeles,Silver,467.75,18,3.9,FALSE,49,Neutral,North,4,Retargeting
+4240,Female,48,Chicago,Silver,814.33,15,4.0,TRUE,51,Unsatisfied,North,4,None
+4241,Female,53,Miami,Bronze,535.34,7,4.1,FALSE,106,Unsatisfied,North,3,None
+4242,Male,47,San Francisco,Gold,1027.94,14,4.5,TRUE,16,Neutral,West,2,Push
+4243,Male,27,Boston,Bronze,407.59,9,4.4,TRUE,82,Unsatisfied,North,2,Push
+4244,Female,47,Chicago,Gold,948.75,15,4.0,TRUE,21,Satisfied,South,3,Retargeting
+4245,Female,43,Chicago,Bronze,409.03,4,2.8,TRUE,60,Unsatisfied,North,5,Retargeting
+4246,Male,51,Chicago,Bronze,284.16,7,3.7,TRUE,84,Unsatisfied,North,4,None
+4247,Female,38,Seattle,Bronze,457.5,6,3.6,TRUE,87,Unsatisfied,East,3,Retargeting
+4248,Male,43,Seattle,Bronze,625.18,9,2.3,TRUE,90,Neutral,North,3,Email
+4249,Male,50,New York,Bronze,510.55,9,2.8,TRUE,71,Unsatisfied,East,1,Retargeting
+4250,Female,48,Miami,Bronze,744.29,8,3.2,TRUE,87,Unsatisfied,North,5,None
+4251,Male,26,Boston,Bronze,418.78,7,3.6,FALSE,67,Unsatisfied,North,4,Retargeting
+4252,Male,30,Houston,Bronze,429.78,4,3.5,TRUE,97,Neutral,South,4,Push
+4253,Male,52,San Francisco,Silver,589.63,10,2.6,TRUE,74,Unsatisfied,East,5,SMS
+4254,Male,37,Seattle,Bronze,422.19,9,2.9,TRUE,78,Satisfied,West,3,SMS
+4255,Female,43,San Francisco,Bronze,184.42,6,3.3,TRUE,80,Unsatisfied,South,2,Email
+4256,Female,42,Miami,Bronze,207.32,7,3.0,TRUE,113,Unsatisfied,South,2,None
+4257,Female,38,Los Angeles,Silver,531.01,7,3.8,FALSE,32,Neutral,South,1,Retargeting
+4258,Male,22,San Francisco,Gold,1084.74,13,4.2,TRUE,28,Neutral,North,5,None
+4259,Female,56,Los Angeles,Silver,634.75,8,4.1,FALSE,36,Neutral,South,4,None
+4260,Male,25,Boston,Silver,605.76,6,3.1,TRUE,55,Neutral,East,4,Email
+4261,Male,62,Seattle,Bronze,444.26,9,3.2,TRUE,62,Neutral,West,5,Retargeting
+4262,Male,29,San Francisco,Bronze,234.47,10,3.2,TRUE,48,Neutral,East,4,Retargeting
+4263,Female,47,Los Angeles,Silver,665.01,7,3.5,TRUE,50,Unsatisfied,North,2,None
+4264,Male,43,Los Angeles,Bronze,334.29,7,2.9,FALSE,80,Satisfied,North,3,Push
+4265,Female,36,Chicago,Silver,603.62,9,4.4,TRUE,60,Unsatisfied,North,5,Push
+4266,Male,45,Los Angeles,Bronze,391.62,8,3.9,TRUE,71,Unsatisfied,North,3,Retargeting
+4267,Female,27,Chicago,Silver,776.89,9,3.9,TRUE,35,Unsatisfied,West,3,Email
+4268,Male,38,New York,Bronze,355.73,7,2.9,TRUE,75,Neutral,East,1,Email
+4269,Male,39,Los Angeles,Bronze,480.76,7,3.6,TRUE,63,Neutral,East,3,Email
+4270,Female,56,Houston,Bronze,422.67,5,3.0,TRUE,83,Unsatisfied,East,3,SMS
+4271,Male,49,Los Angeles,Silver,733.92,6,3.6,TRUE,48,Satisfied,East,3,Retargeting
+4272,Female,38,New York,Bronze,531.7,11,2.7,TRUE,120,Unsatisfied,North,2,Push
+4273,Male,36,Boston,Silver,776.69,11,3.9,TRUE,62,Unsatisfied,North,4,Push
+4274,Male,57,Seattle,Silver,612.15,10,3.8,FALSE,25,Neutral,North,4,Push
+4275,Female,29,Miami,Bronze,527.03,3,2.6,FALSE,100,Neutral,East,3,Email
+4276,Male,41,San Francisco,Silver,729.36,11,3.7,FALSE,27,Unsatisfied,South,3,Retargeting
+4277,Male,34,Miami,Silver,649.16,10,3.7,TRUE,64,Satisfied,East,5,Push
+4278,Female,47,Boston,Silver,694.63,14,3.9,TRUE,44,Unsatisfied,North,3,Retargeting
+4279,Female,33,Boston,Bronze,549.1,9,2.5,TRUE,60,Satisfied,East,4,Email
+4280,Male,55,Boston,Gold,1165.28,11,4.1,TRUE,21,Satisfied,South,2,Email
+4281,Female,64,San Francisco,Silver,725.14,7,4.0,FALSE,60,Satisfied,East,0,None
+4282,Male,63,Chicago,Silver,867.38,15,3.6,TRUE,61,Unsatisfied,North,4,Push
+4283,Male,45,Miami,Bronze,413.95,7,3.1,FALSE,96,Neutral,West,3,Push
+4284,Female,23,Chicago,Bronze,336.33,6,2.9,FALSE,87,Neutral,North,1,None
+4285,Male,45,Seattle,Bronze,687.44,7,3.9,TRUE,54,Neutral,North,3,Retargeting
+4286,Male,33,Boston,Silver,940.45,10,3.7,FALSE,49,Satisfied,East,2,Push
+4287,Male,25,New York,Bronze,538.47,7,3.3,TRUE,64,Neutral,South,3,Push
+4288,Male,53,Seattle,Bronze,800,9,2.0,TRUE,59,Unsatisfied,East,4,Retargeting
+4289,Male,41,San Francisco,Bronze,358.83,4,2.7,FALSE,100,Neutral,East,3,None
+4290,Female,49,Chicago,Bronze,450.96,7,3.1,FALSE,62,Unsatisfied,South,4,None
+4291,Male,47,Los Angeles,Gold,986.64,10,4.3,FALSE,13,Neutral,South,4,Email
+4292,Male,41,Miami,Bronze,476.59,7,4.0,TRUE,56,Unsatisfied,South,4,Push
+4293,Male,43,New York,Bronze,618.96,6,3.8,TRUE,103,Unsatisfied,West,2,Retargeting
+4294,Male,40,Chicago,Bronze,100,7,2.8,FALSE,100,Unsatisfied,East,4,Retargeting
+4295,Male,42,Houston,Silver,746.59,3,3.3,TRUE,34,Neutral,North,3,Retargeting
+4296,Male,44,Los Angeles,Bronze,434.34,7,2.8,TRUE,73,Unsatisfied,East,4,None
+4297,Male,51,San Francisco,Bronze,180.53,8,3.4,FALSE,64,Unsatisfied,South,2,Email
+4298,Male,33,Los Angeles,Silver,608.95,10,4.2,TRUE,54,Satisfied,North,4,Push
+4299,Male,56,San Francisco,Silver,595.09,13,3.7,FALSE,41,Unsatisfied,West,3,None
+4300,Male,22,Chicago,Bronze,429.55,5,3.5,FALSE,80,Neutral,North,3,Retargeting
+4301,Male,46,Boston,Bronze,504.8,7,3.9,TRUE,91,Unsatisfied,North,3,Email
+4302,Female,39,Los Angeles,Bronze,631.07,9,3.6,TRUE,71,Unsatisfied,North,4,SMS
+4303,Male,40,Los Angeles,Bronze,481.32,7,3.8,FALSE,66,Satisfied,South,4,Push
+4304,Male,60,Houston,Bronze,462.85,8,3.0,TRUE,59,Unsatisfied,North,5,None
+4305,Male,54,San Francisco,Silver,629.01,7,3.7,FALSE,48,Satisfied,South,5,None
+4306,Female,39,Chicago,Gold,1171.2,12,4.3,TRUE,36,Neutral,West,4,Email
+4307,Male,41,Miami,Bronze,316.56,6,3.2,TRUE,92,Neutral,West,5,SMS
+4308,Male,22,Houston,Bronze,252.94,8,3.0,TRUE,58,Neutral,East,2,SMS
+4309,Male,47,Seattle,Bronze,563.12,8,2.5,TRUE,85,Satisfied,South,1,Email
+4310,Male,40,New York,Silver,640.82,3,3.8,FALSE,47,Neutral,East,5,Retargeting
+4311,Female,37,Miami,Bronze,482.68,8,3.9,FALSE,66,Neutral,West,5,Push
+4312,Male,36,Miami,Silver,613.87,10,3.8,TRUE,82,Neutral,North,5,SMS
+4313,Female,37,Chicago,Silver,505.58,6,4.3,FALSE,59,Neutral,North,1,Retargeting
+4314,Male,53,Chicago,Bronze,491.36,5,2.2,TRUE,61,Satisfied,North,4,Email
+4315,Female,24,Los Angeles,Bronze,632.94,9,3.1,TRUE,98,Unsatisfied,West,3,Retargeting
+4316,Female,44,New York,Bronze,567.43,3,2.8,TRUE,82,Neutral,West,3,Push
+4317,Female,54,New York,Bronze,532.28,7,3.0,TRUE,76,Unsatisfied,West,2,Push
+4318,Male,39,San Francisco,Bronze,457.25,7,2.5,TRUE,72,Satisfied,East,2,SMS
+4319,Female,51,Los Angeles,Bronze,450.35,7,3.5,TRUE,36,Unsatisfied,South,1,Retargeting
+4320,Female,52,Miami,Gold,1032.81,13,4.6,TRUE,25,Neutral,East,6,SMS
+4321,Female,22,Seattle,Bronze,559.76,9,3.7,FALSE,63,Neutral,West,1,Email
+4322,Male,40,Houston,Gold,1042.02,14,3.9,FALSE,11,Neutral,East,4,SMS
+4323,Male,31,Boston,Bronze,537.34,7,3.5,TRUE,86,Unsatisfied,North,4,Retargeting
+4324,Male,36,New York,Bronze,509.07,6,2.9,TRUE,76,Neutral,North,3,None
+4325,Female,37,San Francisco,Bronze,445.05,6,3.3,TRUE,63,Neutral,East,2,SMS
+4326,Female,45,Boston,Silver,620.73,12,4.0,TRUE,47,Neutral,East,4,Email
+4327,Female,35,Houston,Bronze,499.66,5,2.4,TRUE,73,Neutral,South,4,Email
+4328,Male,26,Boston,Bronze,394.85,10,3.6,TRUE,101,Neutral,East,2,None
+4329,Female,34,San Francisco,Bronze,467.02,6,3.6,TRUE,54,Unsatisfied,West,3,SMS
+4330,Male,38,San Francisco,Bronze,405.54,7,3.1,FALSE,94,Neutral,North,4,SMS
+4331,Female,48,Los Angeles,Bronze,482.15,6,2.5,TRUE,95,Unsatisfied,North,4,SMS
+4332,Male,30,Houston,Silver,565.05,16,3.4,TRUE,82,Satisfied,South,2,Push
+4333,Male,36,New York,Silver,559.14,9,3.0,FALSE,20,Satisfied,West,0,SMS
+4334,Male,34,New York,Bronze,264.76,7,3.7,FALSE,71,Unsatisfied,North,3,Push
+4335,Female,44,Boston,Bronze,613.37,4,3.1,TRUE,65,Neutral,West,2,Email
+4336,Male,40,Los Angeles,Silver,538.17,9,4.0,TRUE,75,Neutral,North,3,Retargeting
+4337,Female,41,San Francisco,Bronze,488.8,11,3.5,FALSE,38,Neutral,North,3,Retargeting
+4338,Male,22,Boston,Silver,844.79,9,3.7,TRUE,56,Unsatisfied,North,4,SMS
+4339,Male,37,Seattle,Bronze,554.6,9,2.5,TRUE,58,Unsatisfied,South,2,Push
+4340,Female,45,Seattle,Gold,1112.27,9,4.3,TRUE,20,Satisfied,East,2,Push
+4341,Female,62,Houston,Bronze,259.07,6,3.8,TRUE,62,Unsatisfied,South,4,Retargeting
+4342,Male,24,New York,Bronze,484.3,7,3.2,FALSE,89,Unsatisfied,South,3,None
+4343,Male,51,Miami,Bronze,428.54,5,2.5,TRUE,90,Neutral,South,3,Email
+4344,Male,58,Los Angeles,Bronze,325.74,9,3.7,FALSE,85,Unsatisfied,North,4,Retargeting
+4345,Female,34,Houston,Bronze,594.71,11,3.0,TRUE,72,Unsatisfied,South,5,Retargeting
+4346,Female,22,Miami,Bronze,529.82,6,3.1,TRUE,48,Satisfied,East,4,Retargeting
+4347,Male,52,Miami,Bronze,407.99,8,2.5,FALSE,74,Neutral,North,1,Email
+4348,Male,49,San Francisco,Silver,488.9,13,3.7,TRUE,45,Neutral,West,3,Email
+4349,Female,22,Seattle,Gold,976.73,18,3.9,FALSE,8,Satisfied,East,3,Retargeting
+4350,Female,40,Houston,Bronze,254.05,7,3.3,TRUE,68,Unsatisfied,North,6,Push
+4351,Female,39,Los Angeles,Silver,625.99,3,3.2,FALSE,52,Satisfied,East,1,Retargeting
+4352,Male,24,San Francisco,Bronze,226.67,6,3.1,TRUE,63,Unsatisfied,East,1,None
+4353,Male,48,New York,Silver,735.02,14,3.7,FALSE,33,Satisfied,West,2,None
+4354,Male,42,Houston,Gold,1041.25,10,4.7,TRUE,15,Satisfied,East,3,None
+4355,Male,46,New York,Bronze,458.7,5,3.6,TRUE,120,Neutral,South,2,Email
+4356,Male,36,Miami,Silver,687.75,9,3.6,TRUE,50,Neutral,West,5,None
+4357,Male,45,Miami,Silver,532.51,9,3.6,TRUE,27,Neutral,North,4,Retargeting
+4358,Female,37,New York,Bronze,448.87,8,3.2,TRUE,31,Unsatisfied,West,3,SMS
+4359,Male,41,Miami,Bronze,518.41,3,3.1,TRUE,60,Neutral,East,3,None
+4360,Female,34,New York,Bronze,370.07,7,2.4,TRUE,109,Neutral,South,3,Retargeting
+4361,Female,22,Houston,Bronze,208.72,6,3.5,TRUE,83,Unsatisfied,North,5,Push
+4362,Female,53,Miami,Silver,789.49,5,3.7,FALSE,53,Neutral,East,3,Email
+4363,Female,57,Chicago,Bronze,435.02,6,2.8,TRUE,69,Unsatisfied,North,3,Retargeting
+4364,Male,41,New York,Bronze,489.97,10,3.3,FALSE,81,Unsatisfied,North,5,Retargeting
+4365,Male,30,Miami,Bronze,223.81,9,3.0,TRUE,42,Unsatisfied,East,4,Retargeting
+4366,Male,52,Boston,Bronze,338.21,2,3.8,TRUE,80,Unsatisfied,West,4,SMS
+4367,Male,28,Los Angeles,Bronze,507.77,8,2.4,TRUE,74,Unsatisfied,West,5,Email
+4368,Female,48,Miami,Gold,1220.34,18,3.8,TRUE,31,Neutral,South,3,Push
+4369,Female,42,Boston,Bronze,336.14,6,3.2,TRUE,85,Satisfied,East,5,Push
+4370,Female,22,Miami,Bronze,409.87,8,3.1,TRUE,82,Neutral,West,3,Retargeting
+4371,Male,59,New York,Gold,952.34,13,3.7,TRUE,34,Satisfied,West,6,Retargeting
+4372,Female,52,Los Angeles,Bronze,375.48,8,3.0,TRUE,81,Neutral,West,5,None
+4373,Female,47,Los Angeles,Silver,700.33,8,3.5,TRUE,50,Neutral,East,3,Push
+4374,Male,47,Miami,Silver,658.53,11,2.9,TRUE,45,Neutral,East,3,Retargeting
+4375,Male,51,Seattle,Bronze,512.8,5,2.5,TRUE,94,Unsatisfied,West,6,Email
+4376,Male,35,New York,Bronze,575.02,9,3.7,FALSE,57,Neutral,South,4,Retargeting
+4377,Male,40,New York,Gold,1078.31,14,3.8,TRUE,30,Satisfied,North,3,Email
+4378,Male,28,Houston,Silver,646.94,14,3.2,TRUE,48,Unsatisfied,West,3,Push
+4379,Male,68,San Francisco,Bronze,667.72,10,3.2,TRUE,83,Neutral,South,1,Push
+4380,Male,30,Houston,Bronze,307.76,9,3.5,TRUE,73,Neutral,North,3,Retargeting
+4381,Male,33,San Francisco,Bronze,408.29,7,2.9,FALSE,58,Satisfied,West,0,None
+4382,Male,27,Chicago,Bronze,246.19,6,3.4,TRUE,85,Unsatisfied,West,4,Push
+4383,Male,43,New York,Gold,1116.68,18,3.6,FALSE,24,Satisfied,South,2,SMS
+4384,Female,37,Seattle,Gold,833.91,17,4.8,FALSE,20,Satisfied,South,4,None
+4385,Male,51,San Francisco,Bronze,350.3,9,2.8,TRUE,59,Neutral,North,5,None
+4386,Male,33,New York,Bronze,379.92,8,3.1,TRUE,99,Satisfied,North,3,SMS
+4387,Female,29,Los Angeles,Bronze,378.74,6,2.8,TRUE,70,Unsatisfied,South,3,SMS
+4388,Female,61,New York,Gold,1018.48,13,4.2,TRUE,30,Satisfied,South,2,SMS
+4389,Male,41,New York,Silver,792.24,14,3.6,TRUE,43,Neutral,North,4,Retargeting
+4390,Male,26,Miami,Silver,701.97,11,3.8,FALSE,72,Neutral,West,3,None
+4391,Female,54,Miami,Silver,552.83,8,2.8,FALSE,74,Neutral,South,2,SMS
+4392,Female,40,San Francisco,Gold,999.5,15,3.9,FALSE,21,Satisfied,South,3,None
+4393,Female,63,Houston,Gold,1082.86,14,4.1,TRUE,23,Neutral,West,1,Retargeting
+4394,Male,55,San Francisco,Bronze,361.4,10,2.4,TRUE,57,Unsatisfied,North,5,SMS
+4395,Female,33,Seattle,Bronze,318.37,2,2.9,TRUE,58,Neutral,East,3,SMS
+4396,Female,43,Los Angeles,Bronze,601.88,4,3.0,TRUE,89,Unsatisfied,North,4,Retargeting
+4397,Female,44,Miami,Bronze,547.74,7,3.2,FALSE,75,Unsatisfied,South,5,Email
+4398,Female,44,New York,Bronze,747.39,6,3.1,TRUE,83,Neutral,East,1,Retargeting
+4399,Female,43,San Francisco,Silver,705.09,6,2.5,TRUE,51,Unsatisfied,West,4,None
+4400,Female,30,Boston,Bronze,623.03,6,2.1,TRUE,75,Unsatisfied,East,2,Push
+4401,Female,49,San Francisco,Silver,688.37,10,3.5,FALSE,57,Neutral,West,3,Email
+4402,Male,26,Boston,Bronze,530.49,10,2.5,TRUE,93,Neutral,South,3,Email
+4403,Female,50,Chicago,Bronze,718.39,6,2.8,FALSE,63,Satisfied,South,4,Push
+4404,Male,50,Chicago,Silver,749.11,13,3.2,FALSE,46,Neutral,East,2,Email
+4405,Female,40,Boston,Silver,631.8,13,3.0,FALSE,31,Satisfied,East,3,None
+4406,Female,31,Seattle,Bronze,467.07,6,3.4,TRUE,108,Neutral,East,5,None
+4407,Female,30,Seattle,Bronze,302.61,11,3.3,FALSE,66,Neutral,East,1,Retargeting
+4408,Female,29,San Francisco,Silver,718.11,12,3.2,FALSE,30,Neutral,West,4,Push
+4409,Male,46,Seattle,Gold,774.82,16,4.4,FALSE,33,Neutral,South,3,SMS
+4410,Female,38,Miami,Bronze,411.91,7,2.6,FALSE,91,Unsatisfied,South,2,None
+4411,Male,45,New York,Gold,1242.15,17,4.3,TRUE,21,Satisfied,East,1,None
+4412,Male,59,San Francisco,Bronze,433.26,7,3.5,FALSE,60,Unsatisfied,West,4,Email
+4413,Male,46,Los Angeles,Gold,1034.49,15,4.1,FALSE,23,Neutral,South,3,Retargeting
+4414,Female,52,Houston,Silver,437.47,7,3.7,TRUE,58,Neutral,South,3,Email
+4415,Female,45,Seattle,Gold,1263.4,12,4.3,TRUE,28,Neutral,West,2,Push
+4416,Male,51,Boston,Silver,857.89,8,4.1,FALSE,39,Satisfied,South,3,SMS
+4417,Male,60,Miami,Bronze,562.51,10,3.1,TRUE,87,Neutral,West,3,Retargeting
+4418,Female,54,San Francisco,Bronze,369.02,8,3.0,TRUE,50,Neutral,South,2,Push
+4419,Male,51,Miami,Bronze,458.42,6,2.5,FALSE,48,Satisfied,West,0,Retargeting
+4420,Female,35,Los Angeles,Bronze,229.05,8,3.7,TRUE,82,Unsatisfied,West,2,Retargeting
+4421,Male,47,Seattle,Bronze,546.63,7,2.8,TRUE,58,Unsatisfied,East,2,None
+4422,Female,32,Houston,Bronze,324.43,7,2.7,TRUE,120,Unsatisfied,South,2,None
+4423,Female,44,San Francisco,Bronze,300.01,6,2.9,FALSE,65,Unsatisfied,South,4,Push
+4424,Female,22,Seattle,Gold,1194.81,11,4.2,TRUE,28,Satisfied,South,5,Retargeting
+4425,Female,41,Seattle,Gold,1287.72,14,4.6,TRUE,31,Neutral,East,3,Email
+4426,Female,57,Seattle,Silver,860.07,10,3.5,FALSE,79,Neutral,South,4,Push
+4427,Male,41,Chicago,Silver,839.58,14,4.0,FALSE,59,Unsatisfied,East,4,Email
+4428,Female,58,Chicago,Bronze,547.95,6,3.0,TRUE,68,Unsatisfied,North,4,Push
+4429,Female,32,Los Angeles,Gold,1096.59,14,4.5,TRUE,36,Satisfied,West,5,SMS
+4430,Male,31,Los Angeles,Bronze,267.13,4,3.8,FALSE,70,Unsatisfied,North,3,Retargeting
+4431,Male,42,Chicago,Gold,1172.34,14,3.6,FALSE,17,Neutral,West,2,Retargeting
+4432,Female,54,Boston,Silver,614.02,8,3.2,FALSE,61,Neutral,West,3,Push
+4433,Male,39,San Francisco,Bronze,341.83,10,3.5,FALSE,76,Unsatisfied,South,1,Push
+4434,Male,31,Seattle,Silver,742.69,7,3.1,TRUE,31,Satisfied,North,3,Push
+4435,Male,29,Miami,Bronze,332.53,7,3.4,FALSE,107,Unsatisfied,North,2,Email
+4436,Male,52,Miami,Silver,1043.36,10,3.8,TRUE,33,Neutral,South,1,SMS
+4437,Male,27,Los Angeles,Bronze,190.82,9,3.2,FALSE,78,Satisfied,North,4,Retargeting
+4438,Male,51,Miami,Bronze,610.6,6,2.9,FALSE,88,Neutral,South,5,Push
+4439,Female,47,Boston,Silver,723.8,14,3.0,TRUE,76,Satisfied,North,1,SMS
+4440,Female,41,San Francisco,Bronze,443.0,6,3.1,TRUE,75,Neutral,West,3,SMS
+4441,Male,44,Los Angeles,Silver,418.85,14,3.5,TRUE,38,Unsatisfied,East,0,Email
+4442,Female,40,Chicago,Bronze,406.76,5,2.9,TRUE,65,Unsatisfied,East,3,Email
+4443,Male,48,New York,Silver,527.61,14,3.4,TRUE,63,Satisfied,West,5,Email
+4444,Male,36,Los Angeles,Gold,1320.4,14,4.2,TRUE,30,Neutral,West,0,SMS
+4445,Male,36,Seattle,Silver,776.86,12,4.0,FALSE,53,Neutral,West,2,Push
+4446,Male,39,Seattle,Bronze,631.39,8,3.8,TRUE,93,Unsatisfied,West,2,SMS
+4447,Female,39,Seattle,Bronze,413.09,5,3.9,TRUE,79,Unsatisfied,South,1,Retargeting
+4448,Female,42,Houston,Bronze,403.62,7,2.9,FALSE,81,Unsatisfied,East,3,SMS
+4449,Male,45,San Francisco,Bronze,447.39,9,3.6,TRUE,81,Neutral,West,4,SMS
+4450,Male,27,Los Angeles,Bronze,303.18,4,2.7,TRUE,74,Neutral,North,2,Retargeting
+4451,Female,70,Miami,Gold,975.64,15,5.0,TRUE,11,Satisfied,North,1,Retargeting
+4452,Female,40,Los Angeles,Silver,698.89,13,3.7,FALSE,53,Unsatisfied,West,4,SMS
+4453,Female,54,San Francisco,Bronze,454.21,6,2.6,TRUE,98,Neutral,West,4,None
+4454,Female,43,Miami,Bronze,526.6,3,3.6,FALSE,65,Neutral,West,3,Email
+4455,Female,56,San Francisco,Bronze,436.35,3,2.6,FALSE,46,Unsatisfied,South,5,Email
+4456,Female,38,Houston,Silver,408.03,10,3.6,TRUE,68,Neutral,East,3,SMS
+4457,Female,47,Los Angeles,Silver,957.6,10,3.0,TRUE,46,Neutral,South,4,SMS
+4458,Female,34,Los Angeles,Bronze,549.17,6,3.7,TRUE,78,Neutral,North,3,Email
+4459,Male,45,Seattle,Gold,1145.51,13,4.3,FALSE,23,Neutral,West,4,Email
+4460,Female,46,Los Angeles,Bronze,502.89,8,2.5,FALSE,85,Neutral,North,1,Retargeting
+4461,Female,37,Seattle,Bronze,461.91,9,2.5,TRUE,86,Unsatisfied,East,3,None
+4462,Male,45,Los Angeles,Bronze,530.44,4,3.5,FALSE,68,Satisfied,South,5,Email
+4463,Male,40,San Francisco,Silver,607.27,7,3.5,FALSE,29,Satisfied,West,2,Retargeting
+4464,Female,57,Boston,Silver,648.96,10,3.7,TRUE,28,Satisfied,East,1,Email
+4465,Female,47,Boston,Bronze,480.37,8,3.8,TRUE,77,Unsatisfied,East,4,Retargeting
+4466,Male,36,San Francisco,Gold,1168.4,12,4.0,TRUE,18,Satisfied,South,3,Retargeting
+4467,Male,40,New York,Bronze,353.79,5,1.9,TRUE,66,Satisfied,North,4,Retargeting
+4468,Female,41,San Francisco,Gold,804.01,14,4.2,TRUE,25,Neutral,West,4,None
+4469,Male,28,Seattle,Silver,742.22,11,3.8,TRUE,33,Unsatisfied,West,1,Email
+4470,Male,30,Los Angeles,Bronze,750.59,7,3.4,FALSE,66,Unsatisfied,West,4,Email
+4471,Female,35,Houston,Bronze,346.43,7,2.6,TRUE,75,Unsatisfied,West,1,Push
+4472,Female,38,Los Angeles,Silver,716.77,13,4.0,TRUE,48,Unsatisfied,East,2,Email
+4473,Male,54,Houston,Silver,681.65,12,3.5,TRUE,20,Neutral,West,3,Push
+4474,Male,29,Seattle,Gold,1154.59,13,4.1,TRUE,31,Satisfied,West,4,Push
+4475,Female,22,Houston,Bronze,662.42,4,2.9,TRUE,60,Unsatisfied,North,5,Push
+4476,Male,31,San Francisco,Bronze,515.55,9,3.1,TRUE,59,Neutral,West,1,None
+4477,Male,49,Seattle,Bronze,275.68,8,2.4,TRUE,70,Neutral,South,1,None
+4478,Male,31,Houston,Silver,701.19,12,3.9,TRUE,36,Neutral,South,2,SMS
+4479,Male,48,Chicago,Bronze,500.28,4,2.5,TRUE,79,Neutral,North,2,Email
+4480,Female,27,Houston,Gold,1025.69,12,3.9,FALSE,22,Satisfied,North,6,Email
+4481,Female,28,Chicago,Silver,778.34,9,3.2,FALSE,58,Unsatisfied,West,2,Email
+4482,Female,35,Houston,Bronze,737.55,11,3.1,FALSE,52,Satisfied,West,3,Retargeting
+4483,Female,41,Boston,Silver,449.58,11,3.3,TRUE,48,Neutral,West,2,Email
+4484,Female,53,Los Angeles,Bronze,421.17,9,3.0,TRUE,79,Unsatisfied,East,4,Email
+4485,Male,50,Houston,Silver,600.51,6,3.4,TRUE,31,Neutral,North,3,Email
+4486,Male,37,Boston,Silver,619.45,10,3.0,TRUE,32,Satisfied,East,4,Push
+4487,Male,31,San Francisco,Bronze,312.23,6,2.5,TRUE,81,Unsatisfied,East,0,Email
+4488,Male,34,San Francisco,Bronze,445.7,6,3.2,TRUE,68,Unsatisfied,West,6,None
+4489,Female,31,Boston,Bronze,453.82,7,3.2,TRUE,106,Neutral,South,4,Push
+4490,Male,41,Chicago,Bronze,365.27,7,3.1,FALSE,59,Neutral,East,3,None
+4491,Female,43,Chicago,Gold,1336.04,15,3.6,TRUE,28,Satisfied,North,5,Retargeting
+4492,Female,23,New York,Bronze,492.32,5,2.6,TRUE,54,Satisfied,West,3,SMS
+4493,Female,40,New York,Silver,860.16,12,3.9,TRUE,35,Neutral,East,3,Retargeting
+4494,Female,47,Houston,Bronze,237.62,4,3.1,FALSE,64,Unsatisfied,South,0,Email
+4495,Female,47,Boston,Bronze,501.14,6,2.7,TRUE,84,Neutral,West,4,None
+4496,Male,56,Los Angeles,Bronze,355.4,9,3.6,TRUE,92,Unsatisfied,West,4,Email
+4497,Male,44,Los Angeles,Bronze,377.0,5,3.4,TRUE,30,Unsatisfied,West,3,None
+4498,Male,31,New York,Gold,1201.88,14,4.0,TRUE,23,Satisfied,East,3,Push
+4499,Female,48,Miami,Bronze,279.47,7,2.3,FALSE,55,Neutral,West,2,Retargeting
+4500,Male,45,Seattle,Bronze,400.45,9,3.7,TRUE,59,Satisfied,South,2,Email
+4501,Female,46,Houston,Silver,641.75,11,3.8,TRUE,54,Neutral,South,3,Push
+4502,Male,36,Los Angeles,Gold,1014.26,13,4.2,TRUE,14,Satisfied,West,5,Retargeting
+4503,Female,55,Houston,Silver,749.81,6,3.7,FALSE,69,Unsatisfied,South,3,Email
+4504,Female,29,Boston,Bronze,525.38,8,2.5,TRUE,40,Neutral,South,3,Retargeting
+4505,Female,22,Chicago,Bronze,496.61,9,2.7,TRUE,53,Neutral,West,3,Email
+4506,Female,44,San Francisco,Bronze,280.5,10,2.8,FALSE,70,Unsatisfied,East,2,None
+4507,Male,45,Miami,Bronze,563.79,5,2.5,TRUE,50,Unsatisfied,East,3,Push
+4508,Male,48,New York,Bronze,379.5,4,3.8,TRUE,68,Unsatisfied,West,3,Email
+4509,Male,38,Seattle,Bronze,347.63,6,2.4,TRUE,96,Neutral,West,5,SMS
+4510,Male,39,Los Angeles,Bronze,272.66,6,3.2,TRUE,96,Unsatisfied,North,5,SMS
+4511,Female,37,Miami,Bronze,595.89,7,3.1,FALSE,53,Neutral,East,2,Retargeting
+4512,Male,49,Los Angeles,Bronze,536.48,5,2.7,FALSE,112,Unsatisfied,South,1,Retargeting
+4513,Male,36,Houston,Bronze,481.74,8,3.7,TRUE,84,Satisfied,South,5,SMS
+4514,Female,37,Chicago,Bronze,272.9,11,3.5,FALSE,65,Satisfied,South,5,Retargeting
+4515,Male,51,Houston,Bronze,356.46,6,4.1,TRUE,102,Unsatisfied,North,5,None
+4516,Female,36,Los Angeles,Gold,1133.56,20,4.0,TRUE,20,Satisfied,South,5,Push
+4517,Female,52,Los Angeles,Bronze,380.12,5,3.6,FALSE,51,Neutral,South,2,Push
+4518,Male,37,Los Angeles,Silver,561.19,6,3.4,TRUE,62,Neutral,North,2,Email
+4519,Female,52,New York,Silver,472.51,12,3.8,TRUE,84,Satisfied,West,1,Email
+4520,Male,45,Boston,Silver,545.39,13,3.6,TRUE,30,Neutral,West,3,None
+4521,Female,54,Miami,Bronze,524.13,6,4.2,TRUE,79,Neutral,North,1,Push
+4522,Male,45,Chicago,Bronze,479.08,7,2.6,TRUE,58,Neutral,West,5,Retargeting
+4523,Male,45,Chicago,Bronze,339.69,7,3.2,TRUE,37,Unsatisfied,East,3,SMS
+4524,Female,31,Los Angeles,Silver,651.53,12,3.9,TRUE,79,Unsatisfied,South,2,Email
+4525,Male,41,San Francisco,Gold,874.1,11,3.9,TRUE,25,Neutral,West,2,SMS
+4526,Female,23,Boston,Gold,1188.31,12,4.2,TRUE,18,Satisfied,North,2,Email
+4527,Male,46,Boston,Bronze,304.17,9,3.4,TRUE,84,Neutral,North,5,SMS
+4528,Female,28,New York,Bronze,387.16,9,3.6,TRUE,63,Neutral,South,4,Push
+4529,Male,67,Seattle,Bronze,673.29,8,3.7,TRUE,89,Neutral,South,4,SMS
+4530,Male,50,Seattle,Bronze,364.82,8,2.5,FALSE,112,Neutral,North,4,Push
+4531,Female,41,Seattle,Bronze,700.85,10,3.5,FALSE,86,Neutral,South,3,Retargeting
+4532,Female,46,Miami,Bronze,422.2,5,3.4,TRUE,83,Unsatisfied,West,5,None
+4533,Male,39,San Francisco,Silver,753.07,11,3.7,TRUE,29,Neutral,West,2,None
+4534,Female,62,San Francisco,Bronze,583.19,9,2.4,TRUE,77,Satisfied,East,4,SMS
+4535,Female,42,Chicago,Bronze,382.39,7,3.7,FALSE,112,Satisfied,South,5,None
+4536,Male,61,Miami,Silver,719.15,9,3.7,FALSE,56,Neutral,West,2,SMS
+4537,Female,38,New York,Gold,960.28,16,4.2,TRUE,40,Neutral,North,5,None
+4538,Female,42,New York,Bronze,552.52,10,2.7,TRUE,47,Unsatisfied,North,4,None
+4539,Female,55,New York,Bronze,151.29,6,2.8,FALSE,73,Unsatisfied,North,0,Retargeting
+4540,Male,56,Chicago,Bronze,650.04,8,3.8,TRUE,67,Unsatisfied,West,2,SMS
+4541,Female,46,Los Angeles,Gold,1216.73,15,4.2,FALSE,24,Satisfied,South,4,Email
+4542,Female,62,Chicago,Bronze,501.29,8,2.7,TRUE,73,Unsatisfied,West,3,Email
+4543,Male,37,New York,Silver,684.02,8,3.7,TRUE,49,Unsatisfied,East,3,Push
+4544,Male,66,Chicago,Silver,819.61,7,4.0,TRUE,54,Satisfied,South,1,None
+4545,Female,49,San Francisco,Silver,1025.19,11,3.2,FALSE,65,Neutral,East,1,SMS
+4546,Male,44,Chicago,Silver,553.76,7,3.4,TRUE,49,Unsatisfied,East,5,Push
+4547,Female,34,San Francisco,Bronze,338.34,7,2.9,TRUE,97,Neutral,South,2,Push
+4548,Male,42,Boston,Bronze,542.49,7,3.3,TRUE,88,Unsatisfied,South,5,Email
+4549,Male,44,New York,Silver,599.43,11,3.6,TRUE,50,Neutral,North,2,SMS
+4550,Male,48,Los Angeles,Bronze,243.43,8,2.6,TRUE,81,Unsatisfied,East,3,None
+4551,Male,33,Seattle,Bronze,334.82,6,2.6,TRUE,92,Unsatisfied,East,3,Email
+4552,Male,41,Miami,Silver,736.38,11,3.2,FALSE,58,Neutral,West,3,Push
+4553,Male,42,Los Angeles,Bronze,800,8,3.1,FALSE,81,Neutral,South,2,Email
+4554,Male,43,Chicago,Bronze,352.06,9,3.5,TRUE,84,Unsatisfied,South,4,Retargeting
+4555,Male,39,Houston,Bronze,408.95,6,3.1,TRUE,74,Unsatisfied,North,5,Push
+4556,Female,41,Chicago,Bronze,442.94,6,2.8,FALSE,96,Satisfied,West,2,SMS
+4557,Male,43,New York,Silver,732.14,12,3.8,TRUE,50,Neutral,East,4,Push
+4558,Female,33,New York,Bronze,560.01,8,2.9,TRUE,50,Neutral,West,4,None
+4559,Female,44,Houston,Bronze,414.3,3,2.5,FALSE,80,Unsatisfied,East,5,Retargeting
+4560,Male,40,Miami,Gold,1141.56,15,4.4,TRUE,20,Unsatisfied,East,3,Retargeting
+4561,Male,42,Chicago,Bronze,626.86,10,3.1,FALSE,60,Neutral,West,3,Retargeting
+4562,Male,47,New York,Bronze,466.63,7,3.0,FALSE,66,Unsatisfied,South,3,None
+4563,Male,35,Miami,Bronze,338.56,9,2.6,FALSE,90,Neutral,East,2,Email
+4564,Male,37,San Francisco,Silver,639.08,5,3.7,TRUE,66,Unsatisfied,East,3,Retargeting
+4565,Male,54,Boston,Bronze,357.81,8,3.4,FALSE,67,Unsatisfied,North,3,None
+4566,Female,29,Chicago,Gold,793.71,11,3.9,TRUE,5,Neutral,West,0,Email
+4567,Female,53,New York,Bronze,496.7,3,3.3,TRUE,45,Unsatisfied,South,4,Retargeting
+4568,Male,56,San Francisco,Bronze,506.29,5,2.6,FALSE,33,Satisfied,West,1,Push
+4569,Female,41,Los Angeles,Silver,870.77,13,3.2,TRUE,42,Neutral,West,3,None
+4570,Female,45,New York,Silver,583.63,11,3.2,FALSE,32,Unsatisfied,South,5,Email
+4571,Male,36,Los Angeles,Bronze,562.37,10,2.9,FALSE,52,Unsatisfied,North,5,Push
+4572,Male,26,Seattle,Bronze,658.52,3,3.7,FALSE,92,Satisfied,North,1,SMS
+4573,Female,54,Los Angeles,Silver,902.25,16,3.0,FALSE,61,Neutral,South,3,None
+4574,Male,32,Boston,Silver,671.61,7,3.5,FALSE,49,Satisfied,East,4,Push
+4575,Female,37,Los Angeles,Bronze,497.21,10,3.6,TRUE,108,Unsatisfied,North,2,Push
+4576,Male,52,Chicago,Bronze,562.34,7,2.9,TRUE,86,Unsatisfied,South,2,None
+4577,Male,44,Boston,Silver,821.72,10,4.0,TRUE,56,Satisfied,South,2,Retargeting
+4578,Female,40,Houston,Gold,1068.98,18,4.5,TRUE,26,Neutral,East,4,Push
+4579,Male,33,Houston,Silver,666.04,8,3.6,TRUE,63,Unsatisfied,West,3,None
+4580,Female,52,New York,Gold,1403.53,14,4.4,FALSE,14,Neutral,East,2,None
+4581,Female,37,Seattle,Bronze,341.45,6,3.0,TRUE,96,Neutral,East,3,Retargeting
+4582,Male,46,Seattle,Silver,767.54,12,3.6,FALSE,20,Unsatisfied,South,2,None
+4583,Female,44,New York,Bronze,330.65,7,3.7,TRUE,68,Neutral,North,3,Push
+4584,Male,49,New York,Bronze,653.17,5,3.6,TRUE,66,Unsatisfied,North,0,Push
+4585,Male,49,Seattle,Bronze,399.99,7,2.8,TRUE,71,Neutral,South,4,Email
+4586,Male,36,Seattle,Bronze,616.01,9,3.2,TRUE,95,Satisfied,North,2,Push
+4587,Female,38,Los Angeles,Bronze,468.37,3,3.5,FALSE,97,Unsatisfied,North,3,SMS
+4588,Female,61,Miami,Bronze,410.56,5,2.6,TRUE,68,Unsatisfied,East,3,SMS
+4589,Male,29,Boston,Bronze,436.95,8,3.6,TRUE,65,Unsatisfied,North,2,SMS
+4590,Male,48,New York,Silver,768.9,10,3.4,TRUE,58,Neutral,East,3,Retargeting
+4591,Female,38,Los Angeles,Bronze,262.51,5,3.7,FALSE,39,Unsatisfied,South,3,None
+4592,Female,45,New York,Bronze,573.59,9,3.3,FALSE,63,Unsatisfied,West,3,Retargeting
+4593,Male,51,New York,Bronze,377.56,8,3.1,FALSE,95,Unsatisfied,North,2,Email
+4594,Male,33,Miami,Gold,887.9,12,3.9,TRUE,24,Satisfied,North,3,None
+4595,Male,52,Los Angeles,Silver,648.41,9,3.9,FALSE,49,Satisfied,South,1,Retargeting
+4596,Male,32,Boston,Bronze,358.84,8,2.2,TRUE,68,Neutral,East,4,None
+4597,Female,59,San Francisco,Gold,879.04,16,4.6,TRUE,14,Satisfied,West,3,Push
+4598,Male,36,Los Angeles,Bronze,518.88,6,2.3,FALSE,108,Unsatisfied,North,4,None
+4599,Female,44,San Francisco,Silver,571.39,9,2.5,FALSE,30,Unsatisfied,West,3,Email
+4600,Male,57,Houston,Silver,931.98,12,3.8,TRUE,40,Neutral,West,5,SMS
+4601,Female,31,San Francisco,Bronze,244.99,10,3.7,TRUE,69,Unsatisfied,East,4,Email
+4602,Female,54,Los Angeles,Silver,539.23,15,3.5,FALSE,36,Satisfied,South,2,Push
+4603,Female,32,Los Angeles,Bronze,470.15,4,3.7,TRUE,42,Unsatisfied,West,4,None
+4604,Male,35,Houston,Bronze,320.54,9,2.6,TRUE,90,Unsatisfied,North,3,None
+4605,Male,45,Houston,Bronze,461.11,6,3.0,TRUE,71,Satisfied,North,2,Retargeting
+4606,Female,36,Houston,Bronze,321.16,5,3.4,TRUE,76,Unsatisfied,West,4,Email
+4607,Female,48,San Francisco,Silver,595.54,9,3.3,TRUE,67,Unsatisfied,West,3,Push
+4608,Female,23,Chicago,Bronze,361.75,7,3.0,FALSE,62,Unsatisfied,West,2,SMS
+4609,Male,37,Chicago,Bronze,399.44,8,3.6,TRUE,37,Unsatisfied,East,2,Push
+4610,Male,35,Boston,Bronze,334.62,7,3.3,TRUE,49,Unsatisfied,East,2,None
+4611,Male,47,Houston,Silver,720.03,12,3.0,TRUE,41,Satisfied,West,4,Retargeting
+4612,Female,47,Boston,Bronze,491.41,7,2.5,TRUE,71,Neutral,South,5,Push
+4613,Female,22,New York,Bronze,506.8,5,3.9,TRUE,80,Neutral,West,3,SMS
+4614,Male,53,New York,Bronze,346.84,4,3.1,TRUE,60,Unsatisfied,West,2,Push
+4615,Female,25,New York,Bronze,339.39,8,3.0,TRUE,77,Unsatisfied,North,3,None
+4616,Male,47,San Francisco,Bronze,258.42,6,3.2,TRUE,62,Unsatisfied,South,3,Push
+4617,Male,54,New York,Bronze,710.42,7,3.4,FALSE,68,Neutral,South,7,Push
+4618,Female,39,Boston,Silver,604.7,9,3.1,TRUE,56,Satisfied,East,3,None
+4619,Female,50,Seattle,Bronze,693.86,10,2.5,TRUE,120,Unsatisfied,North,3,Email
+4620,Male,26,Boston,Silver,772.4,10,3.4,FALSE,41,Unsatisfied,South,4,Retargeting
+4621,Female,47,San Francisco,Bronze,463.54,6,2.9,TRUE,85,Unsatisfied,North,4,None
+4622,Male,66,Houston,Bronze,459.33,8,3.3,FALSE,74,Satisfied,North,5,Push
+4623,Male,54,Los Angeles,Silver,659.28,11,3.7,FALSE,47,Unsatisfied,South,5,Email
+4624,Male,37,Seattle,Bronze,392.77,5,3.6,FALSE,59,Unsatisfied,South,2,Push
+4625,Male,52,Boston,Silver,614.61,11,4.3,TRUE,60,Neutral,North,3,Email
+4626,Female,40,Miami,Bronze,422.3,7,3.1,FALSE,41,Satisfied,South,1,Push
+4627,Female,54,Boston,Gold,1239.99,14,3.9,TRUE,32,Neutral,West,4,Email
+4628,Male,54,Boston,Bronze,399.4,3,3.0,FALSE,91,Unsatisfied,East,3,SMS
+4629,Female,48,Los Angeles,Gold,1039.87,14,3.8,FALSE,5,Satisfied,West,5,Retargeting
+4630,Male,41,Houston,Bronze,619.45,8,2.8,FALSE,64,Unsatisfied,North,6,None
+4631,Female,34,Seattle,Bronze,478.14,6,2.8,FALSE,83,Unsatisfied,West,4,SMS
+4632,Male,46,Boston,Bronze,364.95,5,3.4,FALSE,77,Unsatisfied,East,3,None
+4633,Female,51,Houston,Gold,1230.21,18,4.2,TRUE,13,Satisfied,South,2,Email
+4634,Female,31,Los Angeles,Bronze,521.15,9,3.4,TRUE,67,Unsatisfied,North,6,None
+4635,Male,51,Houston,Gold,1118.69,11,4.7,TRUE,12,Satisfied,North,1,None
+4636,Male,22,Los Angeles,Bronze,658.09,6,2.3,TRUE,71,Unsatisfied,East,4,Email
+4637,Male,29,Boston,Bronze,261.11,7,3.1,TRUE,109,Unsatisfied,South,2,Retargeting
+4638,Female,22,Chicago,Bronze,595.08,5,3.2,TRUE,93,Unsatisfied,West,4,Email
+4639,Female,36,Chicago,Silver,553.24,14,3.1,TRUE,67,Neutral,East,1,SMS
+4640,Male,42,Houston,Silver,581.69,13,3.8,FALSE,27,Unsatisfied,East,1,Push
+4641,Male,31,Chicago,Bronze,425.13,6,3.1,TRUE,75,Satisfied,South,2,SMS
+4642,Male,47,Seattle,Bronze,261.32,5,3.3,FALSE,75,Neutral,South,4,None
+4643,Female,54,Chicago,Silver,741.82,12,3.2,TRUE,41,Neutral,North,4,None
+4644,Male,49,Seattle,Gold,1075.09,18,4.4,FALSE,8,Satisfied,East,4,Push
+4645,Female,35,New York,Bronze,277.67,3,2.8,TRUE,74,Unsatisfied,North,4,Retargeting
+4646,Female,57,San Francisco,Bronze,491.09,9,3.3,FALSE,81,Unsatisfied,East,4,None
+4647,Female,37,Seattle,Gold,1153.51,14,4.2,TRUE,19,Satisfied,South,3,Retargeting
+4648,Female,63,New York,Gold,823.82,8,3.9,TRUE,26,Satisfied,West,1,None
+4649,Female,62,Boston,Silver,814.82,13,3.3,TRUE,56,Neutral,East,2,Email
+4650,Female,47,New York,Bronze,441.12,11,3.4,FALSE,68,Neutral,South,0,Retargeting
+4651,Female,38,New York,Bronze,444.21,7,2.5,TRUE,65,Unsatisfied,South,1,Retargeting
+4652,Male,36,Miami,Bronze,712.65,9,3.2,FALSE,97,Satisfied,South,4,SMS
+4653,Male,53,Los Angeles,Gold,1087.99,12,5.0,TRUE,24,Neutral,East,6,SMS
+4654,Male,58,Los Angeles,Silver,775.25,16,4.1,TRUE,39,Neutral,East,4,None
+4655,Male,38,New York,Bronze,206.07,5,3.6,TRUE,67,Unsatisfied,South,5,SMS
+4656,Male,57,Boston,Silver,834.73,12,3.8,TRUE,64,Neutral,South,4,None
+4657,Female,43,Seattle,Bronze,526.45,8,3.5,FALSE,99,Neutral,West,3,Retargeting
+4658,Female,53,Los Angeles,Silver,634.16,10,3.7,TRUE,45,Unsatisfied,West,1,None
+4659,Male,42,Miami,Bronze,513.14,11,2.5,TRUE,93,Unsatisfied,East,0,None
+4660,Male,44,Miami,Bronze,433.28,5,3.0,TRUE,80,Satisfied,South,3,None
+4661,Female,27,Boston,Bronze,467.43,7,4.0,FALSE,73,Neutral,North,2,Email
+4662,Female,49,San Francisco,Bronze,569.15,8,2.8,TRUE,114,Neutral,West,1,Retargeting
+4663,Male,56,Boston,Bronze,418.27,7,2.9,FALSE,56,Unsatisfied,East,3,Email
+4664,Male,26,Boston,Bronze,496.93,9,2.7,TRUE,81,Unsatisfied,South,2,Push
+4665,Male,35,Seattle,Gold,819.69,11,4.0,TRUE,13,Satisfied,North,3,Push
+4666,Male,26,Boston,Bronze,257.63,6,2.9,TRUE,62,Unsatisfied,North,4,None
+4667,Male,35,Los Angeles,Bronze,334.0,9,4.1,TRUE,91,Unsatisfied,West,6,Push
+4668,Female,45,New York,Bronze,270.22,7,2.7,FALSE,58,Unsatisfied,South,5,SMS
+4669,Female,37,New York,Bronze,579.09,7,3.3,TRUE,84,Neutral,West,3,SMS
+4670,Female,36,Los Angeles,Bronze,604.02,6,2.8,FALSE,109,Unsatisfied,South,5,None
+4671,Female,63,Los Angeles,Silver,717.74,8,4.2,FALSE,40,Neutral,North,5,Push
+4672,Female,42,Houston,Bronze,382.27,7,3.7,FALSE,73,Neutral,South,3,Email
+4673,Female,37,San Francisco,Bronze,513.95,4,3.5,TRUE,30,Neutral,East,1,Email
+4674,Male,23,Chicago,Bronze,547.05,8,3.7,FALSE,71,Unsatisfied,East,4,SMS
+4675,Female,51,Miami,Bronze,401.8,4,2.9,TRUE,90,Satisfied,East,2,Email
+4676,Male,41,Houston,Bronze,423.99,8,2.7,TRUE,64,Unsatisfied,South,4,Retargeting
+4677,Male,56,Boston,Silver,734.83,9,3.9,TRUE,71,Unsatisfied,East,3,SMS
+4678,Female,60,Miami,Bronze,586.68,8,1.7,TRUE,118,Satisfied,South,4,SMS
+4679,Female,22,Seattle,Bronze,265.66,6,2.7,FALSE,80,Unsatisfied,East,5,SMS
+4680,Female,26,Los Angeles,Bronze,479.1,8,2.6,FALSE,80,Unsatisfied,East,4,Push
+4681,Female,53,Los Angeles,Gold,847.11,16,4.0,TRUE,29,Satisfied,East,6,SMS
+4682,Male,37,New York,Silver,815.38,9,3.7,TRUE,91,Satisfied,West,2,Retargeting
+4683,Female,37,Seattle,Bronze,404.89,6,2.9,TRUE,68,Unsatisfied,North,2,SMS
+4684,Male,40,Los Angeles,Gold,1311.24,14,3.7,TRUE,30,Satisfied,South,3,Retargeting
+4685,Female,38,Boston,Bronze,265.93,3,3.3,FALSE,64,Neutral,East,2,None
+4686,Female,45,Miami,Silver,800.84,11,3.9,FALSE,73,Satisfied,North,4,SMS
+4687,Female,42,Chicago,Bronze,288.31,8,3.0,FALSE,98,Neutral,South,3,None
+4688,Female,30,Chicago,Bronze,653.65,10,2.6,TRUE,94,Unsatisfied,South,3,Push
+4689,Male,35,Houston,Bronze,474.17,4,3.2,FALSE,84,Neutral,North,4,Push
+4690,Female,37,Houston,Silver,785.85,11,3.5,TRUE,53,Neutral,East,2,Push
+4691,Male,27,Miami,Bronze,496.56,9,2.7,TRUE,72,Unsatisfied,West,3,SMS
+4692,Female,61,Houston,Silver,708.11,8,3.4,TRUE,56,Unsatisfied,South,5,None
+4693,Male,35,New York,Bronze,602.3,7,3.3,TRUE,40,Satisfied,West,1,Push
+4694,Male,56,San Francisco,Bronze,380.4,7,3.7,FALSE,92,Unsatisfied,North,4,Email
+4695,Male,38,Miami,Bronze,358.58,8,2.2,TRUE,103,Unsatisfied,South,1,None
+4696,Female,36,Boston,Silver,747.73,9,3.8,TRUE,32,Neutral,East,4,SMS
+4697,Female,47,Los Angeles,Silver,833.89,8,3.5,TRUE,54,Satisfied,East,2,SMS
+4698,Female,42,Boston,Bronze,491.48,7,3.4,FALSE,76,Unsatisfied,West,0,SMS
+4699,Female,34,Miami,Silver,956.23,9,3.8,TRUE,41,Satisfied,North,5,None
+4700,Female,52,Houston,Bronze,267.65,6,3.1,TRUE,96,Satisfied,South,4,Email
+4701,Male,44,San Francisco,Silver,685.0,12,4.0,TRUE,68,Unsatisfied,South,0,Push
+4702,Male,48,Miami,Bronze,578.67,4,2.4,TRUE,65,Unsatisfied,North,5,None
+4703,Male,39,Seattle,Silver,620.92,8,4.5,TRUE,37,Neutral,South,4,Retargeting
+4704,Male,22,Boston,Bronze,540.67,7,3.4,TRUE,96,Unsatisfied,North,4,SMS
+4705,Male,51,San Francisco,Bronze,368.88,7,3.4,TRUE,69,Unsatisfied,West,2,SMS
+4706,Male,44,Chicago,Bronze,349.87,7,2.6,TRUE,88,Unsatisfied,North,3,Retargeting
+4707,Male,39,Chicago,Gold,1525.38,11,4.1,FALSE,33,Satisfied,South,0,None
+4708,Male,37,Chicago,Bronze,603.93,6,3.7,TRUE,86,Neutral,East,3,Retargeting
+4709,Female,38,Los Angeles,Bronze,404.64,11,3.3,TRUE,52,Unsatisfied,East,2,Email
+4710,Female,43,Seattle,Silver,819.31,10,3.1,TRUE,67,Unsatisfied,West,1,SMS
+4711,Male,45,Boston,Bronze,565.77,9,3.3,TRUE,96,Neutral,West,4,None
+4712,Female,39,Houston,Silver,828.07,6,4.2,TRUE,63,Neutral,West,1,Push
+4713,Male,61,Chicago,Bronze,405.86,5,2.6,FALSE,66,Unsatisfied,West,1,Push
+4714,Female,59,Seattle,Gold,1188.72,16,4.4,TRUE,15,Neutral,West,2,Retargeting
+4715,Male,22,New York,Bronze,416.58,7,2.7,TRUE,66,Neutral,West,4,SMS
+4716,Female,46,Seattle,Bronze,604.34,6,2.6,TRUE,84,Neutral,East,1,Retargeting
+4717,Male,47,Chicago,Bronze,467.77,8,3.5,FALSE,69,Neutral,South,3,Email
+4718,Female,45,Boston,Bronze,406.82,8,2.8,TRUE,94,Neutral,North,4,Email
+4719,Male,41,San Francisco,Bronze,324.76,10,3.1,FALSE,81,Unsatisfied,East,1,Push
+4720,Male,63,New York,Bronze,558.98,5,3.0,FALSE,73,Unsatisfied,North,3,None
+4721,Female,30,Los Angeles,Silver,618.0,12,3.6,FALSE,31,Neutral,West,4,Email
+4722,Male,32,Boston,Bronze,199.35,7,2.3,TRUE,55,Neutral,East,3,Email
+4723,Male,42,New York,Bronze,280.12,8,3.0,TRUE,82,Unsatisfied,South,4,Email
+4724,Female,42,New York,Gold,1237.56,21,3.8,FALSE,31,Satisfied,West,1,Email
+4725,Female,47,Houston,Bronze,503.49,12,3.4,TRUE,75,Satisfied,West,1,SMS
+4726,Male,38,Miami,Silver,595.25,11,3.2,TRUE,55,Unsatisfied,South,2,None
+4727,Male,34,New York,Gold,949.67,18,4.1,FALSE,20,Neutral,West,5,Email
+4728,Male,68,New York,Silver,668.96,11,3.4,TRUE,54,Unsatisfied,East,4,Push
+4729,Male,50,Seattle,Bronze,565.7,3,2.8,TRUE,52,Neutral,North,0,SMS
+4730,Male,47,Seattle,Silver,928.75,5,4.0,TRUE,41,Satisfied,West,4,None
+4731,Male,42,Seattle,Gold,1068.96,15,4.3,TRUE,24,Neutral,East,2,None
+4732,Female,31,Houston,Silver,732.88,12,3.6,FALSE,62,Satisfied,West,6,Email
+4733,Male,22,San Francisco,Bronze,508.81,6,3.9,TRUE,85,Neutral,West,2,Retargeting
+4734,Female,33,Seattle,Bronze,237.48,8,3.1,FALSE,89,Unsatisfied,South,4,None
+4735,Male,29,Houston,Bronze,521.85,8,2.4,TRUE,82,Unsatisfied,North,4,SMS
+4736,Female,44,Houston,Bronze,514.45,7,3.1,FALSE,62,Satisfied,South,4,None
+4737,Female,59,New York,Bronze,503.2,8,2.6,FALSE,78,Satisfied,West,4,SMS
+4738,Female,34,San Francisco,Gold,1101.01,16,4.4,TRUE,30,Satisfied,North,5,SMS
+4739,Female,35,Miami,Bronze,493.1,7,2.9,TRUE,72,Unsatisfied,West,4,Email
+4740,Female,33,Boston,Gold,863.7,12,3.9,FALSE,7,Satisfied,North,3,Push
+4741,Male,30,Seattle,Silver,694.46,13,3.9,FALSE,44,Neutral,East,3,SMS
+4742,Female,30,New York,Bronze,328.52,7,2.0,TRUE,50,Neutral,East,5,Push
+4743,Male,28,Miami,Bronze,572.34,9,3.0,TRUE,71,Unsatisfied,West,3,Retargeting
+4744,Male,47,Houston,Bronze,619.47,8,3.7,TRUE,70,Unsatisfied,South,2,None
+4745,Male,39,Seattle,Bronze,438.59,4,3.5,TRUE,82,Neutral,South,3,None
+4746,Male,24,San Francisco,Silver,660.21,7,2.7,FALSE,60,Unsatisfied,North,5,Retargeting
+4747,Male,45,Chicago,Bronze,553.78,5,3.8,TRUE,73,Neutral,East,5,SMS
+4748,Male,50,Seattle,Bronze,561.29,6,3.6,FALSE,36,Satisfied,South,6,None
+4749,Male,46,Miami,Bronze,537.56,6,3.1,TRUE,61,Unsatisfied,East,4,Push
+4750,Male,37,Chicago,Silver,639.05,13,3.9,TRUE,43,Satisfied,East,4,Email
+4751,Male,47,Miami,Gold,1101.51,18,4.6,FALSE,20,Neutral,East,5,Email
+4752,Female,45,Boston,Silver,571.32,10,3.2,TRUE,62,Neutral,East,2,None
+4753,Male,40,Miami,Bronze,528.57,4,2.8,FALSE,65,Satisfied,East,5,None
+4754,Male,34,New York,Bronze,618.49,8,3.0,TRUE,90,Neutral,East,4,Retargeting
+4755,Male,24,San Francisco,Silver,794.05,14,4.0,TRUE,49,Unsatisfied,North,3,Push
+4756,Male,41,San Francisco,Bronze,100,9,3.0,TRUE,101,Satisfied,South,2,None
+4757,Male,56,Seattle,Bronze,555.71,10,3.3,TRUE,100,Neutral,West,5,Push
+4758,Female,22,Miami,Bronze,333.68,7,3.6,FALSE,57,Neutral,West,4,Retargeting
+4759,Male,42,New York,Silver,649.79,7,3.3,TRUE,54,Neutral,West,1,Push
+4760,Male,50,Seattle,Bronze,373.95,5,3.1,TRUE,58,Unsatisfied,North,5,SMS
+4761,Female,29,Houston,Gold,794.79,10,4.3,TRUE,31,Neutral,South,3,None
+4762,Male,46,Boston,Bronze,499.55,4,4.3,TRUE,92,Unsatisfied,South,2,Email
+4763,Female,35,New York,Bronze,396.72,9,3.2,TRUE,97,Neutral,East,6,Push
+4764,Female,56,Seattle,Bronze,608.18,7,2.9,FALSE,92,Unsatisfied,East,3,Retargeting
+4765,Male,37,Houston,Bronze,314.68,11,3.3,FALSE,65,Satisfied,North,2,SMS
+4766,Female,31,Chicago,Bronze,462.6,6,2.4,TRUE,57,Neutral,East,3,Retargeting
+4767,Male,46,Boston,Bronze,274.14,7,2.1,TRUE,47,Neutral,East,3,None
+4768,Male,43,Los Angeles,Bronze,416.69,8,2.9,TRUE,117,Satisfied,East,4,Push
+4769,Female,25,Los Angeles,Silver,873.8,4,3.4,FALSE,59,Neutral,West,5,Retargeting
+4770,Male,46,San Francisco,Bronze,100,8,2.6,FALSE,119,Satisfied,South,3,None
+4771,Male,45,Los Angeles,Bronze,225.15,8,3.4,TRUE,79,Neutral,North,4,Push
+4772,Male,33,Boston,Silver,828.51,7,3.6,FALSE,24,Neutral,North,4,Email
+4773,Male,59,Houston,Bronze,313.11,6,3.3,TRUE,83,Satisfied,West,4,Push
+4774,Female,42,Boston,Silver,678.2,9,3.9,FALSE,67,Neutral,East,2,SMS
+4775,Male,38,Miami,Silver,715.58,10,3.9,TRUE,47,Satisfied,West,5,SMS
+4776,Male,28,San Francisco,Bronze,679.21,8,2.7,TRUE,76,Unsatisfied,West,3,Email
+4777,Female,35,Houston,Bronze,420.25,8,4.0,TRUE,60,Satisfied,West,5,None
+4778,Male,50,San Francisco,Silver,619.52,7,3.4,TRUE,46,Neutral,South,4,Push
+4779,Female,42,Houston,Bronze,482.37,9,3.9,TRUE,70,Unsatisfied,East,2,None
+4780,Female,39,Boston,Gold,1108.14,13,4.3,TRUE,33,Neutral,East,0,Email
+4781,Male,49,Miami,Bronze,443.14,1,3.3,TRUE,73,Satisfied,West,3,Email
+4782,Male,56,Boston,Silver,629.38,10,4.3,TRUE,70,Neutral,East,3,Retargeting
+4783,Female,56,Houston,Bronze,723.66,5,2.4,TRUE,79,Unsatisfied,East,4,Email
+4784,Male,36,Los Angeles,Silver,692.86,8,4.1,TRUE,53,Satisfied,West,6,None
+4785,Female,35,New York,Silver,626.3,5,3.9,TRUE,51,Unsatisfied,West,3,None
+4786,Female,39,San Francisco,Gold,1205.83,11,4.2,TRUE,19,Satisfied,North,3,Retargeting
+4787,Male,46,Chicago,Bronze,415.43,8,2.9,TRUE,64,Unsatisfied,South,4,Retargeting
+4788,Female,34,New York,Gold,772.26,13,4.2,TRUE,18,Satisfied,West,4,Retargeting
+4789,Male,28,Houston,Bronze,446.45,8,3.3,TRUE,113,Neutral,East,1,SMS
+4790,Male,31,Boston,Silver,892.51,14,2.9,FALSE,79,Unsatisfied,North,4,Retargeting
+4791,Male,35,Los Angeles,Bronze,452.27,6,2.9,FALSE,66,Unsatisfied,South,2,SMS
+4792,Male,47,Chicago,Bronze,345.41,8,3.5,FALSE,44,Satisfied,South,0,Email
+4793,Female,58,Houston,Gold,1195.44,12,4.0,FALSE,34,Satisfied,North,4,None
+4794,Female,37,Miami,Bronze,439.58,5,3.0,TRUE,66,Unsatisfied,North,0,None
+4795,Male,42,Los Angeles,Bronze,332.18,6,2.9,FALSE,89,Unsatisfied,South,4,None
+4796,Male,47,Chicago,Bronze,304.75,5,2.9,TRUE,75,Unsatisfied,South,5,Retargeting
+4797,Female,28,New York,Bronze,519.08,2,3.2,TRUE,67,Unsatisfied,West,3,SMS
+4798,Female,38,Boston,Bronze,486.45,4,2.3,TRUE,86,Unsatisfied,North,3,SMS
+4799,Male,49,Houston,Silver,574.25,10,3.9,TRUE,63,Neutral,North,6,None
+4800,Male,42,Houston,Bronze,540.21,6,3.1,TRUE,86,Unsatisfied,North,3,None
+4801,Male,23,New York,Bronze,387.14,4,2.8,TRUE,57,Unsatisfied,West,3,Email
+4802,Female,50,Boston,Gold,1066.15,13,4.2,TRUE,19,Neutral,West,3,Push
+4803,Male,32,Miami,Bronze,800,8,4.0,TRUE,55,Satisfied,North,2,None
+4804,Male,35,San Francisco,Silver,720.35,10,3.5,FALSE,37,Neutral,East,1,Push
+4805,Male,34,Los Angeles,Bronze,271.58,6,4.0,TRUE,63,Unsatisfied,North,3,None
+4806,Male,27,San Francisco,Bronze,321.97,7,2.7,TRUE,82,Neutral,North,2,Email
+4807,Male,47,Chicago,Silver,890.73,6,2.9,TRUE,54,Satisfied,West,5,Email
+4808,Female,41,Houston,Silver,711.52,4,3.9,TRUE,66,Satisfied,South,0,None
+4809,Male,41,New York,Bronze,266.26,8,3.4,TRUE,61,Neutral,South,1,SMS
+4810,Female,46,New York,Bronze,479.86,5,2.7,TRUE,104,Unsatisfied,North,4,SMS
+4811,Male,47,San Francisco,Gold,963.54,13,4.4,TRUE,18,Unsatisfied,South,0,Email
+4812,Female,26,Seattle,Bronze,255.69,7,3.4,TRUE,76,Unsatisfied,East,6,Email
+4813,Female,46,Los Angeles,Silver,578.97,12,4.0,FALSE,53,Neutral,North,3,Retargeting
+4814,Female,49,Seattle,Bronze,589.42,5,3.5,TRUE,69,Unsatisfied,North,3,None
+4815,Male,45,Seattle,Bronze,461.68,6,2.7,TRUE,57,Neutral,South,3,Email
+4816,Male,38,Chicago,Silver,815.44,15,3.6,TRUE,72,Neutral,South,2,Email
+4817,Male,37,Miami,Gold,960.44,11,4.4,FALSE,22,Neutral,South,4,Email
+4818,Female,42,Los Angeles,Bronze,437.65,8,3.3,FALSE,86,Unsatisfied,North,3,Push
+4819,Male,54,Seattle,Bronze,152.55,9,3.8,TRUE,61,Unsatisfied,East,2,Retargeting
+4820,Female,51,Boston,Silver,796.9,10,4.1,TRUE,57,Satisfied,North,4,Retargeting
+4821,Male,36,Houston,Silver,778.34,14,3.8,TRUE,49,Unsatisfied,West,2,Push
+4822,Female,42,New York,Silver,800.06,10,3.7,TRUE,63,Satisfied,East,3,Email
+4823,Male,44,Houston,Silver,638.35,10,3.5,TRUE,67,Neutral,North,2,None
+4824,Male,39,Seattle,Bronze,454.17,8,3.2,TRUE,74,Neutral,North,0,Retargeting
+4825,Male,44,Houston,Bronze,575.08,2,3.1,FALSE,56,Neutral,North,3,Email
+4826,Female,28,Los Angeles,Silver,687.97,9,3.7,TRUE,28,Unsatisfied,West,3,Email
+4827,Male,36,Houston,Bronze,447.7,7,2.5,FALSE,86,Unsatisfied,West,5,Retargeting
+4828,Male,37,San Francisco,Bronze,689.84,8,2.5,FALSE,78,Unsatisfied,South,4,Retargeting
+4829,Male,53,Miami,Silver,680.46,8,3.3,FALSE,43,Unsatisfied,East,4,SMS
+4830,Male,49,Boston,Bronze,466.98,6,2.5,TRUE,62,Neutral,North,2,None
+4831,Female,58,Miami,Bronze,537.92,5,3.8,TRUE,77,Neutral,North,0,Push
+4832,Female,54,Chicago,Bronze,577.69,7,3.6,FALSE,88,Unsatisfied,North,4,Retargeting
+4833,Male,46,Seattle,Silver,721.98,6,4.0,FALSE,56,Neutral,North,4,SMS
+4834,Female,39,Chicago,Silver,735.76,5,3.6,TRUE,62,Neutral,North,6,Email
+4835,Female,37,Seattle,Bronze,332.67,6,3.0,TRUE,68,Neutral,South,2,None
+4836,Male,35,Boston,Gold,931.94,11,4.3,FALSE,12,Satisfied,North,4,None
+4837,Male,57,Houston,Bronze,335.19,7,3.3,TRUE,78,Unsatisfied,South,5,Push
+4838,Male,22,Houston,Bronze,491.86,9,2.6,TRUE,66,Unsatisfied,South,4,Email
+4839,Female,46,New York,Silver,729.68,8,3.7,TRUE,37,Neutral,East,4,Retargeting
+4840,Female,61,Chicago,Gold,1001.08,11,4.4,TRUE,23,Satisfied,South,4,Push
+4841,Female,37,Houston,Silver,727.64,11,3.5,TRUE,55,Neutral,East,3,SMS
+4842,Female,43,Seattle,Bronze,469.52,8,3.0,TRUE,68,Unsatisfied,East,3,Retargeting
+4843,Male,42,New York,Bronze,450.49,10,3.5,FALSE,65,Satisfied,West,3,None
+4844,Male,43,Chicago,Silver,621.49,14,4.0,TRUE,43,Unsatisfied,West,1,Retargeting
+4845,Female,39,New York,Silver,739.42,10,4.1,FALSE,64,Neutral,East,4,Retargeting
+4846,Male,50,New York,Bronze,574.49,10,3.4,TRUE,87,Unsatisfied,East,3,SMS
+4847,Male,34,Chicago,Bronze,239.48,6,3.4,TRUE,73,Unsatisfied,West,3,None
+4848,Male,46,New York,Gold,1109.78,14,4.6,TRUE,27,Satisfied,East,4,Push
+4849,Male,53,Chicago,Bronze,362.42,5,3.5,TRUE,108,Unsatisfied,East,3,Email
+4850,Female,59,San Francisco,Silver,849.75,14,3.4,TRUE,48,Neutral,East,4,Push
+4851,Male,49,Houston,Gold,945.87,12,4.5,TRUE,19,Satisfied,West,3,None
+4852,Male,24,New York,Bronze,513.92,5,2.2,FALSE,120,Unsatisfied,North,3,None
+4853,Male,38,Boston,Bronze,274.66,7,3.0,FALSE,69,Satisfied,North,1,SMS
+4854,Male,34,Seattle,Bronze,623.49,11,3.6,TRUE,78,Unsatisfied,East,5,SMS
+4855,Male,44,Boston,Bronze,452.4,5,3.8,FALSE,76,Unsatisfied,South,2,None
+4856,Female,41,Miami,Bronze,666.47,8,2.9,FALSE,105,Unsatisfied,West,3,SMS
+4857,Male,38,New York,Silver,789.83,15,3.1,TRUE,20,Neutral,North,2,Retargeting
+4858,Female,49,Seattle,Gold,968.98,13,4.2,FALSE,34,Satisfied,West,2,Email
+4859,Male,42,New York,Bronze,441.09,7,3.2,TRUE,44,Unsatisfied,North,5,SMS
+4860,Female,31,San Francisco,Bronze,435.62,8,3.1,TRUE,83,Unsatisfied,West,4,Retargeting
+4861,Male,52,Boston,Silver,705.22,11,3.3,TRUE,20,Unsatisfied,South,2,Email
+4862,Female,33,Seattle,Silver,865.92,12,2.9,TRUE,55,Neutral,South,2,None
+4863,Male,53,Houston,Bronze,388.2,5,4.0,FALSE,69,Satisfied,North,2,Push
+4864,Female,57,Boston,Silver,568.02,11,3.6,FALSE,30,Neutral,East,2,SMS
+4865,Female,31,Seattle,Bronze,536.02,7,3.1,TRUE,30,Unsatisfied,East,2,None
+4866,Male,44,Miami,Bronze,383.2,6,3.4,FALSE,63,Satisfied,East,3,Retargeting
+4867,Female,36,Houston,Bronze,147.45,7,3.6,FALSE,91,Neutral,East,0,Push
+4868,Female,30,Boston,Silver,500.31,8,3.9,TRUE,56,Neutral,West,4,SMS
+4869,Male,26,Boston,Silver,786.52,4,4.1,FALSE,69,Neutral,East,2,Retargeting
+4870,Male,35,Seattle,Bronze,391.55,6,3.7,FALSE,104,Neutral,West,0,Push
+4871,Male,52,New York,Silver,706.0,9,4.0,TRUE,67,Unsatisfied,East,2,Retargeting
+4872,Male,52,New York,Bronze,275.28,7,3.6,TRUE,56,Unsatisfied,West,1,None
+4873,Female,56,Boston,Gold,954.0,13,4.1,FALSE,32,Satisfied,North,4,Email
+4874,Female,36,Seattle,Bronze,613.45,5,3.3,TRUE,91,Satisfied,South,5,Retargeting
+4875,Male,26,New York,Bronze,452.57,7,3.0,TRUE,67,Neutral,North,5,Email
+4876,Male,46,San Francisco,Bronze,322.84,6,3.2,FALSE,113,Unsatisfied,East,1,Push
+4877,Male,50,Houston,Bronze,423.91,5,4.0,TRUE,44,Neutral,West,3,Push
+4878,Female,41,Seattle,Silver,635.69,8,3.5,TRUE,51,Neutral,East,3,SMS
+4879,Male,27,Miami,Bronze,372.94,7,3.2,FALSE,97,Unsatisfied,East,6,Push
+4880,Female,33,New York,Bronze,564.31,4,2.8,FALSE,85,Unsatisfied,North,2,None
+4881,Female,27,Houston,Bronze,316.79,7,3.0,TRUE,84,Unsatisfied,South,5,None
+4882,Male,40,Boston,Bronze,210.25,9,3.3,TRUE,85,Unsatisfied,South,1,SMS
+4883,Male,45,New York,Silver,466.85,10,3.3,TRUE,28,Unsatisfied,North,3,Retargeting
+4884,Male,32,New York,Bronze,378.63,7,2.7,FALSE,51,Unsatisfied,South,4,Retargeting
+4885,Female,29,Miami,Bronze,555.94,7,2.3,TRUE,104,Unsatisfied,East,5,SMS
+4886,Male,45,Los Angeles,Bronze,680.78,7,3.5,TRUE,72,Unsatisfied,North,2,None
+4887,Male,33,Miami,Bronze,255.86,8,3.2,FALSE,93,Satisfied,South,5,SMS
+4888,Male,39,Houston,Silver,830.37,13,3.3,FALSE,42,Neutral,West,2,Push
+4889,Male,51,San Francisco,Gold,1092.36,18,4.0,FALSE,27,Satisfied,West,4,Email
+4890,Female,62,Los Angeles,Silver,652.22,8,4.1,FALSE,44,Unsatisfied,West,2,None
+4891,Female,45,Chicago,Gold,1224.82,17,4.1,FALSE,9,Satisfied,West,3,Push
+4892,Female,68,Houston,Bronze,609.02,5,3.4,TRUE,75,Neutral,West,3,None
+4893,Female,46,Boston,Silver,666.92,10,2.8,FALSE,52,Satisfied,North,5,Push
+4894,Male,48,Seattle,Bronze,570.82,9,2.7,TRUE,62,Unsatisfied,North,1,Email
+4895,Female,56,San Francisco,Bronze,395.1,7,2.5,TRUE,104,Unsatisfied,South,3,SMS
+4896,Male,57,Miami,Bronze,470.91,8,2.5,TRUE,120,Unsatisfied,South,1,SMS
+4897,Female,57,Houston,Silver,485.43,8,3.7,TRUE,60,Neutral,West,3,Retargeting
+4898,Female,31,Chicago,Silver,610.04,6,3.3,TRUE,45,Neutral,North,5,SMS
+4899,Male,30,Los Angeles,Gold,1125.22,11,4.1,TRUE,11,Satisfied,North,5,Push
+4900,Male,51,New York,Bronze,444.58,5,2.4,TRUE,66,Neutral,North,1,Push
+4901,Female,37,Seattle,Silver,624.28,17,3.5,TRUE,49,Unsatisfied,South,6,Retargeting
+4902,Female,31,Boston,Gold,952.74,16,3.7,TRUE,23,Satisfied,East,4,Push
+4903,Male,32,New York,Bronze,408.09,10,2.9,FALSE,74,Unsatisfied,East,2,Retargeting
+4904,Female,70,San Francisco,Bronze,471.33,6,4.0,TRUE,82,Unsatisfied,East,2,Email
+4905,Male,35,Los Angeles,Bronze,613.02,7,3.5,TRUE,69,Neutral,East,4,SMS
+4906,Female,55,Houston,Silver,737.64,7,2.9,TRUE,23,Satisfied,North,3,Push
+4907,Male,51,Chicago,Bronze,454.17,10,2.7,FALSE,73,Unsatisfied,East,1,Retargeting
+4908,Male,41,Chicago,Bronze,259.11,9,3.2,TRUE,57,Satisfied,East,5,SMS
+4909,Male,42,Boston,Bronze,488.06,9,3.0,TRUE,39,Neutral,West,5,Email
+4910,Male,28,New York,Bronze,462.96,6,2.8,TRUE,101,Unsatisfied,East,2,Retargeting
+4911,Male,56,San Francisco,Bronze,361.51,9,2.8,TRUE,78,Satisfied,East,2,None
+4912,Female,47,New York,Silver,536.41,11,3.6,TRUE,40,Neutral,West,1,Push
+4913,Female,48,New York,Bronze,479.4,8,3.4,TRUE,85,Unsatisfied,South,5,SMS
+4914,Female,51,Houston,Gold,1028.85,18,4.4,TRUE,12,Satisfied,East,2,SMS
+4915,Female,35,New York,Bronze,351.63,6,3.0,FALSE,73,Unsatisfied,South,5,SMS
+4916,Female,39,Chicago,Bronze,239.2,8,3.4,TRUE,63,Unsatisfied,West,0,SMS
+4917,Female,42,Miami,Bronze,475.8,4,3.2,TRUE,97,Unsatisfied,South,5,Retargeting
+4918,Male,22,San Francisco,Silver,692.86,12,3.7,TRUE,55,Satisfied,East,0,SMS
+4919,Female,40,San Francisco,Bronze,437.25,9,4.0,FALSE,115,Satisfied,North,2,Push
+4920,Male,50,San Francisco,Silver,815.98,13,3.4,FALSE,69,Neutral,East,2,Push
+4921,Male,45,San Francisco,Bronze,644.48,6,3.2,FALSE,64,Unsatisfied,North,5,Email
+4922,Female,40,Houston,Silver,617.55,12,3.4,FALSE,36,Neutral,East,2,SMS
+4923,Female,49,Seattle,Bronze,581.88,7,3.2,FALSE,62,Satisfied,West,6,SMS
+4924,Female,51,Boston,Gold,1043.96,8,3.8,FALSE,15,Neutral,South,3,Push
+4925,Male,39,Houston,Silver,744.36,7,3.9,FALSE,60,Satisfied,West,3,Email
+4926,Female,35,Miami,Bronze,489.71,7,3.6,TRUE,61,Neutral,South,5,SMS
+4927,Male,37,Seattle,Bronze,582.78,4,3.7,FALSE,61,Unsatisfied,North,2,Push
+4928,Female,68,San Francisco,Bronze,448.01,10,3.0,TRUE,87,Neutral,West,4,SMS
+4929,Female,34,San Francisco,Bronze,396.43,8,3.0,FALSE,65,Satisfied,East,3,Email
+4930,Female,26,Miami,Bronze,727.83,7,3.3,FALSE,73,Neutral,South,4,SMS
+4931,Female,52,Boston,Silver,809.09,8,3.6,TRUE,44,Neutral,South,3,SMS
+4932,Female,45,Chicago,Bronze,325.69,6,2.6,FALSE,78,Unsatisfied,West,4,Retargeting
+4933,Male,43,New York,Silver,614.08,5,3.7,TRUE,47,Satisfied,West,4,Retargeting
+4934,Female,45,Miami,Bronze,708.19,7,3.3,TRUE,99,Neutral,East,1,Retargeting
+4935,Male,46,San Francisco,Gold,985.88,15,4.1,TRUE,32,Satisfied,East,1,SMS
+4936,Female,33,Los Angeles,Bronze,661.91,5,2.7,TRUE,60,Unsatisfied,North,4,Push
+4937,Male,33,San Francisco,Bronze,678.32,7,3.4,FALSE,90,Neutral,West,3,Email
+4938,Female,42,San Francisco,Bronze,436.01,9,3.4,FALSE,83,Unsatisfied,North,4,Push
+4939,Female,63,Seattle,Bronze,658.74,5,2.8,TRUE,39,Satisfied,North,4,Retargeting
+4940,Female,29,Houston,Bronze,336.47,9,3.2,TRUE,60,Neutral,West,3,Email
+4941,Female,45,San Francisco,Bronze,303.09,8,2.9,TRUE,108,Unsatisfied,North,3,Email
+4942,Male,36,Boston,Silver,1009.31,15,3.4,TRUE,62,Unsatisfied,South,0,Push
+4943,Female,40,Chicago,Bronze,580.68,7,2.9,TRUE,88,Satisfied,South,6,Retargeting
+4944,Male,24,San Francisco,Bronze,518.96,5,2.6,FALSE,56,Unsatisfied,West,4,Push
+4945,Male,25,Chicago,Bronze,473.41,5,2.5,TRUE,49,Neutral,South,2,Email
+4946,Female,33,Seattle,Bronze,486.72,7,3.2,FALSE,49,Satisfied,East,3,Retargeting
+4947,Male,42,Miami,Bronze,325.31,11,3.0,FALSE,73,Unsatisfied,East,7,SMS
+4948,Male,27,Seattle,Bronze,320.31,7,2.4,FALSE,83,Unsatisfied,East,0,Push
+4949,Male,22,Boston,Bronze,575.6,4,3.5,FALSE,85,Neutral,West,6,Retargeting
+4950,Male,59,Houston,Bronze,593.82,7,2.6,TRUE,76,Unsatisfied,North,3,Retargeting
+4951,Female,38,New York,Bronze,473.31,5,2.4,TRUE,87,Unsatisfied,West,5,None
+4952,Male,55,Miami,Gold,991.53,15,4.3,TRUE,15,Satisfied,North,3,SMS
+4953,Female,50,Seattle,Bronze,465.77,8,3.4,FALSE,74,Neutral,South,2,Push
+4954,Female,43,Seattle,Bronze,503.37,8,2.8,FALSE,106,Unsatisfied,East,0,None
+4955,Male,40,San Francisco,Bronze,435.84,9,2.8,TRUE,55,Satisfied,East,6,SMS
+4956,Female,40,Chicago,Gold,1116.78,16,4.3,FALSE,22,Satisfied,North,3,Push
+4957,Female,49,Boston,Bronze,500.33,7,3.5,FALSE,70,Satisfied,North,4,Email
+4958,Male,29,Miami,Bronze,607.51,7,2.8,FALSE,62,Satisfied,North,5,SMS
+4959,Female,47,Houston,Gold,1030.25,12,4.2,TRUE,10,Satisfied,West,3,SMS
+4960,Male,32,Seattle,Bronze,285.89,12,2.3,TRUE,79,Unsatisfied,South,1,Email
+4961,Male,52,New York,Bronze,523.2,7,2.7,FALSE,112,Unsatisfied,East,3,Push
+4962,Male,40,Miami,Bronze,460.37,7,3.7,TRUE,58,Neutral,East,1,SMS
+4963,Female,43,New York,Gold,1154.04,13,4.4,TRUE,17,Satisfied,West,1,Email
+4964,Male,39,Seattle,Silver,564.89,7,3.2,TRUE,89,Unsatisfied,West,3,Retargeting
+4965,Male,45,Boston,Bronze,513.45,9,3.4,TRUE,47,Unsatisfied,North,3,None
+4966,Female,60,Seattle,Gold,1074.88,18,4.0,TRUE,28,Satisfied,North,3,None
+4967,Male,53,Chicago,Gold,1121.1,16,3.5,FALSE,26,Satisfied,West,5,None
+4968,Female,46,New York,Silver,658.62,9,4.0,TRUE,29,Unsatisfied,North,0,Email
+4969,Male,46,Los Angeles,Bronze,381.16,7,1.7,TRUE,77,Neutral,South,3,SMS
+4970,Male,54,Chicago,Silver,490.76,12,3.3,TRUE,22,Satisfied,North,1,SMS
+4971,Female,46,Boston,Bronze,453.14,8,3.2,FALSE,99,Unsatisfied,West,3,Push
+4972,Female,51,Miami,Gold,1125.96,15,4.8,TRUE,23,Satisfied,South,5,Retargeting
+4973,Male,49,Miami,Bronze,574.13,8,3.3,TRUE,34,Unsatisfied,North,5,Email
+4974,Male,54,Miami,Silver,1033.52,9,3.5,FALSE,54,Satisfied,North,2,None
+4975,Male,38,Seattle,Silver,553.75,14,3.8,TRUE,40,Neutral,North,2,Retargeting
+4976,Male,39,Miami,Silver,732.9,8,3.7,TRUE,66,Satisfied,North,0,Email
+4977,Male,44,Los Angeles,Silver,794.81,3,4.1,FALSE,34,Neutral,East,2,Retargeting
+4978,Female,28,Miami,Silver,605.03,10,3.7,FALSE,59,Unsatisfied,North,3,Retargeting
+4979,Male,46,New York,Bronze,592.69,9,3.4,TRUE,66,Unsatisfied,North,3,SMS
+4980,Male,57,New York,Bronze,461.11,6,4.0,FALSE,45,Unsatisfied,East,3,SMS
+4981,Male,45,Boston,Bronze,564.96,7,3.5,TRUE,94,Unsatisfied,South,5,Retargeting
+4982,Male,47,Miami,Bronze,464.61,4,2.5,TRUE,76,Unsatisfied,West,3,Retargeting
+4983,Male,35,New York,Gold,1150.47,15,4.2,FALSE,28,Neutral,East,1,Push
+4984,Female,52,Los Angeles,Bronze,351.56,7,2.8,TRUE,102,Unsatisfied,East,2,Retargeting
+4985,Male,29,San Francisco,Gold,1158.23,11,4.1,FALSE,20,Satisfied,East,4,Email
+4986,Male,41,Miami,Silver,513.93,12,3.2,TRUE,40,Satisfied,West,4,Push
+4987,Male,43,Boston,Bronze,430.62,8,2.7,FALSE,92,Unsatisfied,South,2,SMS
+4988,Male,22,Seattle,Bronze,355.92,10,3.5,TRUE,66,Unsatisfied,South,3,SMS
+4989,Female,38,Miami,Silver,770.67,9,3.5,TRUE,64,Unsatisfied,North,5,None
+4990,Female,33,Boston,Silver,585.39,10,3.4,TRUE,47,Satisfied,North,1,SMS
+4991,Female,47,Chicago,Bronze,591.46,5,2.8,FALSE,67,Satisfied,North,5,Push
+4992,Male,35,Boston,Bronze,114.91,8,3.6,TRUE,60,Unsatisfied,East,4,Push
+4993,Male,47,Seattle,Bronze,469.75,10,3.1,FALSE,83,Unsatisfied,South,1,Retargeting
+4994,Male,46,Chicago,Bronze,410.22,9,3.6,TRUE,59,Neutral,South,3,Retargeting
+4995,Female,22,Boston,Bronze,476.56,8,3.9,FALSE,70,Neutral,East,5,Push
+4996,Female,22,Boston,Gold,905.15,8,5.0,TRUE,39,Satisfied,West,3,Retargeting
+4997,Male,40,Houston,Bronze,390.69,11,2.8,TRUE,67,Unsatisfied,West,5,Email
+4998,Male,52,Chicago,Bronze,431.33,8,3.2,TRUE,59,Unsatisfied,North,0,Push
+4999,Female,41,Houston,Silver,609.08,12,4.1,FALSE,48,Unsatisfied,South,2,Retargeting
+5000,Male,48,New York,Silver,730.69,12,4.2,TRUE,29,Neutral,West,5,None

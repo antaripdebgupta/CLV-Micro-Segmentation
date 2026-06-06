@@ -1,5 +1,4 @@
 """
-pages/2_whatif_simulator.py
 What-If CLV Simulator — adjust customer features with sliders
 and watch the predicted CLV band update in real time.
 """
@@ -26,11 +25,20 @@ def load_artifacts():
     return clf, le, scaler
 
 
+from src import dataset_store
+
+active_record = dataset_store.get_active_dataset_record()
+active_name = active_record["name"] if active_record else "Default Dataset"
+
 def check_models_ready():
     return all(os.path.exists(p) for p in [MODEL_PATH, ENCODER_PATH, SCALER_PATH])
 
 
+# Sidebar
+dataset_store.render_sidebar()
+
 st.title("What-If CLV Simulator")
+st.info(f"Showing predictions based on: **{active_name}**")
 st.markdown(
     "Adjust customer attributes using the sliders below. "
     "The predicted **CLV band** and probability scores update instantly."

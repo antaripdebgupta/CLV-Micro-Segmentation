@@ -1,6 +1,43 @@
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables
 .env
+.env.local
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
 notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Auto-generated pipeline artifacts (re-created by train_pipeline.py)
+models/*.pkl
+data/processed/customers_clean.db
+data/processed/datasets/
+data/processed/dataset_registry.json
+reports/*.pdf
+reports/tmp_plots/
+logs/pipeline.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
