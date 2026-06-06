@@ -1,5 +1,4 @@
 """
-cluster.py
 Runs DBSCAN and K-Means on engineered features.
 Compares via silhouette score, saves best model.
 """
@@ -75,12 +74,12 @@ def run_dbscan(X: np.ndarray, eps: float = 0.5, min_samples: int = 5) -> tuple:
     return labels, db, sil
 
 
-def map_segment_names(labels: np.ndarray) -> pd.Series:
+def map_segment_names(labels: np.ndarray) -> np.ndarray:
     """Map integer cluster labels to human-readable segment names."""
     unique = [l for l in np.unique(labels) if l != -1]
     mapping = {label: SEGMENT_NAMES.get(i, f"Segment {i}") for i, label in enumerate(unique)}
     mapping[-1] = "Outlier"
-    return pd.Series(labels).map(mapping)
+    return pd.Series(labels).map(mapping).values
 
 
 def run_clustering(df: pd.DataFrame) -> pd.DataFrame:

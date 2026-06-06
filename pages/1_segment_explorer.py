@@ -1,5 +1,4 @@
 """
-pages/1_segment_explorer.py
 Interactive segment explorer with filters, profiles, and EDA charts.
 """
 
@@ -32,7 +31,7 @@ st.markdown("Explore customer micro-segments, CLV bands, and behavioural profile
 with st.sidebar:
     st.header("Filters")
 
-    segments = ["All"] + sorted(df["Segment"].dropna().unique().tolist()) if "Segment" in df.columns else ["All"]
+    segments = ["All"] + sorted([str(s) for s in df["Segment"].dropna().unique().tolist()]) if "Segment" in df.columns else ["All"]
     selected_segment = st.selectbox("Customer Segment", segments)
 
     clv_bands = ["All", "High", "Medium", "Low"]
