@@ -4,7 +4,12 @@ default main file to be named 'streamlit_app.py'.
 
 Locally you can still run:  streamlit run app.py
 On Streamlit Cloud this file is picked up automatically.
+
+We use exec() instead of 'from app import *' so that Streamlit treats this
+file as the real entry-point script (correct __file__, page resolution, etc.).
 """
 
-# Re-export everything from app.py so the behaviour is identical.
-from app import *  # noqa: F401,F403
+from pathlib import Path
+
+_app_code = (Path(__file__).parent / "app.py").read_text(encoding="utf-8")
+exec(compile(_app_code, "app.py", "exec"), globals())

@@ -185,9 +185,12 @@ def render_sidebar():
     st.sidebar.markdown("---")
     st.sidebar.markdown("**Navigation**")
     
-    # We check if we are on a sub-page or root to construct correct page link
-    # In Streamlit, page_link requires path relative to project root
-    st.sidebar.page_link("app.py",                label="Home / Dashboard",    icon="🏠")
+    # Detect which entry-point script Streamlit is running (app.py locally,
+    # streamlit_app.py on Streamlit Cloud) so page_link always resolves.
+    # We check which file exists; streamlit_app.py takes priority when present
+    # because Streamlit Cloud uses it as the default main file.
+    _entry = "streamlit_app.py" if os.path.exists("streamlit_app.py") else "app.py"
+    st.sidebar.page_link(_entry,                      label="Home / Dashboard",    icon="🏠")
     st.sidebar.page_link("pages/1_segment_explorer.py",  label="Segment Explorer",    icon="🗂️")
     st.sidebar.page_link("pages/2_whatif_simulator.py",  label="What-If Simulator",   icon="🔮")
     st.sidebar.page_link("pages/3_batch_upload.py",       label="Batch Prediction",    icon="📂")

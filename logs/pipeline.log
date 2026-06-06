@@ -974,3 +974,59 @@ weighted avg       1.00      1.00      1.00       200
 2026-06-06 07:59:37 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
 2026-06-06 08:57:34 | INFO     | __main__ | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
 2026-06-06 08:57:35 | INFO     | __main__ | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260606_085729.pdf
+2026-06-06 09:18:07 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:07 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:19 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:19 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:19 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-06 09:18:19 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-06 09:18:19 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-06 09:18:22 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-06 09:18:22 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-06 09:18:22 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-06 09:18:27 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-06 09:18:27 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-06 09:18:29 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260606_091822.pdf
+2026-06-06 09:18:29 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260606_091822.pdf
+2026-06-06 09:18:34 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:34 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:34 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:34 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:36 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:36 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:36 | INFO     | custom_train | Custom training started — dataset: test_high_value_skewed.csv, rows: 1000
+2026-06-06 09:18:36 | INFO     | custom_train | Dropped 0 duplicates
+2026-06-06 09:18:36 | INFO     | custom_train | Primary segmentation: DBSCAN (sil=0.5353)
+2026-06-06 09:18:38 | INFO     | custom_train | Classification report:
+              precision    recall  f1-score   support
+
+        High       0.83      0.86      0.85        29
+         Low       0.98      1.00      0.99        61
+      Medium       0.96      0.95      0.95       110
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.94      0.93       200
+weighted avg       0.95      0.95      0.95       200
+
+2026-06-06 09:18:38 | INFO     | custom_train | ROC-AUC: 0.9945
+2026-06-06 09:18:38 | INFO     | custom_train | Enriched data saved to SQLite DB
+2026-06-06 09:18:42 | WARNING  | src.report | SHAP generation failed, skipping SHAP plot: GradientBoostingClassifier is only supported for binary classification right now!
+2026-06-06 09:18:43 | INFO     | src.report | Registered PDF font: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+2026-06-06 09:18:44 | INFO     | src.report | PDF saved to /home/antarip/workspace/clv-segmentation/reports/clv_report_20260606_091838.pdf
+2026-06-06 09:18:44 | INFO     | custom_train | PDF report: /home/antarip/workspace/clv-segmentation/reports/clv_report_20260606_091838.pdf
+2026-06-06 09:18:52 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:52 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:18:52 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:18:52 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
+2026-06-06 09:19:04 | INFO     | src.data_quality | Quality check — shape: 1000 rows × 11 columns
+2026-06-06 09:19:04 | INFO     | src.data_quality | Quality check PASSED — 0 error(s), 0 warning(s)
