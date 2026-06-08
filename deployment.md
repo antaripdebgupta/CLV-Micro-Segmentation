@@ -1,7 +1,5 @@
 # Deployment Guide — CLV Micro-Segmentation
 
-> All options below are **100% free** — no credit card required.
-
 ---
 
 ## Option 1 — Streamlit Community Cloud (Recommended)

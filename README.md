@@ -17,49 +17,13 @@ An end-to-end Data Science pipeline that:
 
 ---
 
-## Project Structure
-
-```
-clv-segmentation/
-├── app.py                        # Streamlit home page & dashboard
-├── train_pipeline.py             # One-shot default training script
-├── requirements.txt              # Project dependencies
-├── improvement.md                # Development improvement checklist
-├── data/
-│   ├── raw/                      # Put Kaggle CSV and custom test CSVs here
-│   └── processed/                # SQLite DB and dataset registry (auto-created)
-│       ├── dataset_registry.json # Registry metadata for all runs
-│       └── datasets/             # Directory storing models/data for each run
-├── src/
-│   ├── preprocess.py             # Clean, encode, scale
-│   ├── features.py               # BG/NBD score + CLV features
-│   ├── cluster.py                # DBSCAN + K-Means models
-│   ├── model.py                  # Gradient Boosting classifier
-│   ├── evaluate.py               # All evaluation metrics
-│   ├── dataset_store.py          # Persistent dataset registry logic
-│   ├── data_quality.py           # Pre-training schema validation
-│   ├── logger.py                 # Structured color logging setup
-│   └── report.py                 # Professional PDF report generator
-├── models/                       # Saved live .pkl artifacts (auto-created)
-├── reports/                      # Generated PDF reports (auto-created)
-├── logs/                         # File logging target (pipeline.log)
-└── pages/
-    ├── 1_segment_explorer.py     # Filterable customer segment dashboard
-    ├── 2_whatif_simulator.py     # Single customer prediction simulator
-    ├── 3_batch_upload.py         # Bulk predictions and model evaluation
-    ├── 4_train_custom.py         # Custom dataset training interface
-    └── 5_log_viewer.py           # Structured log exploration interface
-```
-
----
-
 ## Setup Guide
 
 ### Step 1 — Clone / Download the project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/clv-segmentation.git
-cd clv-segmentation
+git clone https://github.com/antaripdebgupta/CLV-Micro-Segmentation.git
+cd CLV-Micro-Segmentation
 ```
 
 ### Step 2 — Create a virtual environment
@@ -239,13 +203,6 @@ flowchart LR
 | Dataset Registry | JSON registry — switch between any previously trained dataset |
 | Logging | colorlog terminal + rotating file handler (logs/pipeline.log) |
 | Deployment | Streamlit Community Cloud (free) |
-
----
-
-## Deployment
-
-See [deployment.md](deployment.md) for detailed step-by-step guides to deploy this app
-for free on **Streamlit Community Cloud**, **Render**, **Hugging Face Spaces**, or **Railway**.
 
 ---
 
